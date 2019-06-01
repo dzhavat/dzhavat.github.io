@@ -12,6 +12,8 @@ Here's some `code` you can look at.
 
 Or this example
 
-```ts
+```javascript
 const name = 'Dzhavat';
 ```
+
+Fix syntax highlight.
