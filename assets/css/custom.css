@@ -1,0 +1,21 @@
+html,
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  padding: 0 0.75rem;
+}
+
+.highlight {
+  overflow-x: auto;
+}
+
+@media (min-width: 45rem) {
+  body {
+    margin: 0 auto;
+    padding: 0;
+    width: 37rem;
+  }
+}
