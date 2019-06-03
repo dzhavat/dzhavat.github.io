@@ -20,6 +20,16 @@ figure {
   text-align: center;
 }
 
+code {
+  backgroud-color: rgba(0, 0, 0, 0.05);
+  padding: 3px 4px;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
 .text-center {
   text-align: center;
 }
