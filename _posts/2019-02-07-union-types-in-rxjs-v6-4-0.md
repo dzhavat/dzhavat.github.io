@@ -146,6 +146,6 @@ Until next time.
 <div class="text-center">
   <figure>
     <img src="/assets/img/rocket.png" alt="A rocket">
-    <figcaption>A [rocket](https://www.smashingmagazine.com/2018/02/freebie-hand-drawn-space-icons/).</figcaption>
+    <figcaption>A <a href="https://www.smashingmagazine.com/2018/02/freebie-hand-drawn-space-icons/">rocket</a>.</figcaption>
   </figure>
 </div>
