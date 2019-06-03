@@ -12,6 +12,14 @@ body {
   overflow-x: auto;
 }
 
+main img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
 @media (min-width: 45rem) {
   body {
     margin: 0 auto;
