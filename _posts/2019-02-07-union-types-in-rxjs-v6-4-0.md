@@ -66,7 +66,7 @@ const arg: any = ...;
 
 <figure>
   <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-2.jpg" alt="Code example">
-  <figcaption>`value` of type `{ }` doesn’t say much</figcaption>
+  <figcaption><code>value</code> of type <code>{ }</code> doesn’t say much</figcaption>
 </figure>
 
 ### Returning union types from a flattening operator
@@ -110,7 +110,7 @@ Again, an easy way would be to mark `x` as `any`. But you’ll lose valuable typ
 
 <figure>
   <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-4.jpg" alt="Code example">
-  <figcaption>What is `any` anyway…</figcaption>
+  <figcaption>What is <code>any</code> anyway…</figcaption>
 </figure>
 
 ### There’s a fix for that! 🎉
