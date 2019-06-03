@@ -3,6 +3,11 @@ layout: post
 title: "Links to all slides from ngVikings"
 ---
 
+<figure>
+  <img src="/assets/img/links-to-all-slides-from-ngvikings/ngVikings-group-photo.jpg.jpg" alt="Group photo">
+  <figcaption>Group photo from ngVikings 2019</figcaption>
+</figure>
+
 ## Links to all slides from ngVikings
 
 I attended ngVikings 2019 and it was fantastic! It was my second one, after going to Helsinki last year. It was nice seeing some old friends and also making new ones. All of the talks I went to were quite interesting. I’m heading home now motivated and inspired to try new things.
