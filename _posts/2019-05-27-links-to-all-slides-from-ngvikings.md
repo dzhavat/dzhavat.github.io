@@ -4,7 +4,7 @@ title: "Links to all slides from ngVikings"
 ---
 
 <figure>
-  <img src="/assets/img/links-to-all-slides-from-ngvikings/ngVikings-group-photo.jpg.jpg" alt="Group photo">
+  <img src="/assets/img/links-to-all-slides-from-ngvikings/ngVikings-group-photo.jpg" alt="Group photo">
   <figcaption>Group photo from ngVikings 2019</figcaption>
 </figure>
 
