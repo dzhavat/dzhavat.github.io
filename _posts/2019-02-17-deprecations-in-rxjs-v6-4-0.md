@@ -5,6 +5,8 @@ title: "Deprecations in RxJS v6.4.0"
 
 ## Deprecations in RxJS v6.4.0
 
+<p>Published: <time pubdate="">{{ page.date | date_to_string }}</time></p>
+
 I’ve been trying to cover some of the things that came along this new version of RxJS. So, after writing about a [tiny new feature]({{ site.baseurl }}{% post_url 2019-02-02-a-tiny-new-feature-in-rxjs-v6-4-0 %}) and a [bugfix]({{ site.baseurl }}{% post_url 2019-02-07-union-types-in-rxjs-v6-4-0 %}), now is time to look at the deprecations.
 
 ### Deprecate `null` parameter signatures for `subscribe`
