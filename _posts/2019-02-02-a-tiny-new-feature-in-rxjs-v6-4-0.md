@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "A tiny new feature in RxJS v6.4.0"
-permalink: /:title
 ---
 
 ## A tiny new feature in RxJS v6.4.0
