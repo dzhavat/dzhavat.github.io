@@ -3,7 +3,7 @@ layout: post
 title: "Union types in RxJS v6.4.0"
 ---
 
-# Union types in RxJS v6.4.0
+## Union types in RxJS v6.4.0
 
 A few days ago I published a short [post about a tiny new feature in v6.4.0](https://medium.com/@dzhavat/a-tiny-new-feature-in-rxjs-v6-4-0-292a463e27c9) of RxJS. In today’s post, I’m going to take a look at some of the bug fixes, how they made RxJS more flexible and the integration with TypeScript a little better.
 
@@ -32,7 +32,7 @@ As it turned out, the bug appeared in cases where an Observable creation functio
 
 So, let’s have a look at both cases.
 
-## Passing union types to Observable creation function
+### Passing union types to Observable creation function
 
 An example of would be ([StackBlitz](https://stackblitz.com/edit/rxjs-from-example-1)):
 
@@ -69,7 +69,7 @@ const arg: any = ...;
   <figcaption>`value` of type `{ }` doesn’t say much</figcaption>
 </figure>
 
-## Returning union types from a flattening operator
+### Returning union types from a flattening operator
 
 An example of would be ([StackBlitz](https://stackblitz.com/edit/rxjs-from-example-2)):
 
@@ -113,7 +113,7 @@ Again, an easy way would be to mark `x` as `any`. But you’ll lose valuable typ
   <figcaption>What is `any` anyway…</figcaption>
 </figure>
 
-## There’s a fix for that! 🎉
+### There’s a fix for that! 🎉
 
 In v.6.4.0 there’s no need to rely on `any` tricks! Observable creation functions got smart enough to recognize union types. The same for the projection functions of flattening operators.
 
