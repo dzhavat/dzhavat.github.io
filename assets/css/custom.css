@@ -16,6 +16,10 @@ main img {
   max-width: 100%;
 }
 
+figure {
+  text-align: center;
+}
+
 .text-center {
   text-align: center;
 }
