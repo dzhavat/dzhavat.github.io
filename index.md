@@ -1,5 +1,3 @@
-# Dzhavat Ushev
-
 ### Posts
 
 <ul>
