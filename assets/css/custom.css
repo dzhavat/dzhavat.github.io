@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  padding: 0 0.75rem;
+  padding: 0.75rem;
 }
 
 .highlight {
@@ -23,7 +23,8 @@ main img {
 @media (min-width: 45rem) {
   body {
     margin: 0 auto;
-    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
     width: 37rem;
   }
 }
