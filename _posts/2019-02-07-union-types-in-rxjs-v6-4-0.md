@@ -5,6 +5,8 @@ title: "Union types in RxJS v6.4.0"
 
 ## Union types in RxJS v6.4.0
 
+<p>Published: <time pubdate="">{{ page.date | date_to_string }}</time></p>
+
 A few days ago I published a short [tiny new feature]({{ site.baseurl }}{% post_url 2019-02-02-a-tiny-new-feature-in-rxjs-v6-4-0 %}) of RxJS. In today’s post, I’m going to take a look at some of the bug fixes, how they made RxJS more flexible and the integration with TypeScript a little better.
 
 If you open the [changelog](https://github.com/ReactiveX/rxjs/blob/master/CHANGELOG.md#640-2019-01-30), you’ll see a list of similar looking lines. Here’s a couple of them:
