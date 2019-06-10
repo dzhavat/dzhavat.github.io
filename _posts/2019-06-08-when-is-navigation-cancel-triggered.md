@@ -5,7 +5,9 @@ title: "When is NavigationCancel triggered?"
 
 ## When is `NavigationCancel` triggered?
 
-Over the past couple of days, I was working on a component that depended on a stream of [router events](https://angular.io/api/router/RouterEvent). There are quite a few of them but I was particulary looking at `NavigationCancel`. A question that came up was “When is this event triggered?”
+<p>Published: <time pubdate="">{{ page.date | date_to_string }}</time></p>
+
+Over the past couple of days, I was working on a component that depended on a stream of [router events](https://angular.io/api/router/RouterEvent) in Angular. There are quite a few of them but I was particulary looking at `NavigationCancel`. A question that came up was “When is this event triggered?”
 
 The [documentation](https://angular.io/api/router/NavigationCancel) didn’t really answer my question. Here’s what it currently says:
 
