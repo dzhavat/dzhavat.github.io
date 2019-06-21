@@ -25,13 +25,13 @@ canActivate() {
   return false;
 
   // Case 2
-  // return Promise.resolve(false);
+  return Promise.resolve(false);
 
   // Case 3
-  // return new Observable<boolean>(observer => {
-  //   observer.next(false);
-  //   observer.complete();
-  // });
+  return new Observable<boolean>(observer => {
+    observer.next(false);
+    observer.complete();
+  });
 }
 ```
 
