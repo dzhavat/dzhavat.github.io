@@ -10,7 +10,7 @@ title: "Links to all slides from ngVikings"
 
 ## Links to all slides from ngVikings
 
-<p>Published: <time pubdate="">{{ page.date | date_to_string }}</time></p>
+<p>Published: <time pubdate="">{{ page.date | date: "%B %-d, %Y" }}</time></p>
 
 **Update June 5th**: I've added links to videos as well.
 
