@@ -1,7 +1,7 @@
 html,
 body {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 21px;
+  line-height: 1.7;
 }
 
 body {
@@ -24,6 +24,11 @@ figure {
 code {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 3px 4px;
+}
+
+pre {
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 
 pre code {
