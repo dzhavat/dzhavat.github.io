@@ -39,12 +39,12 @@ canActivate() {
 
 ### On redirect initiated by a route guard
 
-There are a couple of cases here as well. As of v7.1, a `CanActivate` guard can also return an [`UrlTree`](https://angular.io/api/router/UrlTree) object. In that case the current navigation **will be canceled** and a new navigation will start based off the returned `UrlTree`.
+There are a couple of cases here. As of v7.1, a `CanActivate` guard can also return an [`UrlTree`](https://angular.io/api/router/UrlTree) object. In that case, the current navigation **will be canceled** and a new navigation will start based off the returned `UrlTree`.
 
 ```ts
 canActivate() {
   // Case 1
-  // Manually starting a new navigation and canceling the current one by returning `false`
+  // Manually start a new navigation and cancel the current one by returning `false`
   this.router.navigateByUrl('/hello-new');
   return false;
 
