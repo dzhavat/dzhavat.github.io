@@ -40,6 +40,14 @@ pre code {
   text-align: center;
 }
 
+.btn-twitter {
+  color: #fff;
+  background-color: ##1b95e0;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 1px 8px 1px 6px;
+}
+
 @media (min-width: 45rem) {
   body {
     margin: 0 auto;
