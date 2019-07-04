@@ -48,6 +48,12 @@ pre code {
   padding: 1px 8px 1px 6px;
 }
 
+.btn-twitter:active,
+.btn-twitter:focus,
+.btn-twitter:hover {
+  background-color: #0c7abf;
+}
+
 @media (min-width: 45rem) {
   body {
     margin: 0 auto;
