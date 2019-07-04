@@ -41,11 +41,13 @@ pre code {
 }
 
 .btn-twitter {
-  color: #fff;
   background-color: #1b95e0;
   border-radius: 3px;
+  color: #fff;
   display: inline-block;
-  padding: 1px 8px 1px 6px;
+  font-size: 0.85rem;
+  padding: 1px 12px 1px 10px;
+  text-decoration: none;
 }
 
 .btn-twitter:active,
