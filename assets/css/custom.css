@@ -40,6 +40,14 @@ pre code {
   text-align: center;
 }
 
+header {
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  margin: 0px;
+}
+
 .btn {
   border-radius: 3px;
   color: #fff;
@@ -67,6 +75,14 @@ pre code {
 .btn-twitter:focus,
 .btn-twitter:hover {
   background-color: #0c7abf;
+}
+
+@media (min-width: 32rem) {
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 45rem) {
