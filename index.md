@@ -1,3 +1,8 @@
+--
+title: Dzhavat Ushev
+layout: default
+--
+
 ### Posts
 
 <ul>
