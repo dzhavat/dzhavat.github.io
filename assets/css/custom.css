@@ -51,8 +51,8 @@ header h1 {
 header h1 span {
   display: inline-block;
   opacity: 0;
-  transform: translateY(-55px);
-  transition: opacity .2s ease-in, transform .15s ease-in;
+  transform: translateY(-20px);
+  transition: opacity .15s ease-out, transform .3s ease-out
 }
 
 header h1:hover span {
