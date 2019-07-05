@@ -48,6 +48,15 @@ header h1 {
   margin: 0px;
 }
 
+header h1 span {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
+header h1:hover span {
+  opacity: 1;
+}
+
 article h2 {
   margin-bottom: 0;
 }
@@ -95,7 +104,7 @@ article h2 {
     justify-content: space-between;
   }
   
-  .follow-me-btns {
+  .follow-btns {
     text-align: right;
   }
 }
