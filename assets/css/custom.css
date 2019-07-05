@@ -49,12 +49,15 @@ header h1 {
 }
 
 header h1 span {
+  display: inline-block;
   opacity: 0;
-  transition: opacity .3s ease-in;
+  transform: translateY(-55px);
+  transition: opacity .2s ease-in, transform .15s ease-in;
 }
 
 header h1:hover span {
   opacity: 1;
+  transform: translateY(0);
 }
 
 article h2 {
