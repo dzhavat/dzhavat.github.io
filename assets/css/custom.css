@@ -48,10 +48,6 @@ header h1 {
   margin: 0px;
 }
 
-.follow-me-btns {
-  text-align: right;
-}
-
 .btn {
   border-radius: 3px;
   color: #fff;
@@ -87,6 +83,10 @@ header h1 {
     align-items: center;
     display: flex;
     justify-content: space-between;
+  }
+  
+  .follow-me-btns {
+    text-align: right;
   }
 }
 
