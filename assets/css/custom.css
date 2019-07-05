@@ -48,6 +48,16 @@ header h1 {
   margin: 0px;
 }
 
+.post-title {
+  margin-bottom: 0;
+}
+
+.publish-date {
+  color: #565656;
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+
 .btn {
   border-radius: 3px;
   color: #fff;
