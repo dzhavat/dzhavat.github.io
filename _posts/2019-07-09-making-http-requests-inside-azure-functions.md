@@ -15,7 +15,7 @@ My first choice was to use Node.js. I made it work locally but then realized tha
 
 I signed up for Azure and in just 5 min everything was up and running. Except that the HTTP request to the third-party didn‘t work! Then I spent the good couple of hours trying to figure out why. Eventually, I [“complained”](https://mobile.twitter.com/dzhavatushev/status/1147740207988596736) about it on Twitter and, with some help, managed to make it work.
 
-Here‘s the code I ended up with. I‘ll go through some key points underneath:
+Here‘s an example of the code I ended up with. I‘ll go through some key points underneath:
 
 ```ts
 const fetch = require("node-fetch");
