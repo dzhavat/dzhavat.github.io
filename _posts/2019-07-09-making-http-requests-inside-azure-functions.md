@@ -3,10 +3,6 @@ layout: post
 title: "Making HTTP requests inside Azure Functions"
 ---
 
-## Making HTTP requests inside Azure Functions
-
-{% include published.html %}
-
 I have an idea for a feature that I want ot add to this blog. It‘s something I wanted to try but never found the time. That‘s probably how most ideas are. Anyway, this past weekend I finally found a couple of hours.
 
 The feature is something I‘m going to implement soon. It‘s about showing some information from a third-party service. Obviously, I can‘t just directly call the service from the front-end since I have to include private keys in the request. What I need instead is to expose my own endpoint on a server and call the service from there.
@@ -21,9 +17,14 @@ Here‘s an example of the code I ended up with. I‘ll go through some key poin
 const fetch = require("node-fetch");
 
 module.exports = async function (context, req) {
-    const url = "https://api.github.com/users/octocat";
+    const accessToken = '...';
 
-    await fetch(url)
+    const url = 'https://api.github.com/users/octocat';
+    const headers = {
+        'Authorization': `Bearer ${accessToken}`
+    };
+
+    await fetch(url, { headers })
         .then(response => response.json())
         .then(response => context.res.json(response));
 };
