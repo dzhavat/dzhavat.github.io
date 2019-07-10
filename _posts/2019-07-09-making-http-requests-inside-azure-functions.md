@@ -19,9 +19,9 @@ const fetch = require("node-fetch");
 module.exports = async function (context, req) {
     const accessToken = '...';
 
-    const url = 'https://api.github.com/users/octocat';
+    const url = 'https://api.github.com/user';
     const headers = {
-        'Authorization': `Bearer ${accessToken}`
+        'Authorization': `token ${accessToken}`
     };
 
     await fetch(url, { headers })
