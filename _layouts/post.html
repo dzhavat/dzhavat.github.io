@@ -17,6 +17,8 @@
 
     <main>
       <article>
+        <h2>{{ page.title }}</h2>
+        {% include published.html %}
         {{ content }}
         {% include share-on-twitter.html %}
       </article>
