@@ -98,14 +98,20 @@ article h2 {
   margin-top: 0;
 }
 
-.strava-card .label {
-  color: #a4a3a3;
-  font-size: 0.75rem;
+.strava-card h4 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .strava-card .stats {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+
+.strava-card .label {
+  color: #a4a3a3;
+  font-size: 0.75rem;
 }
 
 .btn {
