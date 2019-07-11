@@ -78,6 +78,16 @@ article h2 {
   margin-top: 0;
 }
 
+.strava-card h3 {
+  color: #e34402;
+  margin-top: 0;
+}
+
+.strava-card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .btn {
   border-radius: 3px;
   color: #fff;
