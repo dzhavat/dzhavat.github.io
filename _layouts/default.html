@@ -11,8 +11,20 @@
   <body>
     {% include header.html %}
 
-    <main>
-      {{ content }}
-    </main>
+    <div class="container">
+      <main>
+        {{ content }}
+      </main>
+      <aside>
+        <div class="strava-card">
+          <div class="card-header">
+            <h3>Strava</h3>
+            <a class="btn btn-strava" href="https://www.strava.com/athletes/8353180" target="_blank" rel="noopener">
+              Follow me
+            </a>
+          </div>
+        </div>
+      </aside>
+    </div>
   </body>
 </html>
