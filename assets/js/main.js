@@ -6,6 +6,7 @@
   showStartFetchingMessage();
 
   getLatestActivity()
+    .then(response => response[0])
     .then(response => {
       const template = `
         <h4>Latest run</h4>
