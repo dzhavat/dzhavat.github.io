@@ -6,7 +6,7 @@ title: "Dzhavat Ushev"
 
 ##### 2019
 
-<ul>
+<ul class="posts">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
