@@ -26,6 +26,15 @@ main img {
   max-width: 100%;
 }
 
+.posts {
+  list-style: none;
+  padding-left: 0;
+}
+
+.posts li {
+  margin-bottom: 0.5rem;
+}
+
 figure {
   text-align: center;
 }
