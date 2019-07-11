@@ -82,8 +82,8 @@ article h2 {
 .strava-card {
   border: 1px solid #fc4c02;
   border-radius: 6px;
-  min-width: 240px;
   padding: 1rem;
+  width: 240px;
 }
 
 .strava-card .card-header {
