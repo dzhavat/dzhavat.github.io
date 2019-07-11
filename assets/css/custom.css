@@ -11,6 +11,7 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
 }
 
 .container main {
@@ -78,14 +79,23 @@ article h2 {
   margin-top: 0;
 }
 
-.strava-card h3 {
-  color: #e34402;
-  margin-top: 0;
+.strava-card {
+  border: 1px solid #fc4c02;
+  border-radius: 6px;
+  min-width: 240px;
+  padding: 1rem;
 }
 
 .strava-card .card-header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.strava-card h3 {
+  color: #e34402;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .btn {
@@ -118,11 +128,7 @@ article h2 {
   background-color: #0c7abf;
 }
 
-.strava-card {
-  
-}
-
-@media (min-width: 32rem) {
+@media (min-width: 32em) {
   header {
     align-items: center;
     display: flex;
@@ -134,11 +140,15 @@ article h2 {
   }
 }
 
-@media (min-width: 45rem) {
+@media (min-width: 45em) {
   body {
     margin: 0 auto;
     padding-right: 0;
     padding-left: 0;
-    width: 37rem;
+    width: 42rem;
+  }
+  
+  .container {
+    flex-direction: row;
   }
 }
