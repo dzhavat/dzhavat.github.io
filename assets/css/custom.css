@@ -9,6 +9,14 @@ body {
   padding: 0.75rem;
 }
 
+.container {
+  display: flex;
+}
+
+.container main {
+  flex-grow: 1;
+}
+
 .highlight {
   overflow-x: auto;
 }
@@ -98,6 +106,10 @@ article h2 {
 .btn-twitter:focus,
 .btn-twitter:hover {
   background-color: #0c7abf;
+}
+
+.strava-card {
+  
 }
 
 @media (min-width: 32rem) {
