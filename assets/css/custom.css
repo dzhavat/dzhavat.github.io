@@ -140,7 +140,7 @@ article h2 {
   }
 }
 
-@media (min-width: 45em) {
+@media (min-width: 60em) {
   body {
     margin: 0 auto;
     padding-right: 0;
