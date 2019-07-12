@@ -2,12 +2,14 @@
   'use strict';
 
   const stravaCardBody = document.querySelector('.strava-card .card-body');
+  let timeoutId;
 
   showStartFetchingMessage();
 
   getLatestActivity()
-    .then(response => response[0])
     .then(response => {
+      clearTimeout(timeoutId);
+
       const template = `
         <h4>Latest run</h4>
         <div class="latest-run">
@@ -47,10 +49,16 @@
   function getLatestActivity() {
     const url = "https://dzhstravaapp.azurewebsites.net/api/Activities";
 
-    return fetch(url).then(response => response.json());
+    timeoutId = setTimeout(() => {
+      stravaCardBody.innerHTML = '<p><small>Looks like the request is running slow... <strong>Not me, though!</strong> 🏃</small></p>';
+    }, 10 * 1000);
+
+    return fetch(url)
+      .then(response => response.json())
+      .then(response => response[0]);
   }
 
   function showStartFetchingMessage() {
-    stravaCardBody.innerHTML = '<p><small>Fetching latest activity...</small></p>';
+    stravaCardBody.innerHTML = '<p><small>Getting latest activity...</small></p>';
   }
 }());
