@@ -5,7 +5,7 @@ title: "Making HTTP requests inside Azure Functions"
 
 I have an idea for a feature ~that I want ot add to this blog~. It‘s something I wanted to try but never found the time. That‘s probably how most ideas are. Anyway, this past weekend I finally found a couple of hours.
 
-The feature is something I‘m going ~to implement soon~. It‘s already implemented! Check out the [front page]({% site.baseurl %}). It‘s about showing some information from a third-party service. Obviously, I can‘t just directly call the service from the front-end since I have to include private keys in the request. What I need instead is to expose my own endpoint on a server and call the service from there.
+The feature is something I‘m going ~to implement soon~. It‘s already implemented! Check out the [front page]({{ site.baseurl }}). It‘s about showing some information from a third-party service. Obviously, I can‘t just directly call the service from the front-end since I have to include private keys in the request. What I need instead is to expose my own endpoint on a server and call the service from there.
 
 My first choice was to use Node.js. I made it work locally but then realized that I had to host it somewhere, make sure it‘s running, etc. It was too much hasle. At this point I decided to give Azure Functions a try. They seemed to be a good fit for this case. I hadn‘t tried them before so it was also an opportunity to experiment with something new. Yay!
 
