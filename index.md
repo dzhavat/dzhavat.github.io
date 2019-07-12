@@ -2,9 +2,7 @@
 title: "Dzhavat Ushev"
 ---
 
-### Posts
-
-##### 2019
+### Latest posts
 
 <ul class="posts">
   {% for post in site.posts %}
