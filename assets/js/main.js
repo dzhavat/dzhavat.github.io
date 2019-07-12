@@ -50,7 +50,7 @@
     const url = "https://dzhstravaapp.azurewebsites.net/api/Activities";
 
     timeoutId = setTimeout(() => {
-      stravaCardBody.innerHTML = '<p><small>Looks like the request is running slow... <strong>Not me, though!</strong> 🏃</small></p>';
+      stravaCardBody.innerHTML = '<p><small>Oh, no! The request is running slow...<br> <strong>Not me, though! Wait and see!</strong> 🏃</small></p>';
     }, 10 * 1000);
 
     return fetch(url)
