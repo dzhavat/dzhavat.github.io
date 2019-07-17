@@ -80,7 +80,7 @@ module.exports = async function (context, req) {
 ```
 
 * The `bindings` property contains the input binding to Table storage created during step 4.
-* `inputTable` is how we named our table parameter. In my case, this reffers to the `example` table.
+* `inputTable` is how we named our table parameter. In my case, this refers to the `example` table.
 * `FirstName` is a column name in my table.
 
 Press “Save and run”. While the function is executing you‘ll see some logs in the Logs tab underneath. If things are set up correctly you‘ll see your value logged out.
