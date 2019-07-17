@@ -3,13 +3,13 @@ layout: post
 title: "Reading from Table storage inside Azure Functions running in Node.js, pt. 1"
 ---
 
-**Note**: In this first post, I‘m going to show you how to read a single entity from Table storage inside an Azure function running in Node.js. In a second post, I'm going to show you how to read multiple entities. 
-
-I spent a lot of time last week figuring out how to read entities from Table storage inside my Azure function. I don‘t know if it was me, the tutorials I found or just the concept in general but something was not working. At some point I figured it out but it had already taken me more time than necessary for such a simple task.
+I spent a lot of time last week figuring out how to read entities from Table storage inside my Azure function. I don‘t know if it was me, the tutorials I found or just the concept in general but something was not working. It was frustrating. At some point I finally figured it out but it had already taken me more time than necessary for such a simple task.
 
 So I‘m writing the following guide primarily for myself but also for other people who struggle with a similar problem.
 
-Before I start, though, I need to set some limits. The steps bellow describe how I managed to make this work while staying inside the Azure Portal. If you want to read from Table storage while working in a code editor, check out [this tutorial](https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-how-to-use-nodejs). Furthermore, I assume you already have an existing table to read from. If you don‘t have one, [read this tutorial](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html). The table I‘m going to use is this:
+In this post, I‘m going to show you how to read a single entity from Table storage inside an Azure function running in Node.js. In a second post, I'm going to show you how to read multiple entities. 
+
+Before I start, though, I need to set some limits. The steps bellow describe how I managed to make this work while staying inside the Azure Portal. If you want to read from Table storage while working in a code editor, check out [this tutorial](https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-how-to-use-nodejs). Furthermore, I assume you already have an existing table to read from. If you don‘t have one, check out [this tutorial](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html). Here‘s the table I‘m going to use. For the purpose of this post, I‘m going to read the first record.
 
 <figure>
   <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/example-table.jpg" alt="Example table">
@@ -20,7 +20,7 @@ Let‘s get started.
 
 #### Step 1
 
-Create a new Azure function. If you‘ve already done this, feel free to skip this step.
+First, we need an Azure function to work with. If you‘ve already have one, feel free to skip this step.
 
 1. Click on the “+” next to “Functions”.
 2. Click on “HTTP trigger”.
@@ -34,7 +34,7 @@ Create a new Azure function. If you‘ve already done this, feel free to skip th
 
 #### Step 2
 
-Once the functions is created, you‘ll be redirected to a file called `index.js`, which is the actual function code. We‘ll come back to this page a bit later. Now click on to the “Integrate” tab.
+Once the functions is created, you‘ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure function looks like currently. We‘ll come back to this page a bit later. Now click on to the “Integrate” tab.
 
 <figure>
   <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/default-azure-function-view.jpg" alt="Newly created Azure function">
@@ -60,8 +60,8 @@ Next, you‘ll be presented with a page where you can set some settings.
 
 1. “Table parameter name” is used for indentifying the binding in the code. It‘s already set to `inputTable`. You can leave it as is or change it to whatever you want. Just remember it because you‘re going to use it later.
 2. “Table name”, as the name suggest, is the name of the storage table that will be used. In my case it‘s `example`.
-3. “Partition key” is the name of the partition key column in the table. In my case that‘s `Users`.
-4. “Row key” is the name of the row key column in the table. In my case that‘s `1`.
+3. “Partition key” is a value found in the partition key column in the table. The value can identify one or many records. In my case that‘s `Users`.
+4. “Row key” is a value found in the row key column of the table. The value must identify only a single record. In my case that‘s `1`.
 5. Finally, don‘t forget to “Save” everything.
 
 <figure>
@@ -73,7 +73,7 @@ It‘s important to note here that even though “Partition key” and “Row ke
 
 #### Step 5
 
-Now‘s time to come back to the `index.js` file you saw in step 2. Open it and replace its content with the following code (and don‘t forget to replace `FirstName` with a column name found in your table):
+Now‘s time to come back to the `index.js` file you saw in step 2. Open it and replace its content with the following code. (don‘t forget to replace `FirstName` with a column name found in your table):
 
 ```js
 module.exports = async function (context, req) {
@@ -85,14 +85,11 @@ module.exports = async function (context, req) {
 * `inputTable` is how we named our table parameter. In my case, this reffers to the `example` table.
 * `FirstName` is a column name in my table.
 
-Press “Save and run”. While the function is executing you‘ll see some logs in the Logs tab underneath. If things are set up correctly you‘ll see the value logged out.
+Press “Save and run”. While the function is executing you‘ll see some logs in the Logs tab underneath. If things are set up correctly you‘ll see your value logged out.
 
 <figure>
   <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/logging-out-the-value-of-a-single-entity.jpg" alt="Logging out the value of a single entity">
   <figcaption>Logging out the value of a single entity</figcaption>
 </figure>
 
-That‘s it! Now you know how to read a single entity from Table storage in your Azure function. It wasn‘t hard at all, was it? Stay tuned for the second part of this post where I‘m going to share how to read multiple entities. 
-
-
-
+That‘s it! Now you know how to read a single entity from Table storage in your Azure function. It wasn‘t that hard, was it? Stay tuned for the second part of this post where I‘m going to share how to read multiple entities.
