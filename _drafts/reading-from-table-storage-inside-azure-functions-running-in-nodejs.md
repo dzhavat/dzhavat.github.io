@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reading from Table storage inside Azure Functions running in Node.js, pt. 1"
+title: "Reading from Table storage inside Azure Functions running in Node.js (part 1)"
 ---
 
 I spent a lot of time last week figuring out how to read entities from Table storage inside my Azure function. I don‘t know if it was me, the tutorials I found or just the concept in general but something was not working. It was frustrating. At some point I finally figured it out but it had already taken me more time than necessary for such a simple task.
