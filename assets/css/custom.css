@@ -190,4 +190,8 @@ article h2 {
   .container {
     flex-direction: row;
   }
+  
+  .container main {
+    padding-right: 1rem;
+  }
 }
