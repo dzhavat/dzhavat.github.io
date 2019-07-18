@@ -7,7 +7,7 @@ title: "Dzhavat Ushev"
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-      <p class="publish-date"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+      <div class="publish-date"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time></div>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
