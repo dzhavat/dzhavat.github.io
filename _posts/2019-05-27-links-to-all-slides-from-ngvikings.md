@@ -12,9 +12,9 @@ I attended ngVikings 2019 and it was fantastic! It was my second one, after goin
 
 At the end of each talk, the presenter(s) usually shared links to their slides, demo and other helpful resources. People were taking pictures of those links so I thought of collecting them all in one place for quick reference.
 
-### Day 1
+## Day 1
 
-#### Keynote
+### Keynote
 
 John Papa
 
