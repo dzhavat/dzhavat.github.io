@@ -32,7 +32,21 @@ main img {
 }
 
 .posts li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.posts a {
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+.posts a:hover {
+  text-decoration: underline;
+}
+
+.posts .publish-date {
+  color: #a4a3a3;
+  font-size: 0.75rem;
 }
 
 figure {
