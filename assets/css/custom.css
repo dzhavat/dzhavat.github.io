@@ -144,6 +144,10 @@ article h2 {
   text-decoration: none;
 }
 
+.btn:hover {
+  text-decoration: none;
+}
+
 .btn-strava {
   background-color: #fc4c02;
 }
