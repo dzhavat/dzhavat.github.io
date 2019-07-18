@@ -3,14 +3,12 @@ layout: post
 title: "Links to all slides from ngVikings"
 ---
 
-**Update June 5th**: I've added links to videos as well.
-
 <figure>
   <img src="/assets/img/links-to-all-slides-from-ngvikings/ngVikings-group-photo.jpg" alt="Group photo">
   <figcaption>Group photo from ngVikings 2019</figcaption>
 </figure>
 
-I attended ngVikings 2019 and it was fantastic! It was my second one, after going to Helsinki last year. It was nice seeing some old friends and also making new ones. All of the talks I went to were quite interesting. I’m heading home now motivated and inspired to try new things.
+I attended ngVikings 2019 and it was fantastic! It was my second one, after going to Helsinki last year. It was nice seeing some old friends and also making new ones. All of the talks I went to were quite interesting. I’m heading home now inspired to try new things.
 
 At the end of each talk, the presenter(s) usually shared links to their slides, demo and other helpful resources. People were taking pictures of those links so I thought of collecting them all in one place for quick reference.
 
