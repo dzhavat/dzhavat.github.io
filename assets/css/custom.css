@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underscore;
+  text-decoration: underline;
 }
 
 .container main {
