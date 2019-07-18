@@ -23,7 +23,7 @@ First, we need an Azure function to work with. If you‘ve already have one, fee
 1. Click on the “+” next to “Functions”.
 2. Click on “HTTP trigger”.
 3. Give your function a name.
-4. Click the “Create” button.
+4. Click “Create”.
 
 <figure>
   <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/creating-a-new-azure-function.jpg" alt="Creating a new Azure Function">
@@ -32,7 +32,7 @@ First, we need an Azure function to work with. If you‘ve already have one, fee
 
 #### Step 2
 
-Once the functions is created, you‘ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure function currently looks like  We‘ll come back to this page a bit later. Now click on to the “Integrate” tab.
+Once the functions is created, you‘ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure function currently looks like. We‘ll come back to this page a bit later. Now click on to the “Integrate” tab.
 
 <figure>
   <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/default-azure-function-view.jpg" alt="Newly created Azure function">
