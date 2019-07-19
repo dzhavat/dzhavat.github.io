@@ -30,8 +30,9 @@ main img {
 }
 
 .posts {
+  border-left: 1px dashed #aeaeae;
   list-style: none;
-  padding-left: 0;
+  padding-left: 1.25rem;
 }
 
 .posts li {
@@ -44,6 +45,17 @@ main img {
 
 .posts .publish-date {
   font-size: 0.75rem;
+  position: relative;
+}
+
+.publish-date::after {
+  border-bottom: 1px dashed #aeaeae;
+  content: "";
+  height: 0px;
+  left: -1.25rem;
+  position: absolute;
+  top: 50%;
+  width: 1rem;
 }
 
 figure {
@@ -103,7 +115,6 @@ article h2 {
   border: 1px solid #fc4c02;
   border-radius: 6px;
   padding: 1rem;
-  width: 240px;
 }
 
 .strava-card .card-header {
@@ -166,6 +177,12 @@ article h2 {
 .btn-twitter:focus,
 .btn-twitter:hover {
   background-color: #0c7abf;
+}
+
+@media (min-width: 22em) {
+  .strava-card {
+    width: 220px;
+  }
 }
 
 @media (min-width: 32em) {
