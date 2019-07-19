@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Deprecations in RxJS v6.4.0"
+updated_date: 2019-07-10
 ---
 
 I’ve been trying to cover some of the things that came along this new version of RxJS. So, after writing about a [tiny new feature]({{ site.baseurl }}{% post_url 2019-02-02-a-tiny-new-feature-in-rxjs-v6-4-0 %}) and a [bugfix]({{ site.baseurl }}{% post_url 2019-02-07-union-types-in-rxjs-v6-4-0 %}), now is time to look at the deprecations.
