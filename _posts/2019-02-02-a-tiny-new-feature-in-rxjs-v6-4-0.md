@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A tiny new feature in RxJS v6.4.0"
+updated_date: 2019-07-10
 ---
 
 I've been following the development of RxJS over the last few months. It's exciting to see how the library evolves. So seeing the [release](https://github.com/ReactiveX/rxjs/blob/master/CHANGELOG.md#640-2019-01-30) of this new version made me curious to see what's new.
