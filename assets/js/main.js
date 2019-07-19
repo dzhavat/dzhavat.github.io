@@ -41,7 +41,11 @@
 
   function toMin(time) {
     const min = Math.floor(time / 60);
-    const sec = time - min * 60;
+    let sec = time - min * 60;
+    
+    if (sec.toString().length === 1) {
+      sec = `0${sec}`;
+    }
 
     return `${min}:${sec}`;
   }
