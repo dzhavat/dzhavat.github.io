@@ -4,7 +4,7 @@ title: "Reading from Table storage inside Azure Functions running in Node.js (pa
 updated_date: 2019-07-19
 ---
 
-I spent a lot of time last week figuring out how to read from Table storage inside my Azure function. I don‘t know if it was me, the tutorials I found or just the concept in general but something was not working. And it was frustrating. At some point, I finally figured it out but it had already taken me more time than necessary for such a simple task.
+I spent a lot of time last week figuring out how to read from Table storage inside my Azure Function. I don‘t know if it was me, the tutorials I found or just the concept in general but something was not working. And it was frustrating. At some point, I finally figured it out but it had already taken me more time than necessary for such a simple task.
 
 So I‘m writing the following guide primarily for myself but also for other people who struggle with a similar problem.
 
@@ -19,7 +19,7 @@ Let‘s get started.
 
 #### Step 1
 
-First, we need an Azure function to work with. If you‘ve already have one, feel free to skip this step.
+First, we need an Azure Function to work with. If you‘ve already have one, feel free to skip this step.
 
 1. Click on the “+” next to “Functions”.
 2. Click on “HTTP trigger”.
@@ -33,11 +33,11 @@ First, we need an Azure function to work with. If you‘ve already have one, fee
 
 #### Step 2
 
-Once the functions is created, you‘ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure function currently looks like. We‘ll come back to this page a bit later. Now click on to the “Integrate” tab.
+Once the functions is created, you‘ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure Function currently looks like. We‘ll come back to this page a bit later. Now click on to the “Integrate” tab.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/default-azure-function-view.jpg" alt="Newly created Azure function">
-  <figcaption>Newly created Azure function</figcaption>
+  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/default-azure-function-view.jpg" alt="Newly created Azure Function">
+  <figcaption>Newly created Azure Function</figcaption>
 </figure>
 
 #### Step 3
@@ -91,4 +91,4 @@ Press “Save and run”. While the function is executing you‘ll see some logs
   <figcaption>Logging out the value of a single record</figcaption>
 </figure>
 
-That‘s it! It wasn‘t that hard, was it? Now you know how to read a single record from Table storage in your Azure function. Stay tuned for the second part where I‘m going to share how to read multiple records.
+That‘s it! It wasn‘t that hard, was it? Now you know how to read a single record from Table storage in your Azure Function. Stay tuned for the second part where I‘m going to share how to read multiple records.
