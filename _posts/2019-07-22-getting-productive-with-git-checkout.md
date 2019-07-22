@@ -35,11 +35,11 @@ In code that looks like this:
 ```bash
 git stash
 git checkout master
-git checkout -b new-awesome-branch
+git checkout -b new-awesome-feature
 git stash pop
 ```
 
-Definitely not the best workflow. Is there a way to improve this?
+Definitely not the best workflow.
 
 ### The solution
 
