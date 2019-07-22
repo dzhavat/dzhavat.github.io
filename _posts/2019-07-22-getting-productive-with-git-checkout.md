@@ -43,12 +43,12 @@ Definitely not the best workflow. Is there a way to improve this?
 
 ### The solution
 
-About a month ago I decided to see if I could streamline this process because I wasn‘t quite happy with its current form. So I opened the [`git checkout`](https://git-scm.com/docs/git-checkout) docs and started to dig in. Fortunately, the solution was right there! Among the many options on that page, there‘s one called [`<start_point>`](https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt-ltstartpointgt). By using it, I can specify a starting point for the new branch. It says that I can use “*the name of a commit*” but there‘s actually more to it. Following the link to [`git branch`](https://git-scm.com/docs/git-branch) reveals more details. We can see that ”[[`<start-point>`](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt-ltstart-pointgt)] ***may be given as a branch name, a commit-id, or a tag***”. This was exactly what I was looking for!
+About a month ago I decided to see if I could streamline this process because I wasn‘t quite happy with its current form. So I opened the [`git checkout`](https://git-scm.com/docs/git-checkout) docs and started to dig in. Fortunately, the solution was right there! Among the many options on that page, there‘s one called [`<start_point>`](https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt-ltstartpointgt). By using it, I can specify a starting point for the new branch. It says that I can use “*the name of a commit*” but there‘s actually more to it. Following the link to [`git branch`](https://git-scm.com/docs/git-branch) reveals that ”[[`<start-point>`](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt-ltstart-pointgt)] ***may be given as a branch name, a commit-id, or a tag***”. This was exactly what I was looking for!
 
 So now, whenever I want to transfer changes to a new branch that must have a different starting point than the current one, I use:
 
 ```bash
-git checkout -b new-awesome-feature master
+git checkout -b <branch-name> <start-point>
 ```
 
 All four steps from above are down to just one! Pure enjoyment!
