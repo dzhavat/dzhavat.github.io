@@ -53,7 +53,7 @@ git checkout -b <branch-name> <start-point>
 
 All four steps from above are down to just one! Pure enjoyment!
 
-Ever since I found this, I‘m at peace with the `checkout` command. I live it even more. Hope you do as well!
+Ever since I found this, I‘m at peace with the `checkout` command. I like it even more. Hope you do as well!
 
 <div class="text-center">
   <figure>
