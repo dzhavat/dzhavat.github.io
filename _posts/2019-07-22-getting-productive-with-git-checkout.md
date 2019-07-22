@@ -57,7 +57,7 @@ Ever since I found this, I‘m at peace with the `checkout` command. I live it e
 
 <div class="text-center">
   <figure>
-    <img src="/assets/img/lightbulb.svg" alt="A lightbulb">
+    <img src="/assets/img/lightbulb.svg" alt="A lightbulb" width="175">
     <figcaption>My lightbulb moment | <a href="https://www.smashingmagazine.com/2017/12/32-friendly-office-icons/">Source</a></figcaption>
   </figure>
 </div>
