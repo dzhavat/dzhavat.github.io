@@ -5,7 +5,7 @@ title: "Getting productive with git checkout"
 
 As a developer, I use [git](https://git-scm.com/) on a daily basis. It has become an essential tool for my work. It‘s great and I love it.
 
-I also enjoy interacting with it directly in the Terminal. There‘s something magical in writing a command and seeing it do something. I‘ve tried using [GitHub Desktop](https://desktop.github.com/) for some time but always come back to the Terminal.
+I also enjoy interacting with it directly in the Terminal. There‘s something magical in writing a command and seeing it do something. I‘ve tried using [GitHub Desktop](https://desktop.github.com/) for some time but always came back to the Terminal.
 
 ### The problem
 
