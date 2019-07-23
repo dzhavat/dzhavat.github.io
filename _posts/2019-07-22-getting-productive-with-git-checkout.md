@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting productive with `git checkout`
+title: Getting productive with git checkout
 ---
 
 As a developer, I use [git](https://git-scm.com/) on a daily basis. It has become an essential tool for my work. It‘s great and I love it.
