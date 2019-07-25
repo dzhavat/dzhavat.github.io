@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "When is NavigationCancel triggered?"
-updated_date: 2019-07-10
+title: When is NavigationCancel triggered?
+updated_date: 2019-07-25
 ---
 
 Over the past couple of days, I was working on an Angular component that depended on a stream of [router events](https://angular.io/api/router/RouterEvent). There are quite a few of them but I was particulary looking at `NavigationCancel`. A question that came up was “When is this event triggered?”
@@ -36,17 +36,19 @@ canActivate() {
 
 ### On redirect initiated by a route guard
 
-There are a couple of cases here. As of v7.1, a `CanActivate` guard can also return an [`UrlTree`](https://angular.io/api/router/UrlTree) object. In that case, the current navigation **will be canceled** and a new navigation will start based off the returned `UrlTree`.
+There are a couple of cases here. As of v7.1, a `CanActivate` guard can also return an [`UrlTree`](https://angular.io/api/router/UrlTree) object. In that case, the current navigation **will be canceled** and a new navigation will start based off of the returned `UrlTree`.
 
 ```ts
 canActivate() {
   // Case 1
-  // Manually start a new navigation and cancel the current one by returning `false`
+  // Manually start a new navigation and
+  // cancel the current one by returning `false`
   this.router.navigateByUrl('/hello-new');
   return false;
 
   // Case 2
-  // The router will automatically cancel the current navigation and start a new one 
+  // The router will automatically cancel 
+  // the current navigation and start a new one 
   return this.router.parseUrl('/hello-new');
 }
 ```
