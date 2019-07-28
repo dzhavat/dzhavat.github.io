@@ -44,7 +44,7 @@ I use Strava to track my runs. They also to have a nice API. So I used it to bui
   <figcaption>My latest run, right there.</figcaption>
 </figure>
 
-Not let me tell you something - **YOU, too, are more than just a developer!**
+Now let me tell you something - **YOU, too, are more than just a developer!**
 
 I bet you already know this but do you realize it? Do you rush through your other roles so you can come back to your “true” self? Do you feel you’re wasting your time while doing something else other than improving your skills as a developer?
 
