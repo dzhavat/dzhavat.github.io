@@ -81,6 +81,12 @@ pre code {
   text-align: center;
 }
 
+hr {
+  color: #565656;
+  margin: 2rem auto;
+  width: 8rem;
+}
+
 header {
   margin-bottom: 1.5rem;
 }
