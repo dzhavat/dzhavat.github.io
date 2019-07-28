@@ -23,7 +23,7 @@ In numerous ways, actually.
 
 I feel more content. I try to give my full attention to whatever I’m doing. I don’t feel guilty about it! **I don’t wish I had spent that time doing development instead**.
 
-Here’s one more elaborate example.
+---
 
 Not long ago I decided to start this blog with the intention of having a place where I can share my thoughts. Or small tips. Or explore new ideas. A place which I can take in any direction I want.
 
@@ -52,4 +52,4 @@ You don’t have to!
 
 So who are you? What do you enjoy doing besides being a developer/designer/...? Maybe you like reading, cycling, running, jumping, crocheting, cooking, spending time with friends and family?
 
-Do you have a personal site/blog where you highlight that? If not, why?
+Do you have a personal site/blog where you highlight that? If not, what stops you from doing it?
