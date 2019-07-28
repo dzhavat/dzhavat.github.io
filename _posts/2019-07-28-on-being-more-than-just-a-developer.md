@@ -41,7 +41,7 @@ I use Strava to track my runs. They also to have a nice API. So I used it to bui
 
 <figure>
   <img src="/assets/img/on-being-more-than-just-a-developer/showing-my-latest-run.jpg" alt="A widget showing my latest run">
-  <figcaption>Showing my latest run</figcaption>
+  <figcaption>My latest run, right there.</figcaption>
 </figure>
 
 Not let me tell you something - **YOU, too, are more than just a developer!**
