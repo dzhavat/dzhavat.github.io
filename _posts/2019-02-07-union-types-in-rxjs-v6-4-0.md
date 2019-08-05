@@ -142,7 +142,7 @@ Hope you enjoyed this short exploration and learned something new. I certainly d
 
 Until next time.
 
-<div class="text-center">
+<div class="text-center no-shadow">
   <figure>
     <img src="/assets/img/rocket.png" alt="A rocket">
     <figcaption>A <a href="https://www.smashingmagazine.com/2018/02/freebie-hand-drawn-space-icons/">rocket</a>.</figcaption>

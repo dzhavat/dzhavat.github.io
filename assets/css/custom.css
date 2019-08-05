@@ -32,6 +32,10 @@ main img {
   padding: 4px;
 }
 
+.no-shadow {
+  box-shadow: none;
+}
+
 .posts {
   border-left: 1px dashed #aeaeae;
   list-style: none;

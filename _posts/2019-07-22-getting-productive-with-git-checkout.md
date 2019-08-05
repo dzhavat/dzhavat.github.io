@@ -56,7 +56,7 @@ All four steps from above are down to just one! Pure enjoyment!
 
 Ever since I found this, I’m at peace with the `checkout` command. I like it even more. Hope you do as well!
 
-<div class="text-center">
+<div class="text-center no-shadow">
   <figure>
     <img src="/assets/img/lightbulb.svg" alt="A lightbulb" width="175">
     <figcaption>My lightbulb moment | <a href="https://www.smashingmagazine.com/2017/12/32-friendly-office-icons/">Source</a></figcaption>

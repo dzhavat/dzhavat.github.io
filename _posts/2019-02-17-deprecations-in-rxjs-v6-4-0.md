@@ -117,7 +117,7 @@ Hope you learned something new today. I certainly did.
 
 Until next time :)
 
-<div class="text-center">
+<div class="text-center no-shadow">
   <figure>
     <img src="/assets/img/falling-star.png" alt="A falling star">
     <figcaption>A <a href="https://www.smashingmagazine.com/2018/02/freebie-hand-drawn-space-icons/">falling star</a></figcaption>
