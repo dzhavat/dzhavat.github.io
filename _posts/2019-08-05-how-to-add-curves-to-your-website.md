@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to add curves to your website
+updated_date: 2019-08-05
 ---
 
 As front-end developers we’re usually the ones responsible for translating a design into code. And sometimes the designer wants to try something creative  that breaks out of the rectangular shapes we’re so used to. So he/she decides to add some curves. It’s our job now to do magic and make them appear on the page.
@@ -143,7 +144,7 @@ The most important code here is the `transform` property in the `::after` elemen
 
 Using the [`rotateX()`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX) function I can rotate the image along its horizontal axis. This feels intuitive because the value is an angle and specifying `180deg` as a value will flip it.
 
-*Note*: In a previous version of this code I used `scaleY(-1)` to achieve the same thing. This works as well but, as [Andrew Bone](https://dev.to/link2twenty/comment/dn6f) points out, `rotateX` is more readable and easier to understand.
+*Note*: In a previous version of this code I used `scaleY(-1)` to achieve the same thing. This works as well but, as [Andrew Bone](https://dev.to/link2twenty/comment/dn6f) points out, `rotateX()` is more readable and easier to understand.
 
 There’s one weird thing worth mentioning here. You might’ve noticed that the background image of the `::after` element is set to `center bottom`. This is kinda strange because one would think the correct positioning should be `center top` since we move the element down but want to place its background image as close to the top as possible. `center bottom` is actually correct in this case because the element is flipped (remember `rotateX(180deg)`?), so its bottom is now on the top. You can observe this by setting the `height` and `bottom` to say 150px so the element is bigger than its background image.
 
