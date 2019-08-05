@@ -87,10 +87,10 @@ What is left now is adding the curve to the element:
 
 .container::before {
   background: url("path/to/curve.svg") center bottom no-repeat;
+  bottom: 100%;
   content: '';
   height: 103px;
   position: absolute;
-  top: -102px;
   width: 100%;
 }
 
@@ -102,7 +102,7 @@ There are a couple of points here:
 * The `background` declaration is interesting. There are a few things but the positioning (defined by `center bottom`) is the key. This specifies where to place the image relative to edges of the element. `center` will center the image on the x-axis, while `bottom` will place it on the bottom of the y-axis. You can play with different combinations. `left bottom` or `right bottom` are also valid. You can specify [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) as well. Try it and see the effect.
 * The `content: ''` is quite important. Without it the element will not be generated.
 * `height: 103px` is the height of the SVG image. In your case that number might be different.
-* `top: -102px` moves the element 102px upwards from the top of the `.container`. There’s 1px difference between this value and the height and the reason for this is to make sure that the background image always appears glued to the `.container` element.
+* `bottom: 100%` places the bottom edge of the element at the top edge of the `.container`. This is achieved by using a [percentage value](https://developer.mozilla.org/en-US/docs/Web/CSS/bottom#Values) which is relative to the container’s height. Thanks to [Andrew Bone](https://dev.to/link2twenty/comment/dn6f) for sharing this tip.
 
 Here’s the result so far ([CodePen](https://codepen.io/dzhavat/full/NQarrp)):
 
@@ -128,12 +128,12 @@ I already said in the beginning that the bottom curve is the same as the top. Th
 }
 
 .container::before {
-  top: -102px;
+  bottom: 100%;
 }
 
 .container::after {
-  bottom: -102px;
-  transform: scaleY(-1);
+  top: 100%;
+  transform: rotateX(180deg);
 }
 ```
 
@@ -141,9 +141,11 @@ Much of the code from the previous step is repeated here as well. I’ve put all
 
 The most important code here is the `transform` property in the `::after` element.
 
-Using the [`scaleY()`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleY) function I can transform the image along the y-axis. So specifying `-1` as a value will flip it. The same can be achieved by using `rotateX(180deg)`.
+Using the [`rotateX()`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX) function I can rotate the image along its horizontal axis. This feels intuitive because the value is an angle and specifying `180deg` as a value will flip it.
 
-There’s one weird thing worth mentioning here. You might’ve noticed that the background image of the `::after` element is set to `center bottom`. This is kinda strange because one would think the correct positioning should be `center top` since we move the element down but want to place its background image as close to the top as possible. `center bottom` is actually correct in this case because the element is flipped (remember `scaleY(-1)`?), so its bottom is now on the top. You can observe this by setting the `height` and `bottom` to say 150px so the element is bigger than the size of the background image.
+*Note*: In a previous version of this code I used `scaleY(-1)` to achieve the same thing. This works as well but, as [Andrew Bone](https://dev.to/link2twenty/comment/dn6f) points out, `rotateX` is more readable and easier to understand.
+
+There’s one weird thing worth mentioning here. You might’ve noticed that the background image of the `::after` element is set to `center bottom`. This is kinda strange because one would think the correct positioning should be `center top` since we move the element down but want to place its background image as close to the top as possible. `center bottom` is actually correct in this case because the element is flipped (remember `rotateX(180deg)`?), so its bottom is now on the top. You can observe this by setting the `height` and `bottom` to say 150px so the element is bigger than its background image.
 
 Here’s the final result ([CodePen](https://codepen.io/dzhavat/full/jgGrgv)):
 
