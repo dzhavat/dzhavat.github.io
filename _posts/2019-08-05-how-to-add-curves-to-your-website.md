@@ -9,7 +9,7 @@ A couple of weeks ago I got a design that roughly resembled this one:
 
 <figure>
   <img src="/assets/img/how-to-add-curves-to-your-website/mockup.jpg" alt="Example mockup">
-  <figcaption>Example mockup (excuse my basic [Photopea](https://www.photopea.com/) skills)</figcaption>
+  <figcaption>Example mockup (excuse my basic <a href="https://www.photopea.com/" target="_blank">Photopea</a> skills)</figcaption>
 </figure>
 
 In this post I’m going to show you how to add the curves to the top and bottom of an element. I’m going share **my solution**. You might have a different one. That’s fine! If you do, let me know on [Twitter](https://twitter.com/dzhavatushev).
