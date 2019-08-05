@@ -75,7 +75,7 @@ That’s a good baseline for now. Even if I don’t add the curves, everything s
 
 ### Adding the top curve
 
-I already said that the curves are there only for decoration and making the element look more organic. So instead of adding them as `img` elements, which I’ve seen out in the wild, I’m going to add them using [::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) and [::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) pseudo elements. In order to have a curve that goes edge-to-edge on wider screens, I’ve exported it as a 3000x103 px wide SVG image. This will still cause issues on super wide screens but it’s enough to illustrate the purpose of this post.
+I already said that the curves are there only for decoration and making the element look more organic. So instead of adding them as `img` elements, which I’ve seen out in the wild, I’m going to add them using [::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) and [::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) pseudo elements. In order to have a curve that goes edge-to-edge on wider screens, I’ve exported it as a 3000x103px SVG image. This will still cause issues on super wide screens but it’s enough to illustrate the purpose of this post.
 
 What is left now is adding the curve to the element:
 
