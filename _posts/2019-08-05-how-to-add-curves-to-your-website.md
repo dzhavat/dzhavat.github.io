@@ -143,7 +143,7 @@ The most important code here is the `transform` property in the `::after` elemen
 
 Using the [`scaleY()`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleY) function I can transform the image along the y-axis. So specifying `-1` as a value will flip it. The same can be achieved by using `rotateX(180deg)`.
 
-There’s one weird thing worth mentioning here. You might’ve noticed that the background image of the `::after` element is set to `center bottom`. This is kinda strange because one would think the correct positioning should be `center top` since we move the element down but want to place its background image as close to the top as possible. `center bottom` is actually correct here because the element is flipped (remember `scaleY(-1)`?), so its bottom is now on the top. You can observe this by setting the `height` and `bottom` to say 150px so the element is bigger than the size of the background image.
+There’s one weird thing worth mentioning here. You might’ve noticed that the background image of the `::after` element is set to `center bottom`. This is kinda strange because one would think the correct positioning should be `center top` since we move the element down but want to place its background image as close to the top as possible. `center bottom` is actually correct in this case because the element is flipped (remember `scaleY(-1)`?), so its bottom is now on the top. You can observe this by setting the `height` and `bottom` to say 150px so the element is bigger than the size of the background image.
 
 Here’s the final result ([CodePen](https://codepen.io/dzhavat/full/jgGrgv)):
 
@@ -152,7 +152,7 @@ Here’s the final result ([CodePen](https://codepen.io/dzhavat/full/jgGrgv)):
   <figcaption>Final result</figcaption>
 </figure>
 
-That’s it! Now you know how to add curves or other weird shapes to your website. Now go and get creative! Here are a couple of examples I found to get some inspiration.
+That’s it! Now you know how to add curves or other weird shapes to your website. Now go and get creative! Here are a couple of examples I found for inspiration.
 
 ##### Firefox Developer Edition ([link](https://www.mozilla.org/en-US/firefox/developer/))
 
