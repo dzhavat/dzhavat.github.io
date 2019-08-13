@@ -48,7 +48,7 @@ source$.subscribe(value => console.log(value));
 The problem here is that `arg` is of type `number[] | string[]` but `from` expects a single type.
 
 <figure>
-  <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-1.jpg" alt="Code example">
+  <img src="/assets/img/2019/02/07/example-1.jpg" alt="Code example">
   <figcaption>The compiler is not happy :(</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ const arg: any = ...;
 ```
 
 <figure>
-  <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-2.jpg" alt="Code example">
+  <img src="/assets/img/2019/02/07/example-2.jpg" alt="Code example">
   <figcaption><code>value</code> of type <code>{ }</code> doesn’t say much</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ source.subscribe(x => console.log(x));
 The problem here is that the projection function returns a union type `Observable<string> | Observable<number>` but it expects a single type.
 
 <figure>
-  <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-3.jpg" alt="Code example">
+  <img src="/assets/img/2019/02/07/example-3.jpg" alt="Code example">
   <figcaption>The compiler is not happy :(</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Again, an easy way would be to mark `x` as `any`. But you’ll lose valuable typ
 ```
 
 <figure>
-  <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-4.jpg" alt="Code example">
+  <img src="/assets/img/2019/02/07/example-4.jpg" alt="Code example">
   <figcaption>What is <code>any</code> anyway…</figcaption>
 </figure>
 
@@ -121,14 +121,14 @@ So after updating to this new version, removing any `any` and running the code a
 Observable creation function ([StackBlitz](https://stackblitz.com/edit/rxjs-from-example-3)):
 
 <figure>
-  <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-5.jpg" alt="Code example">
+  <img src="/assets/img/2019/02/07/example-5.jpg" alt="Code example">
   <figcaption>Types are back :)</figcaption>
 </figure>
 
 Flattening operator ([StackBlitz](https://stackblitz.com/edit/rxjs-from-example-4)):
 
 <figure>
-  <img src="/assets/img/union-types-in-rxjs-v6-4-0/example-6.jpg" alt="Code example">
+  <img src="/assets/img/2019/02/07/example-6.jpg" alt="Code example">
   <figcaption>Types are back :)</figcaption>
 </figure>
 
