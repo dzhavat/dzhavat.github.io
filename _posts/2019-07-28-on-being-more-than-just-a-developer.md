@@ -40,7 +40,7 @@ I wanted to highlight this part of me on the blog. I put my thinking hat on. Wha
 I use Strava to track my runs. They also to have a nice API. So I used it to build a widget that shows my latest run. It‘s not much and in the future I want to add more stuff to it. Maybe show a map, images taken during a run or come up with a clever idea to mix a post with a run. Not because I’m a great runner, but because **I’m more than just a developer**!
 
 <figure>
-  <img src="/assets/img/on-being-more-than-just-a-developer/showing-my-latest-run.jpg" alt="A widget showing my latest run">
+  <img src="/assets/img/2019/07/28/showing-my-latest-run.jpg" alt="A widget showing my latest run">
   <figcaption>My latest run, right there.</figcaption>
 </figure>
 

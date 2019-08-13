@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add curves to your website
-updated_date: 2019-08-05
+updated_date: 2019-08-13
 ---
 
 As front-end developers we’re usually the ones responsible for translating a design into code. And sometimes the designer wants to try something creative  that breaks out of the rectangular shapes we’re so used to. So he/she decides to add some curves. It’s our job now to do magic and make them appear on the page.
@@ -9,7 +9,7 @@ As front-end developers we’re usually the ones responsible for translating a d
 A couple of weeks ago I got a design that roughly resembled this one:
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/mockup.jpg" alt="Example mockup">
+  <img src="/assets/img/2019/08/05/mockup.jpg" alt="Example mockup">
   <figcaption>Example mockup (excuse my basic <a href="https://www.photopea.com/" target="_blank">Photopea</a> skills)</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ Let’s briefly analyze the current task:
 * Looking at the curves more closely, I can see that they are in fact the same. The only difference is that one of them is flipped vertically. This helps me a lot here because I can export the curve only once and reuse it in both top and the bottom. We’ll see how in a bit.
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/curves.jpg" alt="Top and bottom curves">
+  <img src="/assets/img/2019/08/05/curves.jpg" alt="Top and bottom curves">
   <figcaption>Top and bottom curves</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ This one is pretty straightforward and you’ve probably done it many times alre
 Here’s the result so far ([CodePen](https://codepen.io/dzhavat/full/WVEJva)):
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/step-1.jpg" alt="Step 1">
+  <img src="/assets/img/2019/08/05/step-1.jpg" alt="Step 1">
   <figcaption>Step 1</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ There are a couple of points here:
 Here’s the result so far ([CodePen](https://codepen.io/dzhavat/full/NQarrp)):
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/step-2.jpg" alt="Step 2">
+  <img src="/assets/img/2019/08/05/step-2.jpg" alt="Step 2">
   <figcaption>Step 2</figcaption>
 </figure>
 
@@ -151,23 +151,23 @@ There’s one weird thing worth mentioning here. You might’ve noticed that the
 Here’s the final result ([CodePen](https://codepen.io/dzhavat/full/jgGrgv)):
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/step-3.jpg" alt="Final result">
+  <img src="/assets/img/2019/08/05/step-3.jpg" alt="Final result">
   <figcaption>Final result</figcaption>
 </figure>
 
-That’s it! Now you know how to add curves or other weird shapes to your website. Now go and get creative! Here are a couple of examples I found for inspiration.
+That’s it! Now you know how to add curves or other weird shapes to your website. Now go and get creative! Here are a couple of examples for inspiration.
 
 ##### Firefox Developer Edition ([link](https://www.mozilla.org/en-US/firefox/developer/))
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/Firefox-Dev-Edition-curve.jpg" alt="Firefox Developer Edition">
+  <img src="/assets/img/2019/08/05/firefox-dev-edition-curve.jpg" alt="Firefox Developer Edition">
   <figcaption>Firefox Developer Edition</figcaption>
 </figure>
 
 ##### Atlassian ([link](https://www.atlassian.com/))
 
 <figure>
-  <img src="/assets/img/how-to-add-curves-to-your-website/Atlassian-curve.jpg" alt="Atlassian">  
+  <img src="/assets/img/2019/08/05/atlassian-curve.jpg" alt="Atlassian">  
   <figcaption>Atlassian</figcaption>
 </figure>
 

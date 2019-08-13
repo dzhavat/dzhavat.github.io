@@ -5,7 +5,7 @@ updated_date: 2019-07-18
 ---
 
 <figure>
-  <img src="/assets/img/links-to-all-slides-from-ngvikings/ngVikings-group-photo.jpg" alt="Group photo">
+  <img src="/assets/img/2019/07/18/ngVikings-group-photo.jpg" alt="Group photo">
   <figcaption>Group photo from ngVikings 2019</figcaption>
 </figure>
 

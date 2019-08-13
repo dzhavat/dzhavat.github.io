@@ -11,7 +11,7 @@ So I’m writing the following guide primarily for myself but also for other peo
 Before I start, though, I need to set some limits. In this post, I’m going to show you how to read a single record from Table storage. In a second post, I'm going to show you how to read multiple records. The steps bellow describe how I managed to make this work while staying inside the Azure Portal. If you want to read from Table storage while working in a code editor, check out [this tutorial](https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-how-to-use-nodejs). Furthermore, I assume you already have an existing table to read from. If you don’t have one, check out [this tutorial](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html). Here’s the table I’m going to use. For the purpose of this post, I’m going to read the first record.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/example-table.jpg" alt="Example table">
+  <img src="/assets/img/2019/07/17/example-table.jpg" alt="Example table">
   <figcaption>Example table</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ First, we need an Azure Function to work with. If you’ve already have one, fee
 4. Click “Create”.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/creating-a-new-azure-function.jpg" alt="Creating a new Azure Function">
+  <img src="/assets/img/2019/07/17/creating-a-new-azure-function.jpg" alt="Creating a new Azure Function">
   <figcaption>Creating a new Azure Function</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ First, we need an Azure Function to work with. If you’ve already have one, fee
 Once the functions is created, you’ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure Function currently looks like. We’ll come back to this page a bit later. Now click on to the “Integrate” tab.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/default-azure-function-view.jpg" alt="Newly created Azure Function">
+  <img src="/assets/img/2019/07/17/default-azure-function-view.jpg" alt="Newly created Azure Function">
   <figcaption>Newly created Azure Function</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ On this page you can add different integrations. Right now we’re interested in
 3. Click “Select”.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/select-storage-table-binding.jpg" alt="Creating an Azure Table storage binding">
+  <img src="/assets/img/2019/07/17/select-storage-table-binding.jpg" alt="Creating an Azure Table storage binding">
   <figcaption>Creating an Azure Table storage binding</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ Next, you’ll be presented with a page where you can set some settings.
 5. Finally, don’t forget to “Save” everything.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/setting-up-azure-storage.jpg" alt="Setting up Azure Table storage">
+  <img src="/assets/img/2019/07/17/setting-up-azure-storage.jpg" alt="Setting up Azure Table storage">
   <figcaption>Setting up Azure Table storage</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ module.exports = async function (context, req) {
 Press “Save and run”. While the function is executing you’ll see some logs in the Logs tab underneath. If things are set up correctly you’ll see your value logged out.
 
 <figure>
-  <img src="/assets/img/reading-from-table-storage-inside-azure-functions-running-in-nodejs/logging-out-the-value-of-a-single-entity.jpg" alt="Logging out the value of a single record">
+  <img src="/assets/img/2019/07/17/logging-out-the-value-of-a-single-entity.jpg" alt="Logging out the value of a single record">
   <figcaption>Logging out the value of a single record</figcaption>
 </figure>
 
