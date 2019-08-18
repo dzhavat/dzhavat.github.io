@@ -45,7 +45,7 @@
     let sec = time - (hour * 3600) - (min * 60);
 
     if (min.toString().length === 1) {
-      sec = `0${min}`;
+      min = `0${min}`;
     }
     
     if (sec.toString().length === 1) {
