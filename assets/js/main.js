@@ -13,17 +13,17 @@
       const template = `
         <h4>Latest run</h4>
         <div class="latest-run">
-          <a href="https://www.strava.com/activities/${response.id}" target="_blank">
-            ${response.name}
+          <a href="https://www.strava.com/activities/${ response.id }" target="_blank">
+            ${ response.name }
           </a>
           <div class="stats">
             <div>
               <span class="label">Distance</span>
-              <div>${toKm(response.distance)} km</div>
+              <div>${ toKm(response.distance) } km</div>
             </div>
             <div>
               <span class="label">Time</span>
-              <div>${toMin(response.moving_time)} min</div>
+              <div>${ toMin(response.moving_time) } min</div>
             </div>
           </div>
         </div>
@@ -40,11 +40,20 @@
   }
 
   function toMin(time) {
-    const min = Math.floor(time / 60);
-    let sec = time - min * 60;
+    let hour = Math.floor(time / 3600);
+    let min = Math.floor((time - (hour * 3600)) / 60);
+    let sec = time - (hour * 3600) - (min * 60);
+
+    if (min.toString().length === 1) {
+      sec = `0${min}`;
+    }
     
     if (sec.toString().length === 1) {
       sec = `0${sec}`;
+    }
+
+    if (hour) {
+      return `${hour}:${min}:${sec}`;
     }
 
     return `${min}:${sec}`;
@@ -54,7 +63,7 @@
     const url = "https://dzhstravaapp.azurewebsites.net/api/Activities";
 
     timeoutId = setTimeout(() => {
-      stravaCardBody.innerHTML = '<p><small>Yes, it takes a bit of time! The request is running slow...<br> <strong>Not me, though! Wait and see!</strong> 🏃</small></p>';
+      stravaCardBody.innerHTML = '<p><small>Oh, no! The request is running slow...<br> <strong>Not me, though! Wait and see!</strong> 🏃</small></p>';
     }, 10 * 1000);
 
     return fetch(url)
