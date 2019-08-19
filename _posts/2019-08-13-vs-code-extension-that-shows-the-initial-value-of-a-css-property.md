@@ -1,6 +1,7 @@
 ---
 layout: post
 title: VS Code extension that shows the initial value of a CSS property
+updated_date: 2019-08-19
 ---
 
 I few days ago I got an idea for a VS Code extension that shows the initial (default) value of a given CSS property on hover. This solves a real problem for me because most of the time I use the default value to “reset” a property.
@@ -11,7 +12,10 @@ With that in mind I present you [CSS Initial Value](https://marketplace.visualst
 
 Here’s a small demo:
 
-![](/assets/img/2019/08/13/demo.gif)
+<figure>
+  <img src="/assets/img/2019/08/13/demo.gif" alt="demo">
+  <figcaption>“CSS Initial Value” extension</figcaption>
+</figure>
 
 The extension is quite simple and there are probably cases where it display something weird but I’d like to share it with the world in order to get feedback. It’s also my first extension so I’m pretty sure there are things that can be improved. The code is [open-sourced](https://github.com/dzhavat/css-initial-value) if anyone wants to take a look or contribute.
 

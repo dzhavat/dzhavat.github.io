@@ -9,7 +9,10 @@ The extension is conveniently called [CSS to MDN](https://marketplace.visualstud
 
 Here’s a demo:
 
-![Demo](/assets/img/2019/08/19/demo.gif)
+<figure>
+  <img src="/assets/img/2019/08/19/demo.gif" alt="demo">
+  <figcaption>“CSS to MDN” extension</figcaption>
+</figure>
 
 Before making the extension, if I wanted to open the docs of `background-size`, for example, I’d switch to a browser, open a new tab, search for something like “mdn bkg size”, then click on the first result.
 
