@@ -18,7 +18,7 @@ I think so too, so I built it! 🚀
 I’m thrilled to share my new extension [“CSS Flexbox Cheatsheet”](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet). Here’s a little demo:
 
 <figure>
-  <img src="/assets/img/09/04/demo-hover.gif" alt="Demo">
+  <img src="/assets/img/2019/09/04/demo-hover.gif" alt="Demo">
   <figcaption>“CSS Flexbox Cheatsheet” extension</figcaption>
 </figure>
 
