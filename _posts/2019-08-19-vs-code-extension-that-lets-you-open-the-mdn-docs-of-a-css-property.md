@@ -4,7 +4,7 @@ title: VS Code extension that lets you open the MDN docs of a CSS property
 updated_date: 2019-09-04
 ---
 
-Edit: As of [v1.38](https://code.visualstudio.com/updates/v1_38#_mdn-reference-for-html-and-css), VS Code supports the functionality provided by this extension natively as well! I’m quite happy about it because I didn’t know that they were going to implement something similar. And what’s even better is that they also show a link to MDN for HTML elements! Now go and update to the latest version of VS Code. It’s worth it! 😎
+Edit: As of [v1.38](https://code.visualstudio.com/updates/v1_38), VS Code supports the functionality provided by this extension natively as well! I’m quite happy about it because I didn’t know that they were going to implement something similar. And what’s even better is that they also show a link to MDN for HTML elements! Now go and update to the latest version of VS Code. It’s worth it! 😎
 
 ---
 
