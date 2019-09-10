@@ -1,6 +1,7 @@
 ---
 leyout: post
 title: Flexbox cheatsheet inside VS Code
+updated_date: 2019-09-10
 ---
 
 Another week, another VS Code extension. I’ve published [two](https://marketplace.visualstudio.com/publishers/dzhavat) so far and this is my third in just a month. I’m not participating in any sort of “30 VS Code extensions” challenge. It’s just the ideas that keep popping up in my head and I can’t help myself but try to make something out of them.
@@ -28,3 +29,5 @@ Currently there are two ways to open the cheatsheet:
 * Hovering any `display: flex` declaration and clicking the `Open Flexbox Cheatsheet` link in the popup (as shown in the demo).
 
 I have a few ideas for future improvements but I’d like to share it with the world in order to get feedback. So if you work with CSS, please [give it a try](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet). I hope you find it useful.
+
+**Update**: The cheatsheet used in the extension is available [online](https://darekkay.com/dev/flexbox-cheatsheet.html) as well and is done by [Darek Kay](https://darekkay.com/).
