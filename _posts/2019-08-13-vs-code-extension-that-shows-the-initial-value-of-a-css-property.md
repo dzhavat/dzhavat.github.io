@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VS Code extension that shows the initial value of a CSS property
-updated_date: 2019-09-04
+updated_date: 2019-09-10
 ---
 
 I few days ago I got an idea for a VS Code extension that shows the initial (default) value of a given CSS property on hover. This solves a real problem for me because most of the time I use the default value to “reset” a property.
@@ -21,4 +21,4 @@ The extension is quite simple and there are probably cases where it display some
 
 If you work with CSS, please give it a try. I hope you find it useful.
 
-Edit: Since the release of this extension, I’ve built two more. The first one lets you [open the MDN docs of a CSS property](https://dzhavat.github.io/2019/08/19/vs-code-extension-that-lets-you-open-the-mdn-docs-of-a-css-property.html), which, as of v1.38 of VS Code, is supported natively as well. The second one lets you [open a flexbox cheatsheet inside VS Code](https://dzhavat.github.io/2019/09/04/flexbox-cheatsheet-inside-vs-code.html).
+**Update**: Since the release of this extension, I’ve built two more. The first one lets you [open the MDN docs of a CSS property](https://dzhavat.github.io/2019/08/19/vs-code-extension-that-lets-you-open-the-mdn-docs-of-a-css-property.html), which, as of v1.38 of VS Code, is supported natively as well. The second one lets you [open a flexbox cheatsheet inside VS Code](https://dzhavat.github.io/2019/09/04/flexbox-cheatsheet-inside-vs-code.html).
