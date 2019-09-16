@@ -66,6 +66,8 @@ main img {
 }
 
 figure {
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
 }
 
@@ -216,6 +218,11 @@ article h2 {
     padding-right: 0;
     padding-left: 0;
     width: 43rem;
+  }
+
+  figure {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
   
   .container {
