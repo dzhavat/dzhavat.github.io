@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting productive with git checkout
-updated_date: 2019-07-24
+updated_date: 2019-09-23
 ---
 
 As a developer, I use [git](https://git-scm.com/) on a daily basis. It has become an essential tool for my work. It’s great and I love it.
@@ -55,10 +55,3 @@ git checkout -b <branch-name> <start-point>
 All four steps from above are down to just one! Pure enjoyment!
 
 Ever since I found this, I’m at peace with the `checkout` command. I like it even more. Hope you do as well!
-
-<div class="text-center no-shadow">
-  <figure>
-    <img src="/assets/img/lightbulb.svg" alt="A lightbulb" width="175">
-    <figcaption>My lightbulb moment | <a href="https://www.smashingmagazine.com/2017/12/32-friendly-office-icons/">Source</a></figcaption>
-  </figure>
-</div>

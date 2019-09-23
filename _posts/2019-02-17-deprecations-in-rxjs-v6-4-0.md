@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deprecations in RxJS v6.4.0"
-updated_date: 2019-07-10
+updated_date: 2019-09-23
 ---
 
 I’ve been trying to cover some of the things that came along this new version of RxJS. So, after writing about a [tiny new feature]({{ site.baseurl }}{% post_url 2019-02-02-a-tiny-new-feature-in-rxjs-v6-4-0 %}) and a [bugfix]({{ site.baseurl }}{% post_url 2019-02-07-union-types-in-rxjs-v6-4-0 %}), now is time to look at the deprecations.
@@ -116,10 +116,3 @@ So there it is. Things to keep in mind (and avoid of course) when working with R
 Hope you learned something new today. I certainly did.
 
 Until next time :)
-
-<div class="text-center no-shadow">
-  <figure>
-    <img src="/assets/img/falling-star.png" alt="A falling star">
-    <figcaption>A <a href="https://www.smashingmagazine.com/2018/02/freebie-hand-drawn-space-icons/">falling star</a></figcaption>
-  </figure>
-</div>
