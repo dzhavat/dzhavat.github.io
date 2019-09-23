@@ -1,7 +1,11 @@
 ---
 layout: post
 title: When is NavigationCancel triggered?
-updated_date: 2019-07-25
+updated_date: 2019-09-23
+---
+
+**Update**: After publishing this post, I opened an issue on the Angular repo suggesting to add the cases outlined below to the `NavigationCancel` page. A PR has since been merged, so the info is now part the official docs as well.
+
 ---
 
 Over the past couple of days, I was working on an Angular component that depended on a stream of [router events](https://angular.io/api/router/RouterEvent). There are quite a few of them but I was particulary looking at `NavigationCancel`. A question that came up was “When is this event triggered?”
@@ -10,7 +14,7 @@ The [documentation](https://angular.io/api/router/NavigationCancel) didn’t rea
 
 > Represents an event triggered when a navigation is canceled.
 
-While this was somewhat helpful, I was hoping for more details. In this short post I’d like to share my findings for cases in which `NavigationCancel` is triggered.
+While this was somewhat helpful, I was hoping for more details. In this short post I’d like to share my findings for cases in which `NavigationCancel` is triggered. 
 
 ### When a route guard returns `false`
 
@@ -44,6 +48,7 @@ canActivate() {
   // Manually start a new navigation and
   // cancel the current one by returning `false`
   this.router.navigateByUrl('/hello-new');
+
   return false;
 
   // Case 2
