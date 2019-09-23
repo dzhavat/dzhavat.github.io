@@ -28,4 +28,9 @@ Well, VS Code has got you covered! Again! 😎
 
 If you open the settings (`Ctrl+,` (Win, Linux), `Cmd+,` (Mac)) and search for `Screencast Mode`, you’ll find two settings. One of them is `Only show keyboard shortcuts in Screencast Mode`. It’s pretty clear what it does.
 
+<figure>
+  <img src="/assets/img/2019/09/18/screencast-mode-settings.jpg" alt="Screencast Mode Settings">
+  <figcaption>Screencast Mode Settings</figcaption>
+</figure>
+
 Now you know how to show all those nifty key shortcuts in your videos/gifs. 🚀
