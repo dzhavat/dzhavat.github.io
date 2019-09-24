@@ -11,7 +11,7 @@
       clearTimeout(timeoutId);
 
       const template = `
-        <h4>Latest run</h4>
+        <h4>Latest activity</h4>
         <div class="latest-run">
           <a href="https://www.strava.com/activities/${ response.id }" target="_blank">
             ${ response.name }

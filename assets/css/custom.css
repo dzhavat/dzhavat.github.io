@@ -1,3 +1,9 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-size: 21px;
@@ -196,7 +202,7 @@ article h2 {
 
 @media (min-width: 22em) {
   .strava-card {
-    width: 220px;
+    width: 250px;
   }
 }
 
@@ -227,7 +233,6 @@ article h2 {
   
   .container {
     display: flex;
-    flex-direction: row;
   }
   
   .container main {
