@@ -12,6 +12,6 @@ But did you know you can also use it for quickly switching between different col
   <figcaption>Switching between color formats</figcaption>
 </figure>
 
-To be honest, I was considering building an extension that does just that! I didn’t know this feature existed until a few days ago when I saw it in one of [@_clarkio](https://twitter.com/_clarkio)’s [Twitch streams](https://www.twitch.tv/clarkio). It’s quite hidden, in my opinion, and is one of those things that you either know exists or you discover by accident.
+To be honest, I was considering building an extension that does just that! I didn’t know this feature existed until a few days ago when I saw it in one of [@_clarkio](https://twitter.com/_clarkio)’s [Twitch streams](https://www.twitch.tv/clarkio). It’s quite hidden, in my opinion, and is one of those things that you either know it exists or you discover it by accident.
 
 So now that you know about it, I hope you’ll be using it in your work 😉
