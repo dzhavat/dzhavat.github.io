@@ -7,7 +7,7 @@ I work as a developer. I have side projects, contribute to open source and maint
 
 But even though being a developer is a big part of my life and I spend much of my day as one, I’ve realized that **I’m more than just a developer**!
 
-I came to this important realization not long ago. I was already aware of this as a fact, of course, but never gave it a deeper thought. I’ve been so focused on the details that I’ve somehow missed the bigger picture.
+I came to this important realization not long ago. I was already aware of this as a fact but never gave it a deeper thought. I’ve been so focused on the details that I’ve somehow missed the bigger picture.
 
 Put another way, **being a developer is only a part of who I am**.
 

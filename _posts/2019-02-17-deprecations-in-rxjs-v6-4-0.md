@@ -12,7 +12,7 @@ I’ve been trying to cover some of the things that came along this new version 
 
 Do you often find yourself using `null` (or `undefined`) instead of callback functions when subscribing to an Observable? Do you find that annoying? Well, starting from this release, that practice is now discouraged. The recommended way is to use an “`observer`”.
 
-What is an “`observer`” you might be asking? It’s … just an object that has three properties — `next`, `error` and `complete`. Each property is used for the corresponding callback function.
+What is an “`observer`” you might be asking? It’s an object that has three properties  —  `next`, `error` and `complete`. Each property is used for the corresponding callback function.
 
 With that in mind, here’s a list of all deprecated signatures and their recommended alternative ([StackBlitz](https://stackblitz.com/edit/rxjs-deprecated-null-subscribe)):
 
@@ -70,7 +70,7 @@ One thing you might have noticed is that by using the “`observer`” object, y
 
 ([PR](https://github.com/ReactiveX/rxjs/pull/4202) that introduced the deprecation)
 
-Did you know that `tap` can take `next`, `error` and `complete` callbacks? Honestly, I didn’t. I always thought tap takes just one function. So seeing this deprecation surprised me a bit but in a positive way because I discovered something new.
+Did you know that `tap` can take `next`, `error` and `complete` callbacks? Honestly, I didn’t. I always thought `tap` takes just one function. So seeing this deprecation surprised me a bit but in a positive way because I discovered something new.
 
 Anyway, since `tap` takes the same type of callbacks as `subscribe`, that means the deprecation is the same as well.
 
@@ -99,7 +99,7 @@ source.pipe(
 
 ([PR](https://github.com/ReactiveX/rxjs/pull/4080) that introduced the deprecation)
 
-Are you using the `create` method to create new `Observable`s/`Subject`s? The recommended way now is to simply use the `new` keyword ([StackBlitz](https://stackblitz.com/edit/rxjs-deprecated-create-method)):
+Are you using the `create` method to create new `Observable`s/`Subject`s? The recommended way now is to use the `new` keyword ([StackBlitz](https://stackblitz.com/edit/rxjs-deprecated-create-method)):
 
 ```ts
 // Deprecated
@@ -111,7 +111,7 @@ const o = new Observable(...);
 const s = new Subject();
 ```
 
-So there it is. Things to keep in mind (and avoid of course) when working with RxJS.
+So there it is. Things to keep in mind (and avoid) when working with RxJS.
 
 Hope you learned something new today. I certainly did.
 

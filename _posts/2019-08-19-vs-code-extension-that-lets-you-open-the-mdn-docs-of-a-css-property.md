@@ -21,6 +21,6 @@ Here’s a demo:
 
 Before making the extension, if I wanted to open the docs of `background-size`, for example, I’d switch to a browser, open a new tab, search for something like “mdn bkg size”, then click on the first result.
 
-With this extension I don’t have to go through these steps. I can simply hover a property and click on the link. Nice, isn’t it? 😉
+With this extension I don’t have to go through these steps. I can hover a property and click on the link. Nice, isn’t it? 😉
 
 If you work with CSS, please give it a try. I hope you find it useful.

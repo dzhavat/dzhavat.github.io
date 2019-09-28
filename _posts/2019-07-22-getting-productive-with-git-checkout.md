@@ -12,7 +12,7 @@ I also enjoy interacting with it directly in the Terminal. There’s something m
 
 There’s one command, though, that I used to like and hate at the same time. It’s `git checkout`.
 
-I like it because of its simplicity and effectiveness. With it, I can create a new branch and switch to it all at once. Just like this:
+I like it because of its simplicity and effectiveness. With it, I can create a new branch and switch to it all at once. Like this:
 
 ```bash
 git checkout -b new-feature
@@ -24,7 +24,7 @@ But, in some cases, I hated it too because of the way it works. Using it as abov
 
 Here’s a use case that I might have during my work.
 
-Say I’m on a `new-feature` branch and have some changes, not related to the current task, I want to transfer to a new branch. Simply using `git checkout -b new-awesome-feature` will not help me because all commits made thus far will follow as well. In those scenarios my workflow was:
+Say I’m on a `new-feature` branch and have some changes, not related to the current task, I want to transfer to a new branch. Using `git checkout -b new-awesome-feature` will not help me because all commits made thus far will follow as well. In those scenarios my workflow was:
 
 1. Stash everything.
 2. Switch to the branch I want to base the new one off.

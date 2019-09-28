@@ -4,7 +4,7 @@ title: "Reading from Table storage inside Azure Functions running in Node.js (pa
 updated_date: 2019-07-24
 ---
 
-I spent a lot of time last week figuring out how to read from Table storage inside my Azure Function. I don’t know if it was me, the tutorials I found or just the concept in general but something was not working. And it was frustrating. At some point, I finally figured it out but it had already taken me more time than necessary for such a simple task.
+I spent a lot of time last week figuring out how to read from Table storage inside my Azure Function. I don’t know if it was me, the tutorials I found or the concept in general but something was not working. And it was frustrating. At some point, I finally figured it out but it had already taken me more time than necessary for such a simple task.
 
 So I’m writing the following guide primarily for myself but also for other people who struggle with a similar problem.
 
@@ -57,7 +57,7 @@ On this page you can add different integrations. Right now we’re interested in
 
 Next, you’ll be presented with a page where you can set some settings.
 
-1. “*Table parameter name*” is used for indentifying the binding in the code. It’s already set to `inputTable`. You can leave it as is or change it to whatever you want. Just remember it because you’re going to use it later.
+1. “*Table parameter name*” is used for indentifying the binding in the code. It’s already set to `inputTable`. You can leave it as is or change it to whatever you want. But remember it because you’re going to use it later.
 2. “*Table name*”, as the name suggest, is the name of the storage table that will be used. In my case it’s `example`.
 3. “*Partition key*” is a value found in the partition key column in the table. The value can identify one or many records. In my case that’s `Users`.
 4. “*Row key*” is a value found in the row key column of the table. The value must identify only a single record. In my case that’s `1`.

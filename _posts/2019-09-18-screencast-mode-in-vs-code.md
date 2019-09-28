@@ -11,7 +11,7 @@ So VS Code, once again, helped me out because it has this exact functionality al
 
 * Press `Ctrl+Shift+P` (Win, Linux) or `Cmd+Shift+P` (Mac) and search for `Toggle Screencast Mode`.
 * Press `Enter` to activate it.
-* (Obviously, repeat the steps to deactivate it)
+* (Repeat the steps to deactivate it)
 
 Now every keystroke will be shown in an overlay. Check this out:
 

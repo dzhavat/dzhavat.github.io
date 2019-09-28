@@ -23,7 +23,7 @@ There are two things you might notice about those messages:
 
 So I thought that by understanding how the fix applied just one of each type, I could understand the rest as well. I was also curious to find out what was the behaviour before the fix and whether the fix was going to impact my code in some way going forward.
 
-One obvious place to look for this kind of information is, of course, a [related PR](https://github.com/ReactiveX/rxjs/pull/4461). Already in the very [first comment](https://github.com/ReactiveX/rxjs/pull/4461#issue-243244247), I found what I needed to know — what was the bug, how to reproduce it and what is the solution.
+One place to look for this kind of information is in a [related PR](https://github.com/ReactiveX/rxjs/pull/4461). Already in the very [first comment](https://github.com/ReactiveX/rxjs/pull/4461#issue-243244247), I found what I needed to know  —  what was the bug, how to reproduce it and what is the solution.
 
 As it turned out, the bug appeared in cases where an Observable creation function (like `from`) was called with a union typed parameter or when a union type was being returned from the projection function of a flattening operator. (Yeah, it sounds complicated)
 
