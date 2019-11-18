@@ -7,7 +7,7 @@ Every developer knows that writing tests is important. To me, tests are like an 
 
 Something I've noticed, even with my little testing experience, is that test suites can grow pretty fast. It's not long before you end up with a bunch of suites each containing a bunch of specs and then you ask yourself "How can I run only a single suite/spec instead of the whole thing?"
 
-I've certainly asked myself this question more than once. So if write your tests using Jasmine, I have a simple solution:
+I've certainly asked myself this question more than once. So if you write your tests using Jasmine, I have a simple solution:
 
 ### Running a single suite
 
