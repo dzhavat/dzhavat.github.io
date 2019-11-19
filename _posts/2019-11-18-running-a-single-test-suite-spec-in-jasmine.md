@@ -51,3 +51,5 @@ describe("A suite", function() {
 ```
 
 So here you go. If, for whatever reason, you need to run a single suite/spec, you can quickly do so by using `fdescribe` and `fit`. You can find this in the official docs as well. So I’ve definitely not given you the hottest tip out there, but I find it useful. Hope you do as well!
+
+Oh, and before I forget! When you’re done with your tests, don’t commit the `fdescribe`/`fit` because that will give you a false confidence that your tests are successful when in reality it’s only one suite/spec that is being executed.
