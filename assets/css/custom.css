@@ -79,7 +79,12 @@ figure {
 
 code {
   background-color: rgba(0, 0, 0, 0.05);
+  font-size: 0.85rem;
   padding: 3px 4px;
+}
+
+pre.highlight {
+  padding-left: 0.5rem;
 }
 
 pre {
