@@ -171,6 +171,10 @@ article h2 {
   font-size: 0.75rem;
 }
 
+.azure-function-message {
+  font-size: 0.6rem;
+}
+
 .btn {
   border-radius: 3px;
   color: #fff;
@@ -183,16 +187,6 @@ article h2 {
 
 .btn:hover {
   text-decoration: none;
-}
-
-.btn-strava {
-  background-color: #fc4c02;
-}
-
-.btn-strava:active,
-.btn-strava:focus,
-.btn-strava:hover {
-  background-color: #e34402;
 }
 
 .btn-twitter {
