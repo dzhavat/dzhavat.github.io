@@ -11,7 +11,7 @@ I came to this important realization not long ago. I was already aware of this a
 
 Put another way, **being a developer is only a part of who I am**.
 
-Some of the other things I am are, but not limited to, a runner, a nature lover, a traveler, a dad, a husband, a friend... So why was I going around looking at the world through only one set of lenses or assumed only one role? As if I had all these other roles and responsibilities but I was rushing through them just so I can come back my “true” self.
+Some of the other things I am are a runner, a nature lover, a traveler, a dad, a husband, a friend... So why was I going around looking at the world through only one set of lenses or assumed only one role? As if I had all these other roles and responsibilities but I was rushing through them just so I can come back my “true” self.
 
 I’m not really sure why it took me so long to come to this conclusion. One explanation can be the fact that some things just take time to crystallize in ones head. Sometimes time is the best teacher.
 
