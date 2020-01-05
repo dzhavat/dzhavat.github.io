@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting started with contributing to RxJS docs
+updated_date: 2020-01-05 
 ---
 
 I use RxJS a lot during my work. One great place to learn more about it is, of course, the [official docs](https://rxjs.dev/). I visit them multiple times a day to look up things. This includes stuff like operators, Observable creation functions, descriptions, marble diagrams, signatures, examples and so on. The examples in particular are quite useful because they help me understand how something is working in practice.
@@ -28,7 +29,7 @@ Now on to finding the thing you wanted to improve...
 
 The RxJS docs are a combination of two things:
 
-1. The **API docs** which are generated directly from source code. The source code lives under `rxjs/src`. If you want to change something related to stuff like `of`, `from`, `switchMap`, etc., look here. The actual documentation is in the form of a comment, containing JSDoc tags and some content. 
+1. The **API docs** which are generated directly from source code. The source code lives under `rxjs/src`. If you want to change something related to stuff like [`of`](https://rxjs.dev/api/index/function/of), [`from`](https://rxjs.dev/api/index/function/from), [`switchMap`](https://rxjs.dev/api/operators/switchMap), etc., look here. The actual documentation is in the form of a comment, containing JSDoc tags and some content. 
 2. **General content** like guides, tutorials, marketing materials, etc. This content is spread across different Markdown files each representing a separate page. The files live under `rxjs/docs_app/content`. Pages like [overview](https://rxjs.dev/guide/overview), [installation](https://rxjs.dev/guide/installation), [migration](https://rxjs.dev/guide/v6/migration), [deprecations](https://rxjs.dev/api/deprecations), etc., are part of it.
 
 **Note**: There’s also a `rxjs/docs` folder. This one contains the **old** documentation. Don’t bother changing anything in there.
