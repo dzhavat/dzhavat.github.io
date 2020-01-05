@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add curves to your website
-updated_date: 2019-08-13
+last_updated: 2019-08-13
 ---
 
 As front-end developers we’re usually the ones responsible for translating a design into code. And sometimes the designer wants to try something creative  that breaks out of the rectangular shapes we’re so used to. So he/she decides to add some curves. It’s our job now to do magic and make them appear on the page.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with contributing to RxJS docs
-updated_date: 2020-01-05 
+last_updated: 2020-01-05 
 ---
 
 I use RxJS a lot during my work. One great place to learn more about it is, of course, the [official docs](https://rxjs.dev/). I visit them multiple times a day to look up things. This includes stuff like operators, Observable creation functions, descriptions, marble diagrams, signatures, examples and so on. The examples in particular are quite useful because they help me understand how something is working in practice.

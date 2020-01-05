@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links to all slides from ngVikings"
-updated_date: 2019-07-18
+last_updated: 2019-07-18
 ---
 
 <figure>

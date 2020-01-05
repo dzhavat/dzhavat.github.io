@@ -1,7 +1,7 @@
 ---
 leyout: post
 title: Flexbox cheatsheet inside VS Code
-updated_date: 2019-09-10
+last_updated: 2019-09-10
 ---
 
 Another week, another VS Code extension. I’ve published [two](https://marketplace.visualstudio.com/publishers/dzhavat) so far and this is my third in just a month. I’m not participating in any sort of “30 VS Code extensions” challenge. The ideas keep popping up in my head and I can’t help myself but try to make something out of them.

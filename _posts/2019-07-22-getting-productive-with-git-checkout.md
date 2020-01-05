@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting productive with git checkout
-updated_date: 2019-09-23
+last_updated: 2019-09-23
 ---
 
 As a developer, I use [git](https://git-scm.com/) on a daily basis. It has become an essential tool for my work. It’s great and I love it.

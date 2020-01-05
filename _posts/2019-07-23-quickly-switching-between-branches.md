@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quickly switching between branches
-updated_date: 2019-07-24
+last_updated: 2019-07-24
 ---
 
 It seems like my post from yesterday about [getting productive with `git checkout`](https://dzhavat.github.io/2019/07/22/getting-productive-with-git-checkout.html) resonated with a lot of people. Some even wrote to tell me that they found the tip useful. Hopefully they will use it in their work as well.

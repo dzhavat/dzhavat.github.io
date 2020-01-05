@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making HTTP requests inside Azure Functions
-updated_date: 2019-07-24
+last_updated: 2019-07-24
 ---
 
 I have an idea for a feature that I want ot add to this blog. It’s something I wanted to try but never found the time. That’s probably how most ideas are. Anyway, this past weekend I finally found a couple of hours.

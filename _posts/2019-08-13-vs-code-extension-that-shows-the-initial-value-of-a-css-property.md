@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VS Code extension that shows the initial value of a CSS property
-updated_date: 2019-09-10
+last_updated: 2019-09-10
 ---
 
 I few days ago I got an idea for a VS Code extension that shows the initial (default) value of a given CSS property on hover. This solves a real problem for me because most of the time I use the default value to “reset” a property.

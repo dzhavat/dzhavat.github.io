@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When is NavigationCancel triggered?
-updated_date: 2019-09-23
+last_updated: 2019-09-23
 ---
 
 **Update**: After publishing this post, I opened an issue on the Angular repo suggesting to add the cases outlined below to the `NavigationCancel` page. A PR has since been merged, so the info is now part the official docs as well.
