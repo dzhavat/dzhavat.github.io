@@ -27,7 +27,7 @@ source.subscribe(x => console.log(x));
 // awesome!
 ```
 
-If you’ve used the [`concat`](https://rxjs.dev/api/operators/concat) operator before this might look suspiciously familiar to you, and you won’t be far from the truth. `concatWith` is actually not a completely new operator. It’s only meant to replace the `concat` operator which is currently marked as **deprecated** and **will be removed in v8**.
+If you’ve used the [`concat`](https://rxjs.dev/api/operators/concat) operator before this might look somehow familiar to you. This is not a coincidence. `concatWith` is actually not a completely new operator. It’s only meant to replace the `concat` operator which is currently marked as **deprecated** and **will be removed in v8**.
 
 There’s one subtle difference between the two, though. `concatWith` **only accepts** inputs of type [`ObservableInput`](https://rxjs.dev/api/index/type-alias/ObservableInput), whereas `concat` can also take a scheduler.
 
