@@ -78,9 +78,10 @@ figure {
 }
 
 code {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f3f3f3;
+  border-radius: 4px;
   font-size: 0.85rem;
-  padding: 3px 4px;
+  padding: 3px 6px;
 }
 
 pre.highlight {
