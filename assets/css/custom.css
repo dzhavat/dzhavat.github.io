@@ -77,6 +77,21 @@ figure {
   text-align: center;
 }
 
+blockquote {
+  position: relative;
+}
+
+blockquote::before {
+  background-color: #32b81f;
+  border-radius: 4px;
+  bottom: 0px;
+  content: "";
+  left: -40px;
+  position: absolute;
+  top: 0px;
+  width: 4px;
+}
+
 code {
   background-color: #f3f3f3;
   border-radius: 4px;
