@@ -31,8 +31,7 @@ If you think this looks suspiciously familiar to how the [`concat`](https://rxjs
 
 There’s one subtle difference between `concatWith` and `concat`, though. `concatWith` **only accepts** inputs of type [`ObservableInput`](https://rxjs.dev/api/index/type-alias/ObservableInput), whereas `concat` can also take a scheduler.
 
-If you want to schedule the observable that you provide to `concatWith`, you need to convert it by using the [scheduled](https://rxjs.dev/api/index/function/scheduled) function. ([StackBlitz](https://stackblitz.com/edit/rxjs-vqcyun))
-
+If you want to schedule the observable provided to `concatWith`, you need to convert it by using the [scheduled](https://rxjs.dev/api/index/function/scheduled) function. ([StackBlitz](https://stackblitz.com/edit/rxjs-vqcyun))
 
 Hope you learned something new. Happy RxJS-ing!
 
