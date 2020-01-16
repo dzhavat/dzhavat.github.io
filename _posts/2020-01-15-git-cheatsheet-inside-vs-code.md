@@ -26,6 +26,6 @@ Now you can have it right there where you most need it. You open it, you find yo
 
 Currently there's only one way to open it:
 
-* By pressing `Ctrl+Shift+P` (Win) / `Cmd+Shift+P` (Mac) and searching for the `Open Git Cheatsheet` command.
+* By pressing `Ctrl+Shift+P` (Win, Linux) / `Cmd+Shift+P` (Mac) and searching for the `Open Git Cheatsheet` command.
 
 If you use Git and VS Code, please [give it a try](https://marketplace.visualstudio.com/items?itemName=dzhavat.git-cheatsheet). I hope you find it useful.
