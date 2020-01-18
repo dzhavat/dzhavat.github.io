@@ -193,7 +193,7 @@ article h2 {
 
 .btn {
   border-radius: 3px;
-  color: #fff;
+  color: white;
   display: inline-block;
   font-size: 0.75rem;
   padding: 3px 9px 3px 9px;
@@ -213,6 +213,11 @@ article h2 {
 .btn-twitter:focus,
 .btn-twitter:hover {
   background-color: #0c7abf;
+}
+
+.btn-rss {
+  background-color: #b9501f;
+  margin-left: 0.5rem;
 }
 
 @media (min-width: 22em) {
