@@ -1,1 +1,3 @@
 highlighter: rouge
+plugins:
+  - jekyll-feed
