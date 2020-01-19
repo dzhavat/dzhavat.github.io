@@ -28,7 +28,7 @@ The properties `title`, `description` and `author` are optional. I added them be
 * The next step was to add this line in the `head` of all HTML layout files:
 
 ```html
-<link rel="alternate" type="application/atom+xml" title="\{\{ site.title \}\}" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 ```
 
 This helps if someone wants to subscribe to my blog using a feed reader, like [Feedly](https://feedly.com).
