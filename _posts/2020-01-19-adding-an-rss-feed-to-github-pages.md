@@ -25,7 +25,7 @@ After pushing this to GitHub, the site was rebuild and a `feed.xml` file was gen
 
 The properties `title`, `description` and `author` are optional. I added them because I wasn’t happy with the defaults. For more settings, check out the [`jekyll-feed`](https://github.com/jekyll/jekyll-feed) repo.
 
-* The next step was to add this line in the `head` of all HTML layout files.
+* The next step was to add this line in the `head` of all HTML layout files:
 
 ```html
 <link rel="alternate" type="application/atom+xml" title="\{\{ site.title \}\}" href="/feed.xml">
