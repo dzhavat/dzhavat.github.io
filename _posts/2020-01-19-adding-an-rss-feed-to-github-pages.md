@@ -33,10 +33,10 @@ The properties `title`, `description` and `author` are optional. I added them be
 
 This helps if someone wants to subscribe to my blog using a feed reader, like [Feedly](https://feedly.com).
 
-* The final step was to make a link to the feed that is accessible from the page. In my case this looked like this:
+* The final step was to make a link to the feed that is accessible from each page. In my case this looked like this:
 
 ```html
 <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
 ```
 
-That’s it! This took me just a few minutes to figure out and now I have an [RSS feed of my posts](https://dzhavat.github.io/feed.xml). Subscribe if you want to read them. 😊
+That’s it! This took me just a few minutes to figure this out and now I have an [RSS feed of my posts](https://dzhavat.github.io/feed.xml). Subscribe if you want to read them. 😊
