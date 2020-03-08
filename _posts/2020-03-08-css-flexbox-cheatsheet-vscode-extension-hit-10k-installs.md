@@ -12,7 +12,7 @@ A couple of days ago my [CSS Flexbox Cheatsheet](https://marketplace.visualstudi
 
 This is a huge milestone for me. I had never imagined so many people will want to try it. I’m thankful to every one of them. Hopefully the extension helped them learn something about flexbox and, as a result, had an easier time working with it.
 
-I’m wondering, though, how do people use the extension? How many times do they open it after install? Only once and never again? Just a handful? More? Do they find the illustrations easy to understand? Can I do something to make them even more useful? An an author, I miss this kind of feedback and am thinking of ways to start asking for it. The reviews are one obvious place but not that many are willing to give one. And besides that, the reviews are not really suitable for longer discussions. So if you use the extension and have some comments about it, please let me know [on Twitter](https://twitter.com/dzhavatushev).
+As an author, I’m wondering how do people use the extension? How many times do they open it? Only once and never again? Just a handful? More? Do they find the illustrations easy to understand? Can I do something to make them even more useful? I miss this kind of feedback and am thinking of ways to start asking for it. So if you use the extension and have some comments about it, please let me know [on Twitter](https://twitter.com/dzhavatushev).
 
 ### What’s next?
 
