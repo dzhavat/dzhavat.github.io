@@ -38,6 +38,10 @@ main img {
   padding: 4px;
 }
 
+video {
+  max-width: 100%;
+}
+
 .no-shadow {
   box-shadow: none;
 }
