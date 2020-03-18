@@ -18,10 +18,13 @@ As an extension author, though, I wonder how do people use it? How many times do
 
 I recently came up with the idea of showing the illustration of how a property works already in the hover popup. Something like this:
 
-<video controls>
-  <source src="/assets/img/2020/03/08/css-flexbox-cheatsheet-new-feature.mp4" type="video/mp4">
-</video>
+<figure>
+  <img src="/assets/img/2020/03/18/flexbox-hover-image.gif" alt="Flexbox visuals inside the hover popup">
+  <figcaption>Flexbox visuals inside the hover popup</figcaption>
+</figure>
 
 Instead of opening the whole cheatsheet to look for a specific property, you’d be able to see it in the hover. This will bring the cheatsheet even closer to where you actually need it and hopefully make it even more useful. What do you think about it?
 
 I’m currently working on it, polishing some final details. Who knows, it might come out soon 😀
+
+Edit: [It’s finally out](https://dzhavat.github.io/2020/03/18/css-flexbox-cheatsheet-vscode-extension-v2.html)! 🚀
