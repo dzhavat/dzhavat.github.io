@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A tiny new feature in RxJS v6.4.0
+title: A tiny new feature in RxJS v6.4.0
 last_updated: 2019-07-25
 ---
 

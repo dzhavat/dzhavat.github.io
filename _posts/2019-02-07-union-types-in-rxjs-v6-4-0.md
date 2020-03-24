@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Union types in RxJS v6.4.0"
+title: Union types in RxJS v6.4.0
 last_updated: 2019-09-23
 ---
 

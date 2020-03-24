@@ -1,5 +1,5 @@
 ---
-leyout: post
+layout: post
 title: Easy way to switch color formats in VS Code
 ---
 
