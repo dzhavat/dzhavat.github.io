@@ -3,7 +3,7 @@ layout: post
 title: My thoughts on GitHub Discussions
 ---
 
-It’s not a secret anymore that GitHub is working on a new feature called “Discussions”. It’s a new place where people can have discussions(!) or ask questions à la StackOverflow. It’s in beta right now and can only be seen in a few selected open source projects like [Tailwind CSS](https://github.com/tailwindcss/tailwindcss/discussions), [Next.js](https://github.com/zeit/next.js/discussions) and [Office 365 CLI](https://github.com/pnp/office365-cli/discussions). There are probably others as well.
+It’s not a secret anymore that GitHub is working on a new feature called “Discussions”. It’s a new place where people can have discussions or ask questions à la StackOverflow. It’s in beta right now and can only be seen in a few selected open source projects like [Tailwind CSS](https://github.com/tailwindcss/tailwindcss/discussions), [Next.js](https://github.com/zeit/next.js/discussions) and [Office 365 CLI](https://github.com/pnp/office365-cli/discussions). There are probably others as well.
 
 <figure>
   <img src="/assets/img/2020/04/04/github-discussions.jpg" alt="GitHub Discussions">
