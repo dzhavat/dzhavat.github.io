@@ -19,9 +19,9 @@ description: Welcome to my blog
 author: Dzhavat Ushev
 ```
 
-Apparently, GitHub Pages supports a [list of plugins](https://pages.github.com/versions/) but not all of them are enabled by default. [`jekyll-feed`](https://github.com/jekyll/jekyll-feed) is one of them. To enable it, the only thing I had to do was add it to `plugins` array in the `_config.yml` file.
+GitHub Pages support a [list of plugins](https://pages.github.com/versions/) but not all of them are enabled by default. [`jekyll-feed`](https://github.com/jekyll/jekyll-feed) is one of them. To enable it, the only thing I had to do was add it to `plugins` array in the `_config.yml` file.
 
-After pushing this to GitHub, the site was rebuild and a `feed.xml` file was generated. I could access at `site.github.io/feed.xml`.
+After pushing this to GitHub, the site was rebuild and a `feed.xml` file was generated. I could access it at `site.github.io/feed.xml`.
 
 The properties `title`, `description` and `author` are optional. I added them because I wasn’t happy with the defaults. For more settings, check out the [`jekyll-feed`](https://github.com/jekyll/jekyll-feed) repo.
 
