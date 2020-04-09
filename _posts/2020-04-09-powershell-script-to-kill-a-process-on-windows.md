@@ -169,7 +169,7 @@ I really enjoyed taking this experiment. Before starting it, I felt intimidated 
 
 <figure>
   <img src="/assets/img/2020/04/09/david-khourshid-tweet.png" alt="Tweet by David Khourshid">
-  <figcaption>Don’t feel comfortable trying something new</figcaption>
+  <figcaption>Don’t feel uncomfortable trying something new</figcaption>
 </figure>
 
 I totally agree with him! We should give ourselves room for experimentation and trying new things without feeling afraid to fail. It’s part of the process.
