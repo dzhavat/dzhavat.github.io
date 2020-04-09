@@ -168,7 +168,7 @@ Phew, that was a lot!
 I really enjoyed taking this experiment. Before starting it, I felt intimidated by the thought of writing a PowerShell script. I thought it was really complicated. Now I’m glad I tried it. Definitely learned quite a lot. I recently came across this [tweet by David Khourshid](https://mobile.twitter.com/DavidKPiano/status/1246534121859493889).
 
 <figure>
-  <img src="/assets/img/2020/04/09/david-tweet.gif" alt="Tweet by David Khourshid">
+  <img src="/assets/img/2020/04/09/david-khourshid-tweet.png" alt="Tweet by David Khourshid">
   <figcaption>Don’t feel comfortable trying something new</figcaption>
 </figure>
 
