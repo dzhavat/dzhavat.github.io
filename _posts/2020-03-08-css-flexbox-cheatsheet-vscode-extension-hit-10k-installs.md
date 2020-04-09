@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CSS Flexbox Cheatsheet VS Code extension hit 10k installs
+last_updated: 2020-04-09
 ---
 
 A couple of days ago my [CSS Flexbox Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) VS Code extension hit 10k installs! The initial release was exactly six months ago. That means that, on average, it was installed roughly 55 times per day! Pretty wild! So far it’s gotten five reviews, all positive, rating it with five starts.
@@ -27,4 +28,4 @@ Instead of opening the whole cheatsheet to look for a specific property, you’d
 
 I’m currently working on it, polishing some final details. Who knows, it might come out soon 😀
 
-Edit: [It’s finally out](https://dzhavat.github.io/2020/03/18/css-flexbox-cheatsheet-vscode-extension-v2.html)! 🚀
+**Update**: [It’s finally out](https://dzhavat.github.io/2020/03/18/css-flexbox-cheatsheet-vscode-extension-v2.html)! 🚀
