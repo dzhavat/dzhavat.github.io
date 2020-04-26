@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PowerShell script to kill a process on Windows
+last_updated: 2020-04-26
 ---
 
 A couple of weeks ago I faced an interesting challenge. I had to figure out a way to programmatically start and stop a Node.js server between some tests. The flow was like this: spawn a server before a test, wait for it to respond to a request, run the test, kill the server after the test completes. Repeat the same steps for the next test.
@@ -97,7 +98,7 @@ IF ($foundProcesses | Select-String -Pattern $activePortPattern -Quiet) {
 
 `Select-String` searches each line of the `$foundProcesses` variable for a specific pattern defined by the `-Pattern` parameter. Normally, this returns a `MatchInfo` object representing the result of a match. However, when used with the `-Quiet` parameter, the return is a boolean where `True` means that the pattern is found and `False` otherwise.
 
-If the pattern is not found, then skip the rest of the script. Easy exit.
+If the pattern is not found, then skip the rest of the script. Quick exit.
 
 But why exactly that pattern?
 
@@ -172,7 +173,7 @@ I really enjoyed taking this experiment. Before starting it, I felt intimidated 
   <figcaption>Don’t feel uncomfortable trying something new</figcaption>
 </figure>
 
-I totally agree with him! We should give ourselves room for experimentation and trying new things without feeling afraid to fail. It’s part of the process.
+I completely agree with him! We should give ourselves room for experimentation and trying new things without feeling afraid to fail. It’s part of the process.
 
 ---
 

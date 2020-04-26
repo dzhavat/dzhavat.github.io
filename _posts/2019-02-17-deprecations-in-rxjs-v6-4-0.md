@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deprecations in RxJS v6.4.0
-last_updated: 2019-09-23
+last_updated: 2020-04-26
 ---
 
 I’ve been trying to cover some of the things that came along this new version of RxJS. So, after writing about a [tiny new feature]({{ site.baseurl }}{% post_url 2019-02-02-a-tiny-new-feature-in-rxjs-v6-4-0 %}) and a [bugfix]({{ site.baseurl }}{% post_url 2019-02-07-union-types-in-rxjs-v6-4-0 %}), now is time to look at the deprecations.
@@ -70,7 +70,7 @@ One thing you might have noticed is that by using the “`observer`” object, y
 
 ([PR](https://github.com/ReactiveX/rxjs/pull/4202) that introduced the deprecation)
 
-Did you know that `tap` can take `next`, `error` and `complete` callbacks? Honestly, I didn’t. I always thought `tap` takes just one function. So seeing this deprecation surprised me a bit but in a positive way because I discovered something new.
+Did you know that `tap` can take `next`, `error` and `complete` callbacks? Honestly, I didn’t. I always thought `tap` takes only one function. So seeing this deprecation surprised me a bit but in a positive way because I discovered something new.
 
 Anyway, since `tap` takes the same type of callbacks as `subscribe`, that means the deprecation is the same as well.
 

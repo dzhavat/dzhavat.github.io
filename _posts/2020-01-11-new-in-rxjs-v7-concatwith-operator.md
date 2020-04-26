@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New in RxJS v7: concatWith operator"
+last_updated: 2020-04-26
 ---
 
 [RxJS v7-alpha.1](https://github.com/ReactiveX/rxjs/blob/master/CHANGELOG.md#700-alpha1-2019-12-27) was released a couple of weeks ago and while it’s exciting to see v7 slowing coming along, this release came with only one new feature. It’s an operator called `concatWith`.
@@ -11,7 +12,7 @@ Unfortunately the only available documentation about `concatWith` right now is i
 
 > Emits all of the values from the source observable, then, once it completes, subscribes to each observable source provided, one at a time, emitting all of their values, and not subscribing to the next one until it completes.
 
-Let’s translate this to a simple example ([StackBlitz](https://stackblitz.com/edit/rxjs-cqhd42)):
+Let’s translate this to an example ([StackBlitz](https://stackblitz.com/edit/rxjs-cqhd42)):
 
 ```ts
 import { of } from 'rxjs';

@@ -299,4 +299,4 @@ Samantha Brennan
 
 * [Video](https://www.youtube.com/watch?v=m9ESxDChnIU)
 
-Hope you had a great conference! After arriving home, take a few moments to think about your experience over the last two days — the talks you attended, the conversations you had or the new friendships you created. Hopefully that will inspire you to try something new, get involved in the community, or just feel positive about the direction Angular is going.
+Hope you had a great conference! After arriving home, take a few moments to think about your experience over the last two days — the talks you attended, the conversations you had or the new friendships you created. Hopefully that will inspire you to try something new, get involved in the community, or feel positive about the direction Angular is going.

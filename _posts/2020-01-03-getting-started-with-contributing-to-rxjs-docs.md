@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Getting started with contributing to RxJS docs
-last_updated: 2020-03-18
+last_updated: 2020-04-26
 ---
 
-I use RxJS a lot during my work. One great place to learn more about it is, of course, the [official docs](https://rxjs.dev/). I visit them multiple times a day to look up things. This includes stuff like operators, Observable creation functions, descriptions, marble diagrams, signatures, examples and so on. The examples in particular are quite useful because they help me understand how something is working in practice.
+I use RxJS a lot during my work. The [official docs](https://rxjs.dev/) are a great place to learn more about it. I visit them multiple times a day to look up things. This includes stuff like operators, Observable creation functions, descriptions, marble diagrams, signatures, examples and so on. The examples in particular are quite useful because they help me understand how something is working in practice.
 
 By looking at all that content, I sometimes notice small things that can be improved. It might be a missing dot, a typo, a duplicated word, an outdated example, an extra import, you name it.
 
-I call these “small opportunities”. They give me a reason to get involved with the project and give something back to the community. Sending a fix takes just a few minutes but it improves the state of the docs for everyone. And I certainly feel happy when my pull request (PR) gets merged!
+I call these “small opportunities”. They give me a reason to get involved with the project and give something back to the community. Sending a fix takes a few minutes but it improves the state of the docs for everyone. And I certainly feel happy when my pull request (PR) gets merged!
 
 Are you motivated to contribute to RxJS, but feel overwhelmed by it and don’t know where to start? The docs are a good place. Have you come across something recently that caught your attention? Maybe that’s your “small opportunity”! Did you consider sending a fix? If not immediately then later, when you have a few spare minutes. It doesn’t take long.
 
@@ -57,7 +57,7 @@ Do that by running `npm run lint` from the root `rxjs` folder. If you don’t ge
 
 ## Making a Pull Request (PR)
 
-The lint passes and docs look just about right?
+The lint passes and docs still look fine?
 
 Now create a new branch and commit your changes. Push the branch to your fork. Finally, go to either your fork or RxJS’ repo on GitHub and follow the notification to open a PR.
 
@@ -65,4 +65,4 @@ Now create a new branch and commit your changes. Push the branch to your fork. F
 
 Thanks for taking the time to contribute! You’re making the docs a better place not only for yourself but for everyone else as well. The docs are getting better because of contributions like yours.
 
-You don’t have to fix nasty bugs in order to contribute with something meaningful! So go ahead make that small fix you’ve been thinking about. It’s worth it! And it’s appreciated too!
+You don’t have to fix complicated bugs in order to contribute with something meaningful! So go ahead make that small fix you’ve been thinking about. It’s worth it! And it’s appreciated too!

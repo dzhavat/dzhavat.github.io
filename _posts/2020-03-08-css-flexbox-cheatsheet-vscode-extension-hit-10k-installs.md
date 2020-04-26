@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS Flexbox Cheatsheet VS Code extension hit 10k installs
-last_updated: 2020-04-09
+last_updated: 2020-04-26
 ---
 
 A couple of days ago my [CSS Flexbox Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) VS Code extension hit 10k installs! The initial release was exactly six months ago. That means that, on average, it was installed roughly 55 times per day! Pretty wild! So far it’s gotten five reviews, all positive, rating it with five starts.
@@ -13,7 +13,7 @@ A couple of days ago my [CSS Flexbox Cheatsheet](https://marketplace.visualstudi
 
 This is a huge milestone for me. I had never imagined so many people will want to try it. I’m thankful to every one of them. Hopefully the extension helped them learn something about flexbox and, as a result, had an easier time working with it.
 
-As an extension author, though, I wonder how do people use it? How many times do they open it? Only once and never again? A handful? More? Do they find the illustrations easy to understand? Can I do something to make them even more useful? I miss this kind of feedback and am thinking of ways to start asking for it. So if you use the extension and have some comments about it, please let me know [on Twitter](https://twitter.com/dzhavatushev).
+As an extension author, though, I wonder how do people use it? How many times do they open it? Only once and never again? A handful? Regularly? Do they find the illustrations easy to understand? Can I do something to make them even more useful? I miss this kind of feedback and am thinking of ways to start asking for it. So if you use the extension and have some comments about it, please let me know [on Twitter](https://twitter.com/dzhavatushev).
 
 ### What’s next?
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quickly switching between branches
-last_updated: 2019-07-24
+last_updated: 2020-04-26
 ---
 
 It seems like my post from yesterday about [getting productive with `git checkout`](https://dzhavat.github.io/2019/07/22/getting-productive-with-git-checkout.html) resonated with a lot of people. Some even wrote to tell me that they found the tip useful. Hopefully they will use it in their work as well.
@@ -20,4 +20,4 @@ Turns out, if I use `-` (dash) instead of the branch name, `git` will switch to 
 git checkout -
 ```
 
-Running the same command again will bring me back to `new-feature`. Obviously, using this command will only switch between these two branches. If I want to go to a third one, I still need to write its name.
+Running the same command again will bring me back to `new-feature`. Using this command will only switch between these two branches. If I want to go to a third one, I still need to write its name.

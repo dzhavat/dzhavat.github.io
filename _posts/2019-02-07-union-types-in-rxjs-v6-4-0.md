@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Union types in RxJS v6.4.0
-last_updated: 2019-09-23
+last_updated: 2020-04-26
 ---
 
 A few days ago I published a short [tiny new feature]({{ site.baseurl }}{% post_url 2019-02-02-a-tiny-new-feature-in-rxjs-v6-4-0 %}) of RxJS. In today’s post, I’m going to take a look at some of the bug fixes, how they made RxJS more flexible and the integration with TypeScript a little better.
 
-If you open the [changelog](https://github.com/ReactiveX/rxjs/blob/master/CHANGELOG.md#640-2019-01-30), you’ll see a list of similar looking lines. Here’s a couple of them:
+If you open the [changelog](https://github.com/ReactiveX/rxjs/blob/master/CHANGELOG.md#640-2019-01-30), you’ll see some bug fixes that are very similar. Here’s a couple of them:
 
 ```
 ...
@@ -18,10 +18,10 @@ switchMap: support union type returns (32d35fd)
 
 There are two things you might notice about those messages:
 
-* Some of them mention Observable creation functions, others — flattening operators
+* Some of them mention Observable creation functions, others  —  flattening operators
 * All of them include the words “union type(s)”
 
-So I thought that by understanding how the fix applied just one of each type, I could understand the rest as well. I was also curious to find out what was the behaviour before the fix and whether the fix was going to impact my code in some way going forward.
+So I thought that by understanding how the fix applied to one type, I could understand the rest as well. I was also curious to find out what was the behaviour before the fix and whether the fix was going to impact my code in some way going forward.
 
 One place to look for this kind of information is in a [related PR](https://github.com/ReactiveX/rxjs/pull/4461). Already in the very [first comment](https://github.com/ReactiveX/rxjs/pull/4461#issue-243244247), I found what I needed to know  —  what was the bug, how to reproduce it and what is the solution.
 
@@ -54,7 +54,7 @@ The problem here is that `arg` is of type `number[] | string[]` but `from` expec
 
 How to go around this?
 
-One easy way to trick the compiler would be to make `org` of type `any`. But that eliminates the benefits of having types in first place.
+One way to trick the compiler would be to make `org` of type `any`. But that eliminates the benefits of having types in first place.
 
 ```ts
 ...
@@ -98,7 +98,7 @@ The problem here is that the projection function returns a union type `Observabl
 
 How to go around this?
 
-Again, an easy way would be to mark `x` as `any`. But you’ll lose valuable type information. Another way would be to manually specify the function’s return type but that can get complicated depending on what you want to return.
+Again, one way would be to type `x` as `any`. But you’ll lose valuable type information. Another way would be to manually specify the function’s return type but that can get complicated depending on what you want to return.
 
 ```ts
 ...

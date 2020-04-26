@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Adding an RSS feed to GitHub Pages 
+title: Adding an RSS feed to GitHub Pages
+last_update: 2020-04-26
 ---
 
 Yesterday I decided to add an RSS feed to this blog. I hoped that it was going to be easy since the blog is build with Jekyll and hosted on GitHub Pages. There must be something already build-in, right? 
@@ -39,4 +40,4 @@ This helps if someone wants to subscribe to my blog using a feed reader, like [F
 <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
 ```
 
-That’s it! This took me just a few minutes to figure this out and now I have an [RSS feed of my posts](https://dzhavat.github.io/feed.xml). Subscribe if you want to read them. 😊
+That’s it! This took me a few minutes to figure this out and now I have an [RSS feed of my posts](https://dzhavat.github.io/feed.xml). Subscribe if you want to read them. 😊

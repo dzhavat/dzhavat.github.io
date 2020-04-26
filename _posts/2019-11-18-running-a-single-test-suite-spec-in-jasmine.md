@@ -1,6 +1,7 @@
 ---
 leyout: post
 title: Running a single test suite/spec in Jasmine
+last_updated: 2020-04-26
 ---
 
 Every developer knows that writing tests is important. To me, tests are like an evidence that I present to my team (or my future self) that the code I’ve written actually works the way I claim it be. This sounds nice and stuff but it wasn’t until recently that I started writing actual tests.
@@ -29,7 +30,7 @@ fdescribe("A suite", function() {
 
 ### Running a single spec
 
-Just regular stuff here...
+The usual stuff here...
 
 ```js
 describe("A suite", function() {

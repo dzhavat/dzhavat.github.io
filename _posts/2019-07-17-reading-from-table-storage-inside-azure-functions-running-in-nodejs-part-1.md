@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Reading from Table storage inside Azure Functions running in Node.js (part 1)
-last_updated: 2019-07-24
+last_updated: 2020-04-26
 ---
 
-I spent a lot of time last week figuring out how to read from Table storage inside my Azure Function. I don’t know if it was me, the tutorials I found or the concept in general but something was not working. And it was frustrating. At some point, I finally figured it out but it had already taken me more time than necessary for such a simple task.
+I spent a lot of time last week figuring out how to read from Table storage inside my Azure Function. I don’t know if it was me, the tutorials I found or the concept in general but something was not working. And it was frustrating. At some point, I finally figured it out but it had already taken me more time than necessary for such a task.
 
 So I’m writing the following guide primarily for myself but also for other people who struggle with a similar problem.
 

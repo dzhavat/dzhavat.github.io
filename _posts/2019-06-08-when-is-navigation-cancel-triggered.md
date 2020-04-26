@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When is NavigationCancel triggered?
-last_updated: 2019-09-23
+last_updated: 2020-04-26
 ---
 
 **Update**: After publishing this post, I opened an issue on the Angular repo suggesting to add the cases outlined below to the `NavigationCancel` page. A PR has since been merged, so the info is now part the official docs as well.
@@ -18,7 +18,7 @@ While this was somewhat helpful, I was hoping for more details. In this short po
 
 ### When a route guard returns `false`
 
-This is probably the most obvious one. If you have a [route guard](https://angular.io/guide/router#milestone-5-route-guards) that returns `false` during navigation, you’ll get a `NavigationCancel` event. It doesn’t matter if the return value is `false`, a `Promise` that resolves to `false` or an `Observable` that emits `false`. The end result will be the same.
+If you have a [route guard](https://angular.io/guide/router#milestone-5-route-guards) that returns `false` during navigation, you’ll get a `NavigationCancel` event. It doesn’t matter if the return value is `false`, a `Promise` that resolves to `false` or an `Observable` that emits `false`. The end result will be the same.
 
 ```ts
 canActivate() {
