@@ -1,7 +1,7 @@
 ---
 leyout: post
 title: Running a single test suite/spec in Jasmine
-last_updated: 2020-04-26
+last_updated: 2020-04-28
 ---
 
 Every developer knows that writing tests is important. To me, tests are like an evidence that I present to my team (or my future self) that the code I’ve written actually works the way I claim it be. This sounds nice and stuff but it wasn’t until recently that I started writing actual tests.
@@ -50,6 +50,8 @@ describe("A suite", function() {
 });
 ```
 
-So here you go. If, for whatever reason, you need to run a single suite/spec, you can quickly do so by using `fdescribe` and `fit`. You can find this in the official docs as well. So I’ve definitely not given you the hottest tip out there, but I find it useful. Hope you do as well!
+So here you go. If you need to run a single suite/spec, you can quickly do so by using `fdescribe` and `fit`.
 
-Oh, and before I forget! When you’re done with your tests, don’t commit the `fdescribe`/`fit` because that will give you a false confidence that your tests are successful when in reality it’s only one suite/spec that is being executed.
+But beware! When you’re done with your tests, don’t commit the `fdescribe`/`fit` because that will give you a false confidence that your tests are successful when in reality it’s only one suite/spec that is being executed.
+
+**Update**: I built a [VS Code extension](https://marketplace.visualstudio.com/items?itemName=dzhavat.test-focus-highlighter) that will highlight tests using `fdescribe`/`fit` so you don’t miss them.
