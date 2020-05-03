@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My thoughts on GitHub Discussions
+last_updated: 2020-05-03
 ---
 
 It’s not a secret anymore that GitHub is working on a new feature called “Discussions”. It’s a new place where people can have discussions or ask questions à la StackOverflow. It’s in beta right now and can only be seen in a few selected open source projects like [Tailwind CSS](https://github.com/tailwindcss/tailwindcss/discussions), [Next.js](https://github.com/zeit/next.js/discussions), [ImageMagick](https://github.com/ImageMagick/ImageMagick/discussions) and [Office 365 CLI](https://github.com/pnp/office365-cli/discussions). There are probably others as well.
@@ -36,19 +37,19 @@ We can already see this with Office 365 CLI. They recently [announced on Twitter
 
 With this new place, we can have such separation. Next.js is already going in that direction. They recently opened an [RFC (Request for Comments) thread](https://github.com/zeit/next.js/discussions/11106) under Discussions, whereas this was under Issues before.
 
-One might argue that feature requests belong to Discussions as well but the current implementation is not ready yet. Issues provide labels and milestones which can be quite helpful to categorize and group stuff.
+One might argue that feature requests belong to Discussions as well but the current implementation is not ready yet. Issues provide labels and milestones which can be quite helpful for categorizing and gropuing stuff.
 
 ### It will make the project feel “alive”
 
-It’s a good thing I guess because one of the factors that we use to decide whether a project is still active is how “alive” it feels. If people are engaging, it will mean that the project is still used.
+It’s a good thing, I guess, because one of the factors that we use to decide whether a project is still active is how “alive” it feels. If people are engaging, it means that the project is still used.
 
 ### It will be used for “Thank you” messages (hopefully) 
 
 This might sound unrelated but it actually [comes from GitHub themselves](https://mobile.twitter.com/becca__z/status/1241789221242880007).
 
-A couple of weeks ago I tweeted [an idea for a “Thank you”](https://mobile.twitter.com/dzhavatushev/status/1241619880736182273) page on GitHub where people can share their appreciation for the project. Because we don’t have a specific page for this, many people use the Issues or don’t share at all. Some projects have a [“Thank You” Issue template](https://github.com/xlayers/xlayers/issues/new/choose) for this purpose. There’s a lot of positive words buried in the Issues that deserve to be more visible.
+A couple of weeks ago I tweeted [an idea for a “Thank you” page](https://mobile.twitter.com/dzhavatushev/status/1241619880736182273) on GitHub where people can share their appreciation for the project. Because we don’t have a specific page for this, many people use the Issues or don’t share at all. Some projects have a [“Thank You” Issue template](https://github.com/xlayers/xlayers/issues/new/choose) for this purpose. There’s a lot of positive words buried in the Issues that deserve to be more visible.
 
-So when Discussions appears in your favorite open source project, be sure to be the first to create the “Thank you” thread. Project maintainers and contributors need to hear these positive words! They make a difference!
+So when Discussions appears in your favorite open source project, be sure to be the first to create the “Thank you” thread. Project maintainers and contributors need to hear these positive words! [They make a difference](https://mobile.twitter.com/Vjeux/status/1256757092192358400)!
 
 ### It will encourage more people to contribute
 
@@ -76,6 +77,6 @@ Just like people will be asked to take certain topics in Discussions, they will 
 
 ---
 
-I’m actually quite excited about Discussions. I think it has the potential to bring the community closer to the project, make the project feel “alive” and increase the engagement. There are a couple of pain points but I’m, optimistic that we can turn them positive. I’m looking forward to it.
+I’m actually quite excited about Discussions. I think it has the potential to bring the community closer to the project, make the project feel “alive” and increase the engagement. There are a couple of pain points but I’m optimistic that we can turn them positive. I’m looking forward to it.
 
 What do you think about it?
