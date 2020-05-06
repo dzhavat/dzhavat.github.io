@@ -9,7 +9,7 @@ It’s an extension that visually highlights focused tests in spec files. Here�
 
 <figure>
   <img src="/assets/img/2020/04/27/test-focus-highlighter-demo.gif" alt="Test Focus Highlighter Demo">
-  <figcaption><a href="https://marketplace.visualstudio.com/items?itemName=dzhavat.test-focus-highlighter" target="_blank" rel="noopener">“Test Focus Highlighter”</a> extension</figcaption>
+  <figcaption><a href="https://marketplace.visualstudio.com/items?itemName=dzhavat.test-focus-highlighter" target="_blank" rel="noopener">“Test Focus Highlighter”</a> in action</figcaption>
 </figure>
 
 Why did I build it?
