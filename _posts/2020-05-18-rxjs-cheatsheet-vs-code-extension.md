@@ -20,7 +20,7 @@ While it’s really fun working on the extension, I think it’s wise to test it
 
 In this first version, you’ll see only a handful of Observable-creation functions and operators. I’ve tried to include the most frequently used. Each item contains information about the import path and a marble diagram. There are other things worth including but I’ve kept those for later.
 
-After installing the extension, you can open the cheatsheet by running the “Open RxJS Cheatsheet” command.
+After installing the extension, you can open it by running the “Open RxJS Cheatsheet” command.
 
 If you work with RxJS give it a try and let me know what you think. All ideas and suggestions for improvements are welcome! 🙂
 
