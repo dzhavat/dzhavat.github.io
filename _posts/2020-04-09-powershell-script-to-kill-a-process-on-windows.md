@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PowerShell script to kill a process on Windows
-last_updated: 2020-04-26
+last_updated: 2020-05-23
 ---
 
 A couple of weeks ago I faced an interesting challenge. I had to figure out a way to programmatically start and stop a Node.js server between some tests. The flow was like this: spawn a server before a test, wait for it to respond to a request, run the test, kill the server after the test completes. Repeat the same steps for the next test.
@@ -41,7 +41,7 @@ This solution works fine but **it’s manual**, the commands are **hard to remem
 - find the PID number of that process
 - kill the process
 
-Lets first see the script I ended up with, then we’ll go over it line by line:
+Let’s first see the script I ended up with, then we’ll go over it line by line:
 
 ```shell
 param ($port)
