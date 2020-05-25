@@ -16,40 +16,58 @@ Watch the [entire stream](https://www.youtube.com/watch?v=VuHuqRJQzDc&feature=em
 [John Papa](https://twitter.com/John_Papa)
 
 * Slides: Not yet available
+* [Video](https://youtu.be/VuHuqRJQzDc?t=563)
 
 ### Component Features - The Post Ivy Release-Time
 
 [Martina Kraus](https://twitter.com/MartinaKraus11)
 
 * [Slides](https://slides.com/martinakraus/component-features#/)
+* [Video](https://youtu.be/VuHuqRJQzDc?t=2293)
 
 ### NGRX, or NGXS, or Akita, which one should you choose?
 
 [Devlin Duldulao](https://twitter.com/DevlinDuldulao)
 
-* Slides: Not yet available
-* [Repos used in the presentation](https://github.com/webmasterdevlin?tab=repositories)
+* [Slides](https://slides.com/devlinduldulao/state-management-libs#/)
+* [Video](https://youtu.be/VuHuqRJQzDc?t=3732)
+* Repos used in the talk
+  * [NgRx Course](https://github.com/webmasterdevlin/ngrx-course)
+  * [NGXS Course](https://github.com/webmasterdevlin/ngxs-course)
+  * [Akita Course](https://github.com/webmasterdevlin/akita-course)
+
+### Speaker panel with John Papa, Martina Kraus and Devlin Duldulao
+
+* [Video](https://youtu.be/VuHuqRJQzDc?t=5355)
 
 ### Web Components for Authentication - The what, the how and the why
 
 [Ana Cidre](https://twitter.com/AnaCidre_)
 
+* [Video](https://youtu.be/VuHuqRJQzDc?t=7821)
 * [Slides](https://docs.google.com/presentation/d/1LhFgdJpY5V-U4SARyEmAYqWu7Q8BjQP26m8K3j_0Uc8/edit#slide=id.g7000130fc1_0_0)
 
 ### The Microfrontend Revolution - Using Webpack 5 Module Federation with Angular
 
 [Manfred Steyer](https://twitter.com/ManfredSteyer)
 
+* [Video](https://youtu.be/VuHuqRJQzDc?t=9128)
 * [Slides](https://www.angulararchitects.io/konferenzen/the-microfrontend-revolution-module-federation-with-angular-2/)
 
 ### Angular + Scully - Wicked-fast Angular apps
 
 [Aaron Frost](https://mobile.twitter.com/aaronfrost)
 
-* Slides: Not yet available
+* [Slides](https://docs.google.com/presentation/d/19_2-aHQ6kpeY2rj1rEAqu12lZVaT1S90EaiYwMF8v2Q/edit#slide=id.p)
+* [Video](https://youtu.be/VuHuqRJQzDc?t=11230)
 
 ### Debugging the Performance of 4,860 Angular Apps
 
 [Stephen Fluin](https://twitter.com/stephenfluin)
 
 * Slides: Not yet available
+* [Video](https://youtu.be/VuHuqRJQzDc?t=12713)
+
+### Speaker panel with Ana Cidre, Manfred Steyer, Aaron Frost and Stephen Fluin
+
+* [Video](https://youtu.be/VuHuqRJQzDc?t=14440)
