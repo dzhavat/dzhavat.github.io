@@ -44,15 +44,15 @@ Watch the [entire stream](https://www.youtube.com/watch?v=VuHuqRJQzDc&feature=em
 
 [Ana Cidre](https://twitter.com/AnaCidre_)
 
-* [Video](https://youtu.be/VuHuqRJQzDc?t=7821)
 * [Slides](https://docs.google.com/presentation/d/1LhFgdJpY5V-U4SARyEmAYqWu7Q8BjQP26m8K3j_0Uc8/edit#slide=id.g7000130fc1_0_0)
+* [Video](https://youtu.be/VuHuqRJQzDc?t=7821)
 
 ### The Microfrontend Revolution - Using Webpack 5 Module Federation with Angular
 
 [Manfred Steyer](https://twitter.com/ManfredSteyer)
 
-* [Video](https://youtu.be/VuHuqRJQzDc?t=9128)
 * [Slides](https://www.angulararchitects.io/konferenzen/the-microfrontend-revolution-module-federation-with-angular-2/)
+* [Video](https://youtu.be/VuHuqRJQzDc?t=9128)
 
 ### Angular + Scully - Wicked-fast Angular apps
 
