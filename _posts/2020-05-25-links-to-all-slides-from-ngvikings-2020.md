@@ -5,9 +5,11 @@ title: Links to all slides from ngVikings 2020
 
 It’s that time of the year again! The [ngVikings conference](https://www.ngvikings.org/) is here. It’s fully remote this time due to the global corona pandemic so you get to experience it from the comfort of your home. That doesn’t make it any less valuable! There are amazing speakers delivering great content over a couple of days. You can watch the live stream on the [official website](https://www.ngvikings.org/).
 
-Just like last year, I’m going to collect all the slides in one place so you can spend less time searching and more time learning! 😉
+Just like [last year](https://dzhavat.github.io/2019/05/27/links-to-all-slides-from-ngvikings.html), I’m going to collect all the slides in one place so you can spend less time searching and more time learning! 😉
 
 ## Day 1
+
+Watch the [entire stream](https://www.youtube.com/watch?v=VuHuqRJQzDc&feature=emb_title).
 
 ### 7 D's of Development
 
