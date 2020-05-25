@@ -36,7 +36,9 @@ Watch the [entire stream](https://www.youtube.com/watch?v=VuHuqRJQzDc&feature=em
   * [NGXS Course](https://github.com/webmasterdevlin/ngxs-course)
   * [Akita Course](https://github.com/webmasterdevlin/akita-course)
 
-### Speaker panel with John Papa, Martina Kraus and Devlin Duldulao
+### Speaker panel
+
+John Papa, Martina Kraus and Devlin Duldulao
 
 * [Video](https://youtu.be/VuHuqRJQzDc?t=5355)
 
@@ -68,6 +70,8 @@ Watch the [entire stream](https://www.youtube.com/watch?v=VuHuqRJQzDc&feature=em
 * Slides: Not yet available
 * [Video](https://youtu.be/VuHuqRJQzDc?t=12713)
 
-### Speaker panel with Ana Cidre, Manfred Steyer, Aaron Frost and Stephen Fluin
+### Speaker panel
+
+Ana Cidre, Manfred Steyer, Aaron Frost and Stephen Fluin
 
 * [Video](https://youtu.be/VuHuqRJQzDc?t=14440)
