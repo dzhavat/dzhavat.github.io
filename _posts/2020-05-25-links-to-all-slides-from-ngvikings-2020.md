@@ -141,4 +141,4 @@ Jonathan Share, Marta Wisniewska, Jan Greger Hemb and Natalia Venditto
 
 * [Video](https://youtu.be/B4mqeXbNGkY?t=13047)
 
-Aaaaaand that’s it for this year! Hope you enjoyed the conference and got inspired and learned something new. See you next year. Hopefully in person 😎
+Aaaaaand that’s it for this year! Hope you enjoyed the conference, got inspired and learned something new. See you next year. Hopefully in person 😎
