@@ -4,3 +4,4 @@ plugins:
 title: Dzhavat Ushev’s blog
 description: Welcome to my blog
 author: Dzhavat Ushev
+permalink: /:year/:month/:day/:title:output_ext

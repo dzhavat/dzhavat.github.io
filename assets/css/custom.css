@@ -47,6 +47,16 @@ video {
   box-shadow: none;
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li + li {
+  margin-left: 1rem;
+}
+
 .posts {
   border-left: 1px dashed #aeaeae;
   list-style: none;
@@ -162,12 +172,6 @@ article h2 {
   border: 1px solid #fc4c02;
   border-radius: 6px;
   padding: 1rem;
-}
-
-.strava-card .card-header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
 }
 
 .strava-card h3 {

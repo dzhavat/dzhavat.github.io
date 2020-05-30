@@ -1,11 +1,12 @@
 ---
-title: "Dzhavat Ushev"
+layout: default
+title: Posts
 ---
 
-### Latest posts
+### Posts
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.posts %}
     <li>
       <div class="publish-date"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time></div>
       <a href="{{ post.url }}">{{ post.title }}</a>
