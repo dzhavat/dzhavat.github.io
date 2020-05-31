@@ -7,7 +7,7 @@ title: Projects
 
 I’ve been working on a few personal projects. Here are some of them:
 
-#### VS Code extensions
+#### Visual Studio Code extensions
 
 - [CSS Flexbox Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet)
 - [CSS Initial Value](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-initial-value)
