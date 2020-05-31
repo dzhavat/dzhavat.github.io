@@ -18,8 +18,9 @@ I’ve been working on a few personal projects. Here are some of them:
 
 #### Websites
 
-- [YouDevelop](https://www.youdevelop.net/) - Website for HTML, CSS, JavaScript, etc. tutorials in bulgarian
-- [Learn the bulgarian alphabet](https://dzhavatushev.com/alphabet/)
+- [SalahOnTime](https://salahontime.com/) - Prayer times for a few countries
+- [YouDevelop](https://www.youdevelop.net/) - HTML, CSS and JavaScript tutorials in Bulgarian
+- [Learn the Bulgarian alphabet](https://dzhavatushev.com/alphabet/)
 - [Calendar of the Web](https://github.com/dzhavat/calendar-of-the-web)
 
 #### Browser extensions
