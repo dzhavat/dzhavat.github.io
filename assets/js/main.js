@@ -11,11 +11,12 @@
       clearTimeout(timeoutId);
 
       const template = `
-        <h4>Latest activity</h4>
         <div class="latest-run">
-          <a href="https://www.strava.com/activities/${ response.id }" target="_blank">
-            ${ response.name }
-          </a>
+          <div class="activity-name">
+            <a href="https://www.strava.com/activities/${ response.id }" target="_blank" ref="noopener noreferrer">
+              ${ response.name }
+            </a>
+          </div>
           <div class="stats">
             <div>
               <span class="label">Distance</span>

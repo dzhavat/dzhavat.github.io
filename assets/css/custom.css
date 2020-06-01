@@ -177,26 +177,33 @@ article h2 {
   padding: 1rem;
 }
 
+.strava-card .card-header {
+  margin-bottom: 1rem;
+}
+
 .strava-card h3 {
   color: #e34402;
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.strava-card h4 {
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
-}
+.strava-card .activity-name {
+  margin-bottom: 1rem;
+} 
 
 .strava-card .stats {
   display: flex;
   justify-content: space-between;
-  text-align: center;
 }
 
 .strava-card .label {
   color: #565656;
   font-size: 0.75rem;
+}
+
+.strava-card .label + div {
+  font-size: 1.15rem;
+  line-height: 1.2;
 }
 
 .azure-function-message {
@@ -253,7 +260,7 @@ article h2 {
   }
 
   .strava-card {
-    width: 250px;
+    width: 270px;
   }
 }
 
