@@ -12,7 +12,8 @@ body {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  padding: 0.75rem;
+  margin: 0;
+  padding: 1.2rem;
 }
 
 a {
@@ -139,11 +140,13 @@ hr {
 }
 
 header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 header h1 {
-  margin: 0px;
+  font-size: 1.75rem;
+  margin: 0;
+  margin-bottom: 1.2rem;
 }
 
 header h1 span {
@@ -224,22 +227,45 @@ article h2 {
   background-color: #0c7abf;
 }
 
+.btn-github {
+  background-color: #24292e;
+}
+
+.btn-github:hover {
+  background-color: #515960;
+}
+
 .btn-rss {
   background-color: #b9501f;
+}
+
+.btn-rss:hover {
+  background-color: #923507;
+}
+
+.follow-btns .btn + .btn {
   margin-left: 0.5rem;
 }
 
 @media (min-width: 22em) {
+  header h1 {
+    font-size: 2rem;
+  }
+
   .strava-card {
     width: 250px;
   }
 }
 
-@media (min-width: 32em) {
+@media (min-width: 37.5em) {
   header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+  }
+
+  header h1 {
+    margin-bottom: 0;
   }
   
   .follow-btns {
