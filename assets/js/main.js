@@ -62,24 +62,25 @@
       
   function getLatestActivity() {
     const url = "https://dzhstravaapp.azurewebsites.net/api/Activities";
+    const tenSecondsInTicks = 10 * 1000;
 
     timeoutId = setTimeout(() => {
-      stravaCardBody.innerHTML = getSlowRequestMessage();
-    }, 10 * 1000);
+      stravaCardBody.innerHTML = showSlowRequestMessage();
+    }, tenSecondsInTicks);
 
     return fetch(url)
       .then(response => response.json())
       .then(response => response[0]);
   }
 
-  function getSlowRequestMessage() {
+  function showSlowRequestMessage() {
     return `
       <p>
         <small>Oh, no! The request is running slow*...<br>
         <strong>Not me, though! Wait and see!</strong> 🏃</small>
       </p>
       <p class="azure-function-message">
-        * It's actually an Azure Function trying to do a cold start.
+        * It’s actually an Azure Function doing a cold start.
       </p>`
   }
 
