@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with contributing to RxJS docs
-last_updated: 2020-04-26
+last_updated: 2020-06-18
 category: posts
 ---
 
@@ -66,4 +66,4 @@ Now create a new branch and commit your changes. Push the branch to your fork. F
 
 Thanks for taking the time to contribute! You’re making the docs a better place not only for yourself but for everyone else as well. The docs are getting better because of contributions like yours.
 
-You don’t have to fix complicated bugs in order to contribute with something meaningful! So go ahead make that small fix you’ve been thinking about. It’s worth it! And it’s appreciated too!
+You don’t have to fix complicated bugs in order to contribute with something meaningful! So go ahead make that small fix you’ve been thinking about. It’s worth it! And appreciated too!
