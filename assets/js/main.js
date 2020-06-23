@@ -4,37 +4,65 @@
   const stravaCardBody = document.querySelector('.strava-card .card-body');
   let timeoutId;
 
-  showStartFetchingMessage();
+  if (stravaCardBody) {
+    enhanceStravaCard();
+  }
 
-  getLatestActivity()
-    .then(response => {
-      clearTimeout(timeoutId);
+  if (isDateTimeFormatSupported()) {
+    formatDates();
+  }
 
-      const template = `
-        <div class="latest-run">
-          <div class="activity-name">
-            <a href="https://www.strava.com/activities/${ response.id }" target="_blank" ref="noopener noreferrer">
-              ${ response.name }
-            </a>
-          </div>
-          <div class="stats">
-            <div>
-              <span class="label">Distance</span>
-              <div>${ toKm(response.distance) } km</div>
+  ////////////////
+  
+  function enhanceStravaCard() {
+    showStartFetchingMessage();
+
+    getLatestActivity()
+      .then(response => {
+        clearTimeout(timeoutId);
+
+        const template = `
+          <div class="latest-run">
+            <div class="activity-name">
+              <a href="https://www.strava.com/activities/${ response.id }" target="_blank" ref="noopener noreferrer">
+                ${ response.name }
+              </a>
             </div>
-            <div>
-              <span class="label">Time</span>
-              <div>${ toMin(response.moving_time) } min</div>
+            <div class="stats">
+              <div>
+                <span class="label">Distance</span>
+                <div>${ toKm(response.distance) } km</div>
+              </div>
+              <div>
+                <span class="label">Time</span>
+                <div>${ toMin(response.moving_time) } min</div>
+              </div>
             </div>
           </div>
-        </div>
-      `;
+        `;
 
-      stravaCardBody.innerHTML = template;
-    })
-    .catch(() => {
-      stravaCardBody.innerHTML = '<p><small>Activity failed to load.</small></p>';
+        stravaCardBody.innerHTML = template;
+      })
+      .catch(() => {
+        stravaCardBody.innerHTML = '<p><small>Ouch! The activity request got lost in the Web forest.</small></p>';
+      });
+  }
+
+  function formatDates() {
+    const language = navigator.language;
+
+    const dateTimeOptions = { month: 'long', year: 'numeric', day: 'numeric' };
+    const dateTimeFormat = new Intl.DateTimeFormat(language, dateTimeOptions);
+
+    const publishedDates = [...document.querySelectorAll('.publish-date time')];
+    publishedDates.forEach(date => {
+      date.textContent = dateTimeFormat.format(new Date(date.textContent));
     });
+  }
+
+  function isDateTimeFormatSupported() {
+    return typeof Intl.DateTimeFormat === 'function';
+  }
 
   function toKm(distance) {
     return (distance / 1000).toFixed(2);
@@ -85,6 +113,6 @@
   }
 
   function showStartFetchingMessage() {
-    stravaCardBody.innerHTML = '<p><small>Getting latest activity...</small></p>';
+    stravaCardBody.innerHTML = '<p><small>🏃 to get the latest activity...</small></p>';
   }
 }());
