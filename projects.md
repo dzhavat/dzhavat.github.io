@@ -5,7 +5,7 @@ title: Projects
 
 ### Projects
 
-Some of my side projects:
+Some of my side projects.
 
 #### Visual Studio Code extensions
 
