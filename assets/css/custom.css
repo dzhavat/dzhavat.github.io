@@ -65,7 +65,7 @@ nav ul li + li {
 }
 
 .posts li {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .posts a {
@@ -78,13 +78,15 @@ nav ul li + li {
 }
 
 .publish-date::after {
-  border-bottom: 1px dashed #aeaeae;
+  border: 1px solid #bdbbbb;
+  border-radius: 50%;
+  background-color: white;
   content: "";
-  height: 0px;
-  left: -1.25rem;
+  height: 0.5rem;
+  left: -1.5rem;
   position: absolute;
-  top: 50%;
-  width: 1rem;
+  top: calc(50% - 0.2rem);
+  width: 0.5rem;
 }
 
 figure {
