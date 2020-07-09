@@ -8,7 +8,7 @@ More and more people are getting involved with open source. Some would like to c
 
 It’s not a surprise, then, that there are many articles, guides, videos, events, etc., on this topic. Initiatives like [Hacktoberfest](https://hacktoberfest.digitalocean.com/) are also great at motivating people to create their first pull request. I’ve participated as well during the last two years.
 
-Also at conferences, people would often ask “How do I get started with open source?” or “How do I get involved with the project?”
+Also at conferences, people would often ask “[How do I get started with open source?](https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to)” or “How do I get involved with the project?”
 
 The answer quite often is “Look for Issues tagged with the ‘good first issue’ label”.
 
