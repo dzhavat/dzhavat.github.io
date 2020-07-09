@@ -5,7 +5,7 @@ title: Uses
 
 ### Uses
 
-I got inspired to create this page from a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. First I wanted to share this in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
+I got inspired to create this page from a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. Initially I wanted to share that in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
 
 #### Editor
 
@@ -47,12 +47,12 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 * [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 10 Home.
 * [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) Phone - Specs: 32 GB Storage, 4 GB RAM, Android 10.
 * [Wireless Mouse Logitech M310](https://www.logitech.com/en-us/product/wireless-mouse-m310)
-* [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html) - Noice cancelling Bluetooth headphones.
-* Sennheiser earphones. Don’t remember the model.
+* [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html) - Noise cancelling Bluetooth headphones.
+* [Sennheiser CX 150](https://www.cnet.com/products/sennheiser-cx-150-earphones/)
 * [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html) - Portable Mini Bluetooth speaker. It’s got great sound.
 * [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun and simple. Use it sometimes to track my time when I work in intervals. It reminds me to take a short break after each session.
 
-#### Running
+#### Running gear
 
 I know this one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
