@@ -18,8 +18,8 @@ Some of my side projects.
 
 ### Websites
 
-- [SalahOnTime](https://salahontime.com/) - Prayer times for a few countries
-- [YouDevelop](https://www.youdevelop.net/) - HTML, CSS and JavaScript tutorials in Bulgarian
+- [SalahOnTime](https://salahontime.com/) - Prayer times for a few countries.
+- [YouDevelop](https://www.youdevelop.net/) - HTML, CSS and JavaScript tutorials in Bulgarian.
 - [Learn the Bulgarian alphabet](https://dzhavatushev.com/alphabet/)
 - [Calendar of the Web](https://github.com/dzhavat/calendar-of-the-web)
 
