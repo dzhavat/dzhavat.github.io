@@ -18,7 +18,7 @@ The reality, however, is quite different. Many of the popular open source projec
 
 Let’s say I’m a front-end developer wanting to make my first contribution. I’m using one of the popular frameworks these days and I know that the project is on GitHub. I can fork the project and make it work locally. What should I do next? Can I fix something? What would be a good first issue to work on?
 
-I open the Issues tab and start looking through the lis. Is there something for me? I remember X mentioning the “good first issue” label. Let’s see.
+I open the Issues tab and start looking through the list. Is there something for me? I remember X mentioning the “good first issue” label. Let’s see.
 
 ## Angular
 
@@ -64,6 +64,6 @@ We know the label exists, we mention it on different occasions but it’s not re
 
 Maybe there are issues that are suitable for first time contributors which are not tagged yet? Or people take them so fast that there’s no time for the first time contributor to get involved?
 
-If that is the case, can we restrict the “good first issue” to first time contributors only? Nowadays GitHub shows a nice “*Opened this pull request (their first in @repo)*” label whenever a first-time controbutor makes their first PR in a repo. So if anyone else opens a pull request for an issue labeled as “good first issue” and they are not a first-time contributor, can we politely reject it? Will this make it more likely for first-time contributors to work on the issue?
+If that is the case, can we restrict the “good first issue” to first time contributors only? Nowadays GitHub shows a nice “*Opened this pull request (their first in @repo)*” label whenever a first-time controbutor makes their first PR in a repo. So if anyone else opens a pull request for an issue labeled as “good first issue” and they are not a first-time contributor, can we politely reject it? Will this make it more likely for new contributors to work on the issue?
 
 Welcoming first-time contributors to a project is important because that gives them the opportunity to join the community, grow as developers, learn new things and meet new people. And who knows, some of them might become regular contributors, maintainers or even core members. It might all start with the simple “good first issue” label. Please use it.
