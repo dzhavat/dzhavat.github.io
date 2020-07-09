@@ -9,8 +9,11 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 
 #### Editor
 
-* [VS Code](https://code.visualstudio.com/)
-* Theme: [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) (current), [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl), Dark (Visual Studio) (build-in)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* Themes
+  * [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) by Ahmad Awais (current).
+  * [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) by Sarah Drasner.
+  * Dark (Visual Studio) (build-in).
 * Font: [FiraCode](https://github.com/tonsky/FiraCode/)
 
 #### Browser
