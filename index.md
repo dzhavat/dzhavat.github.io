@@ -3,7 +3,7 @@ layout: default
 title: Posts
 ---
 
-### Posts
+## Posts
 
 <ul class="posts">
   {% for post in site.categories.posts %}

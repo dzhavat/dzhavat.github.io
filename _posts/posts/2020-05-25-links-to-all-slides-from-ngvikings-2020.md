@@ -9,7 +9,7 @@ It’s that time of the year again! The [ngVikings conference](https://www.ngvik
 
 Just like [last year](https://dzhavat.github.io/2019/05/27/links-to-all-slides-from-ngvikings.html), I’m going to collect all the slides in one place so you can spend less time searching and more time learning! 😉
 
-## Day 1
+### Day 1
 
 Watch the [recorded stream](https://www.youtube.com/watch?v=VuHuqRJQzDc).
 
@@ -78,7 +78,7 @@ Ana Cidre, Manfred Steyer, Aaron Frost and Stephen Fluin
 
 * [Video](https://www.youtube.com/watch?v=C_reZh53eTs)
 
-## Day 2
+### Day 2
 
 Watch the [recorded stream](https://www.youtube.com/watch?v=B4mqeXbNGkY).
 

@@ -14,7 +14,7 @@ I attended ngVikings 2019 and it was fantastic! It was my second one, after goin
 
 At the end of each talk, the presenter(s) usually shared links to their slides, demo and other helpful resources. People were taking pictures of those links so I thought of collecting them all in one place for quick reference.
 
-## Day 1
+### Day 1
 
 ### Keynote
 
@@ -182,7 +182,7 @@ Deborah Kurata
 * [GitHub repo](https://github.com/DeborahK/Angular-DD)
 * [Video](https://www.youtube.com/watch?v=HE-xh_RBIno)
 
-## Day 2
+### Day 2
 
 ### Keynote
 

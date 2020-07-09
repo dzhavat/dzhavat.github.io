@@ -18,7 +18,7 @@ Before I start, though, I need to set some limits. In this post, I’m going to 
 
 Let’s get started.
 
-#### Step 1
+### Step 1
 
 First, we need an Azure Function to work with. If you’ve already have one, feel free to skip this step.
 
@@ -32,7 +32,7 @@ First, we need an Azure Function to work with. If you’ve already have one, fee
   <figcaption>Creating a new Azure Function</figcaption>
 </figure>
 
-#### Step 2
+### Step 2
 
 Once the functions is created, you’ll be redirected to a file called `index.js`. This is how an HTTP triggered Azure Function currently looks like. We’ll come back to this page a bit later. Now click on to the “Integrate” tab.
 
@@ -41,7 +41,7 @@ Once the functions is created, you’ll be redirected to a file called `index.js
   <figcaption>Newly created Azure Function</figcaption>
 </figure>
 
-#### Step 3
+### Step 3
 
 On this page you can add different integrations. Right now we’re interested in creating a new Table storage input binding.
 
@@ -54,7 +54,7 @@ On this page you can add different integrations. Right now we’re interested in
   <figcaption>Creating an Azure Table storage binding</figcaption>
 </figure>
 
-#### Step 4
+### Step 4
 
 Next, you’ll be presented with a page where you can set some settings.
 
@@ -71,7 +71,7 @@ Next, you’ll be presented with a page where you can set some settings.
 
 It’s important to note here that even though “Partition key” and “Row key” fields are optional, inputting a value in any of them makes the other one required.
 
-#### Step 5
+### Step 5
 
 Now’s time to come back to the `index.js` file from step 2. Open it and replace its content with the following code (don’t forget to replace `FirstName` with a column name found in your table):
 

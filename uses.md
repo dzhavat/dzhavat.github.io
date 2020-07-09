@@ -3,11 +3,11 @@ layout: default
 title: Uses
 ---
 
-### Uses
+## Uses
 
 I got inspired to create this page from a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. Initially I wanted to share that in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
 
-#### Editor
+### Editor
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * Themes
@@ -16,19 +16,19 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
   * Dark (Visual Studio) (build-in).
 * Font: [FiraCode](https://github.com/tonsky/FiraCode/)
 
-#### Browser
+### Browser
 
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Default browser.
 * [Chrome](https://www.google.com/chrome/) - Use it mainly for debugging website/app performance and to connect to Chromecast. 
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Build-in. Recently got the latest version via Windows Update.
 
-##### Firefox Extensions
+#### Firefox Extensions
 
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 * [LastPass: Free Password Manager](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/)
 * [Tab Count Icon](https://addons.mozilla.org/en-US/firefox/addon/tab-count-icon/)
 
-#### Desktop Apps
+### Desktop Apps
 
 * [ScreenToGif](https://www.screentogif.com/) - The best app for short screen recordings.
 * [Toggl](https://toggl.com/toggl-desktop/) - For tracking my time.
@@ -42,7 +42,7 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 * [OBS Studio](https://obsproject.com/) - In case I want to start streaming someday.
 * [Twitter for Windows](https://www.microsoft.com/en-us/p/twitter/9wzdncrfj140?activetab=pivot:overviewtab) - For checking Twitter once in a while.
 
-#### Hardware
+### Hardware
 
 * [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 10 Home.
 * [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) Phone - Specs: 32 GB Storage, 4 GB RAM, Android 10.
@@ -52,7 +52,7 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 * [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html) - Portable Mini Bluetooth speaker. It’s got great sound.
 * [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun and simple. Use it sometimes to track my time when I work in intervals. It reminds me to take a short break after each session.
 
-#### Running gear
+### Running gear
 
 I know this one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 

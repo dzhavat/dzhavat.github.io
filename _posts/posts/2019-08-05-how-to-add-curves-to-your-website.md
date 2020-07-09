@@ -156,16 +156,20 @@ Here’s the final result ([CodePen](https://codepen.io/dzhavat/full/jgGrgv)):
   <figcaption>Final result</figcaption>
 </figure>
 
-That’s it! Now you know how to add curves or other weird shapes to your website. Now go and get creative! Here are a couple of examples for inspiration.
+That’s it! Now you know how to add curves or other weird shapes to your website. Now go and get creative! 
 
-##### Firefox Developer Edition ([link](https://www.mozilla.org/en-US/firefox/developer/))
+---
+
+Here are a couple of examples if you’re in need of some inspiration.
+
+#### Firefox Developer Edition ([link](https://www.mozilla.org/en-US/firefox/developer/))
 
 <figure>
   <img src="/assets/img/2019/08/05/firefox-dev-edition-curve.jpg" alt="Firefox Developer Edition">
   <figcaption>Firefox Developer Edition</figcaption>
 </figure>
 
-##### Atlassian ([link](https://www.atlassian.com/))
+#### Atlassian ([link](https://www.atlassian.com/))
 
 <figure>
   <img src="/assets/img/2019/08/05/atlassian-curve.jpg" alt="Atlassian">  

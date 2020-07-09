@@ -3,7 +3,7 @@ layout: default
 title: Thoughts
 ---
 
-### Thoughts
+## Thoughts
 
 A place to share unpolished thoughts abouth everything.
 

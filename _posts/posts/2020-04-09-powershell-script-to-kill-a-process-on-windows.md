@@ -13,7 +13,7 @@ In this post I’d like to share the script that I wrote together with some impr
 
 Most blog posts related to killing a process on Windows show the following solution:
 
-#### Step 1 - Get the process id using port number
+### Step 1 - Get the process id using port number
 
 ```shell
 C:\> netstat -ano | findstr "PID :PortNumber"
@@ -24,7 +24,7 @@ C:\> netstat -ano | findstr "PID :PortNumber"
   <figcaption>List of processes using a particular port</figcaption>
 </figure>
 
-#### Step 2 - Kill the process using PID
+### Step 2 - Kill the process using PID
 
 ```shell
 C:\> taskkill /PID pidNumber /F
