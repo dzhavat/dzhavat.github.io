@@ -15,7 +15,7 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 
 #### Browser
 
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/) - My default browser.
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Default browser.
 * [Chrome](https://www.google.com/chrome/) - Use it mainly for debugging website/app performance and to connect to Chromecast. 
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Build-in. Recently got the latest version via Windows Update.
 
@@ -30,22 +30,24 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 * [ScreenToGif](https://www.screentogif.com/) - The best app for short screen recordings.
 * [Toggl](https://toggl.com/toggl-desktop/) - For tracking my time.
 * [Snip & Sketch](https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l?activetab=pivot:overviewtab) - Build-in. It’s perfect for screenshots.
+* [Microsoft To Do](https://todo.microsoft.com/tasks/) - For keeping endless to-do lists.
+* [Windows Terminal](https://github.com/microsoft/terminal) - For when I need to use the command-line.
 * [Gimp](https://www.gimp.org/) - If I need to edit an image. Rarely happens.
 * [XAMPP](https://www.apachefriends.org/index.html) - For setting up PHP development environment. Don’t ask 🙂
 * [HeidiSQL](https://www.heidisql.com/) - For connecting to an SQL database.
 * [FileZilla](https://filezilla-project.org/) - For uploading files to a server.
-* [Microsoft To Do](https://todo.microsoft.com/tasks/) - For keeping endless to-do lists.
-* [Windows Terminal](https://github.com/microsoft/terminal) - For when I need to use the command-line.
 * [OBS Studio](https://obsproject.com/) - In case I want to start streaming someday.
 * [Twitter for Windows](https://www.microsoft.com/en-us/p/twitter/9wzdncrfj140?activetab=pivot:overviewtab) - For checking Twitter once in a while.
 
 #### Hardware
 
 * [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 10 Home.
+* [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) Phone - Specs: 32 GB Storage, 4 GB RAM, Android 10.
 * [Wireless Mouse Logitech M310](https://www.logitech.com/en-us/product/wireless-mouse-m310)
-* [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) - Specs: 32 GB 4 GB RAM, Android 10.
+* [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html) - Noice cancelling Bluetooth headphones.
+* Sennheiser earphones. Don’t remember the model.
 * [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html) - Portable Mini Bluetooth speaker. It’s got great sound.
-* [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun and simple. Use it sometimes to track my time when I work in intervals, reminding me to take a short break after each session.
+* [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun and simple. Use it sometimes to track my time when I work in intervals. It reminds me to take a short break after each session.
 
 #### Running
 
