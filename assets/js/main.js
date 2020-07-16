@@ -54,14 +54,33 @@
     const dateTimeOptions = { month: 'long', year: 'numeric', day: 'numeric' };
     const dateTimeFormat = new Intl.DateTimeFormat(language, dateTimeOptions);
 
-    const publishedDates = [...document.querySelectorAll('.publish-date time')];
-    publishedDates.forEach(date => {
-      date.textContent = dateTimeFormat.format(new Date(date.textContent));
+    const relativeTimeOptions = { numeric: 'auto' };
+    const relativeTimeFormat = new Intl.RelativeTimeFormat(language, relativeTimeOptions);
+
+    const oneDayInMs = 24 * 60 * 60 * 1000;
+    const thirtyDaysInMs = 30 * oneDayInMs;
+
+    const publishDates = [...document.querySelectorAll('.publish-date time')];
+
+    publishDates.forEach(date => {
+      const timeSincePublishInMs = new Date().getTime() - new Date(date.textContent).getTime();
+
+      if ((timeSincePublishInMs > thirtyDaysInMs) || !isRelativeTimeFormatSupported()) {
+        date.textContent = dateTimeFormat.format(new Date(date.textContent));
+      } else {
+        const daysSincePublish = Math.floor(timeSincePublishInMs / oneDayInMs);
+
+        date.textContent = relativeTimeFormat.format(-daysSincePublish, 'day');
+      }
     });
   }
 
   function isDateTimeFormatSupported() {
     return typeof Intl.DateTimeFormat === 'function';
+  }
+
+  function isRelativeTimeFormatSupported() {
+    return typeof Intl.RelativeTimeFormat === 'function';
   }
 
   function toKm(distance) {
