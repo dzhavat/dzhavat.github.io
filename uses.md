@@ -50,11 +50,11 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 * [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html) - Noise cancelling Bluetooth headphones.
 * [Sennheiser CX 150](https://www.cnet.com/products/sennheiser-cx-150-earphones/)
 * [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html) - Portable Mini Bluetooth speaker. It’s got great sound.
-* [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun and simple. Use it sometimes to track my time when I work in intervals. It reminds me to take a short break after each session.
+* [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun and simple. Use it sometimes to track my time when I work in intervals. It reminds me to take short breaks between sessions.
 
 ### Running gear
 
 I know this one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
 * [Nike Air Zoom Pegasus 35](https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL/942851-600)
-* [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellant watch for the casual runner. Have been using it for around three years.
+* [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner. Have been using it for around three years.
