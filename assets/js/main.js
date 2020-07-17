@@ -36,7 +36,7 @@
               </div>
               <div>
                 <span class="label">Time</span>
-                <div>${ toMin(response.moving_time) } min</div>
+                <div>${ formatTime(response.moving_time) } min</div>
               </div>
             </div>
           </div>
@@ -56,6 +56,7 @@
     const dateTimeFormat = new Intl.DateTimeFormat(language, dateTimeOptions);
 
     const relativeTimeOptions = { numeric: 'auto' };
+    // @ts-ignore
     const relativeTimeFormat = new Intl.RelativeTimeFormat(language, relativeTimeOptions);
 
     const oneDayInMs = 24 * 60 * 60 * 1000;
@@ -81,31 +82,41 @@
   }
 
   function isRelativeTimeFormatSupported() {
+    // @ts-ignore
     return typeof Intl.RelativeTimeFormat === 'function';
   }
 
+  /**
+   * @param {number} distance
+   */
   function toKm(distance) {
     return (distance / 1000).toFixed(2);
   }
 
-  function toMin(time) {
-    let hour = Math.floor(time / 3600);
-    let min = Math.floor((time - (hour * 3600)) / 60);
-    let sec = time - (hour * 3600) - (min * 60);
+  /**
+   * @param {number} totalTimeInSeconds
+   */
+  function formatTime(totalTimeInSeconds) {
+    const oneHourInSeconds = 3600;
+    let hours = Math.floor(totalTimeInSeconds / oneHourInSeconds);
+    let minutes = Math.floor((totalTimeInSeconds - (hours * oneHourInSeconds)) / 60);
+    let seconds = totalTimeInSeconds - (hours * oneHourInSeconds) - (minutes * 60);
 
-    if (min.toString().length === 1) {
-      min = `0${min}`;
+    if (minutes < 10) {
+      // @ts-ignore
+      minutes = `0${minutes}`;
     }
     
-    if (sec.toString().length === 1) {
-      sec = `0${sec}`;
+    if (seconds < 10) {
+      // @ts-ignore
+      seconds = `0${seconds}`;
     }
 
-    if (hour) {
-      return `${hour}:${min}:${sec}`;
+    if (hours > 0) {
+      return `${hours}:${minutes}:${seconds}`;
     }
 
-    return `${min}:${sec}`;
+    return `${minutes}:${seconds}`;
   }
       
   function getLatestActivity() {
