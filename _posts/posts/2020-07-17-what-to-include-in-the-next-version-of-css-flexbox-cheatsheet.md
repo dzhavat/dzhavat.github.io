@@ -4,7 +4,7 @@ title: What to include in the next version of “CSS Flexbox Cheatsheet”?
 category: posts
 ---
 
-My [“CSS Flexbox Cheatsheet”](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) VS Code extension is slowly reaching 20k installs! I celebrated the [10k install]({{ site.baseurl }}{% post_url posts/2020-03-08-css-flexbox-cheatsheet-vscode-extension-hit-10k-installs %}) just four months ago. That is absolutely incredible! I’ve never imagined one of my extensions will appeal to so many people. Thanks to every one of them who’s tried it. ❤
+My [“CSS Flexbox Cheatsheet”](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) VS Code extension is slowly reaching 20k installs! I celebrated the [10k install]({{ site.baseurl }}{% post_url posts/2020-03-08-css-flexbox-cheatsheet-vscode-extension-hit-10k-installs %}) just four months ago. That is absolutely incredible! I’ve never imagined one of my extensions will appeal to so many people. Thanks to every one of them. ❤
 
 Now with this new milestone just around the corner, I’m asking myself what is next? How can I make the extension even better and more useful?
 
