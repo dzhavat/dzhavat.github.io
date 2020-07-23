@@ -45,7 +45,7 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 ### Hardware
 
 * [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 10 Home.
-* [Dell 24 USB-C Monitor - P2419HC](https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco)
+* [Dell 24 USB-C Monitor (P2419HC)](https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco)
 * [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) Phone - Specs: 32 GB Storage, 4 GB RAM, Android 10.
 * [Wireless Mouse Logitech M310](https://www.logitech.com/en-us/product/wireless-mouse-m310)
 * [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html) - Noise cancelling Bluetooth headphones.
