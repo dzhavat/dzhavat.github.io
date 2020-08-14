@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My thoughts on GitHub Discussions
-last_updated: 2020-05-23
+last_updated: 2020-08-14
 category: posts
 ---
 
@@ -38,7 +38,7 @@ We can already see this with Office 365 CLI. They recently [announced on Twitter
 
 With this new place, we can have such separation. Next.js is already going in that direction. They recently opened an [RFC (Request for Comments) thread](https://github.com/zeit/next.js/discussions/11106) under Discussions, whereas this was under Issues before.
 
-One might argue that feature requests belong to Discussions as well but the current implementation is not ready yet. Issues provide labels and milestones which can be quite helpful for categorizing and gropuing stuff.
+One might argue that feature requests belong to Discussions as well but the current implementation is not ready yet. Issues provide labels and milestones which can be quite helpful for categorizing and grouping stuff.
 
 ### It will make the project feel “alive”
 
