@@ -49,13 +49,19 @@ video {
 }
 
 nav ul {
+  align-items: flex-start;
+  flex-wrap: wrap;
   display: flex;
   list-style: none;
   padding-left: 0;
 }
 
-nav ul li + li {
-  margin-left: 1rem;
+nav ul li {
+  margin-bottom: 0.75rem;
+}
+
+nav ul li:not(:last-of-type) {
+  margin-right: 1rem;
 }
 
 .posts {
@@ -263,6 +269,12 @@ article h2 {
 
   .strava-card {
     width: 270px;
+  }
+}
+
+@media (min-width: 28em) {
+  nav ul li {
+    margin-bottom: 0;
   }
 }
 
