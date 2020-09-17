@@ -2,6 +2,7 @@
 leyout: post
 title: Screencast Mode in VS Code
 category: posts
+last_updated: 2020-09-17
 ---
 
 This week I released an update to my VS Code extension that lets you [open a flexbox cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) directly in the editor. The update contains a couple of things but something I really like in particular is a small icon shown in front of the `flex` value to make it easily recognizable. But because of it, I had to make new demo gifs since the old ones didn’t have the icon in them.
@@ -27,11 +28,15 @@ By default, activating this mode will show all keystrokes in the overlay. And of
 
 Well, VS Code has got you covered! Again! 😎
 
-If you open the settings (`Ctrl+,` (Win, Linux), `Cmd+,` (Mac)) and search for `Screencast Mode`, you’ll find two settings. One of them is `Only show keyboard shortcuts in Screencast Mode`. It’s pretty clear what it does.
+If you open the settings (`Ctrl+,` (Win, Linux), `Cmd+,` (Mac)) and search for `Screencast Mode`, you’ll find all related settings. One of them is `Only show keyboard shortcuts in Screencast Mode`.
+
+**Update**: The screenshot shows all settings related to Screencast Mode as of VS Code v1.49.0.
 
 <figure>
   <img src="/assets/img/2019/09/18/screencast-mode-settings.jpg" alt="Screencast Mode Settings">
   <figcaption>Screencast Mode Settings</figcaption>
 </figure>
+
+The other settings will help you customize the mouse indicator, the overlay timeout or the font size of the overlay text.
 
 Now you know how to show all those nifty key shortcuts in your videos/gifs. 🚀
