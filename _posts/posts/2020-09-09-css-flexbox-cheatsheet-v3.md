@@ -2,6 +2,7 @@
 layout: post
 title: “CSS Flexbox Cheatsheet” v3
 category: posts
+last_updated: 2020-10-20
 ---
 
 I’m really happy to share a new version of my [“CSS Flexbox Cheatsheet”](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) VS Code extension! 🎉
@@ -15,6 +16,6 @@ Here’s how it works:
   <figcaption>Interactive demos in action</figcaption>
 </figure>
 
-Now I’m looking forward to your feedback! Tell me what you like about it and what you would like to see more. I’ll make sure to add it in a future update 🙂
+Now I’m looking forward to your feedback! Tell me what you like about it and what you would like to see more of. I’ll make sure to add it in a future update 🙂
 
 Go [grab it](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) while it’s hot 🔥
