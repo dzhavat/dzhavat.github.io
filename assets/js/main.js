@@ -127,9 +127,7 @@
       stravaCardBody.innerHTML = showSlowRequestMessage();
     }, tenSecondsInTicks);
 
-    return fetch(url)
-      .then(response => response.json())
-      .then(response => response[0]);
+    return fetch(url).then(response => response.json());
   }
 
   function showSlowRequestMessage() {
