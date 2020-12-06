@@ -22,8 +22,13 @@
       .then(response => {
         clearTimeout(timeoutId);
 
+        const hasPhoto = !!response.photoUrl;
+
+        const photoClass = hasPhoto ? 'has-photo' : '';
+        const inlineStyle = hasPhoto ? `background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent 25%, transparent 60%, rgba(0, 0, 0, 0.5)), url('${response.photoUrl}');` : '';
+
         const template = `
-          <div class="latest-run">
+          <div class="latest-run ${photoClass}" style="${inlineStyle}">
             <div class="activity-name">
               <a href="https://www.strava.com/activities/${ response.id }" target="_blank" ref="noopener noreferrer">
                 ${ response.name }
@@ -45,7 +50,9 @@
         stravaCardBody.innerHTML = template;
       })
       .catch(() => {
-        stravaCardBody.innerHTML = '<p><small>Ouch! The activity request got lost in the Web forest.</small></p>';
+        clearTimeout(timeoutId);
+
+        stravaCardBody.innerHTML = '<p><small>Ouch! The activity request got lost in the Web forest 🌲🌳🌲</small></p>';
       });
   }
 

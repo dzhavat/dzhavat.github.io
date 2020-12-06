@@ -179,12 +179,6 @@ article h2 {
   margin-top: 0;
 }
 
-.strava-card {
-  border: 1px solid #fc4c02;
-  border-radius: 6px;
-  padding: 1rem;
-}
-
 .strava-card .card-header {
   margin-bottom: 1rem;
 }
@@ -193,6 +187,28 @@ article h2 {
   color: #e34402;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.strava-card .latest-run {
+  border-radius: 4px;
+  box-shadow: 0px 0px 7px rgba(87, 87, 87, 0.25);
+  padding: 0.5rem;
+}
+
+.strava-card .latest-run.has-photo {
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  justify-content: space-between;
+}
+
+.strava-card .latest-run.has-photo .activity-name a,
+.strava-card .latest-run.has-photo .label,
+.strava-card .latest-run.has-photo .label + div {
+  color: white;
 }
 
 .strava-card .activity-name {
@@ -266,15 +282,15 @@ article h2 {
   header h1 {
     font-size: 2rem;
   }
-
-  .strava-card {
-    width: 270px;
-  }
 }
 
 @media (min-width: 28em) {
   nav ul li {
     margin-bottom: 0;
+  }
+
+  .strava-card {
+    width: 400px;
   }
 }
 
@@ -295,13 +311,6 @@ article h2 {
 }
 
 @media (min-width: 60em) {
-  body {
-    margin: 0 auto;
-    padding-right: 0;
-    padding-left: 0;
-    width: 43rem;
-  }
-
   figure {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -316,4 +325,39 @@ article h2 {
     padding-right: 1rem;
     margin-bottom: 0;
   }
+
+  .strava-card {
+    width: 360px;
+  }
+}
+
+@media (min-width: 65em) {
+  body,
+  body.post {
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  body {
+    width: 90%;
+  }
+
+  body.post {
+    width: 44rem;
+  }
+}
+
+@media (min-width: 88em) {
+  body {
+    width: 60rem;
+  }
+
+  .strava-card {
+    width: 400px;
+  }
+
+  .strava-card .latest-run.has-photo {
+    height: 250px;
+  }  
 }
