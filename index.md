@@ -7,11 +7,11 @@ title: Posts
 
 <ul class="posts">
   {% for post in site.categories.posts %}
-    <li>
-      <div class="publish-date">
-        <time datetime="{{ post.date | date: '%F' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-      </div>
+    <li class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
+      <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
+        {{ post.date | date: "%B %-d, %Y" }}
+      </time>
     </li>
   {% endfor %}
 </ul>

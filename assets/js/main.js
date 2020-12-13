@@ -69,17 +69,17 @@
     const oneDayInMs = 24 * 60 * 60 * 1000;
     const thirtyDaysInMs = 30 * oneDayInMs;
 
-    const publishDates = [...document.querySelectorAll('.publish-date time')];
+    const dates = [...document.querySelectorAll('.publish-date, .update-date')];
 
-    publishDates.forEach(date => {
-      const timeSincePublishInMs = new Date().getTime() - new Date(date.textContent).getTime();
+    dates.forEach(date => {
+      const timeSinceDateInMs = new Date().getTime() - new Date(date.textContent).getTime();
 
-      if ((timeSincePublishInMs > thirtyDaysInMs) || !isRelativeTimeFormatSupported()) {
+      if ((timeSinceDateInMs > thirtyDaysInMs) || !isRelativeTimeFormatSupported()) {
         date.textContent = dateTimeFormat.format(new Date(date.textContent));
       } else {
-        const daysSincePublish = Math.floor(timeSincePublishInMs / oneDayInMs);
+        const daysSinceDate = Math.floor(timeSinceDateInMs / oneDayInMs);
 
-        date.textContent = relativeTimeFormat.format(-daysSincePublish, 'day');
+        date.textContent = relativeTimeFormat.format(-daysSinceDate, 'day');
       }
     });
   }

@@ -70,20 +70,23 @@ nav ul li:not(:last-of-type) {
   padding-left: 1.25rem;
 }
 
-.posts li {
+.post {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column-reverse;
   margin-bottom: 1.5rem;
-}
-
-.posts a {
-  font-size: 1.15rem;
-}
-
-.posts .publish-date {
-  font-size: 0.75rem;
   position: relative;
 }
 
-.publish-date::after {
+.post .publish-date {
+  font-size: 0.75rem;
+}
+
+.post a {
+  font-size: 1.15rem;
+}
+
+.post::after {
   border: 1px solid #bdbbbb;
   border-radius: 50%;
   background-color: white;
@@ -91,7 +94,7 @@ nav ul li:not(:last-of-type) {
   height: 0.5rem;
   left: -1.5rem;
   position: absolute;
-  top: calc(50% - 0.2rem);
+  top: 10px;
   width: 0.5rem;
 }
 
@@ -173,9 +176,9 @@ article h2 {
   margin-bottom: 0;
 }
 
-.publish-date {
+.post-meta {
   color: #565656;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   margin-top: 0;
 }
 
@@ -338,7 +341,7 @@ article h2 {
 
 @media (min-width: 65em) {
   body,
-  body.post {
+  body.single-post {
     margin: 0 auto;
     padding-right: 0;
     padding-left: 0;
@@ -348,7 +351,7 @@ article h2 {
     width: 90%;
   }
 
-  body.post {
+  body.single-post {
     width: 44rem;
   }
 }
