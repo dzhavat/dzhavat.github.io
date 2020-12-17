@@ -182,6 +182,24 @@ article h2 {
   margin-top: 0;
 }
 
+.confetti-please {
+  --extra-confettiNumber: 220;
+  --extra-confettiLengthVariance: 4;
+  --extra-confettiWeightVariance: 3;
+
+  background-image: paint(extra-confetti);
+}
+
+.post.published-recently.confetti-please {
+  margin-bottom: 0.5rem;
+  padding-bottom: 1.75rem;
+}
+
+.post.published-recently.confetti-please .publish-date,
+.post.published-recently.confetti-please a {
+  background-color: white;
+}
+
 .strava-card .card-header {
   margin-bottom: 1rem;
 }
