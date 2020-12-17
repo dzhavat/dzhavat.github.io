@@ -21,7 +21,7 @@ Some context:
 
 - Laying out the UI foundation of an Angular app so other teams can focus on business features
 - Developing the first business features following best practices so other teams can use them as guidelines
-- Layout out the foundation of a solid and scalable architecture usin [Nx tools](https://nx.dev/angular) so multiple teams can work simultaneously without blocking each other
+- Laying out the foundation of a solid and scalable architecture using [Nx tools](https://nx.dev/angular) so multiple teams can work simultaneously without blocking each other
 - Laying out the foundation for working with automated end-to-end (e2e) tests using a Behavior Driven Development (BDD) process
 - Building a Design System in collaboration with a UI/UX designer
 - Building a few standardized UI components documented in Storybook so other developers can just use them
