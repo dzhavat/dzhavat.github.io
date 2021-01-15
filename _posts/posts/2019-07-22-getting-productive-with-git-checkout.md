@@ -36,7 +36,7 @@ In code that looks like this:
 
 ```bash
 git stash
-git checkout master
+git checkout main
 git checkout -b new-awesome-feature
 git stash pop
 ```

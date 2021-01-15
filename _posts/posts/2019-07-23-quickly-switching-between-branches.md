@@ -9,10 +9,10 @@ It seems like my post from yesterday about [getting productive with `git checkou
 
 Right now I’m sitting in the train on my way home and have a bit of time for another tiny tip. It’s something very simple and easy to do but at the same time gives me joy every time I use it. It’s how I switch between branches.
 
-Say I’ve switched to `new-feature` from `master`. I’ve done some work there and want to go back. They usual way to do this is:
+Say I’ve switched to `new-feature` from `main`. I’ve done some work there and want to go back. They usual way to do this is:
 
 ```bash
-git checkout master
+git checkout main
 ```
 
 Turns out, if I use `-` (dash) instead of the branch name, `git` will switch to the branch I’ve last visited. So the above becomes:
