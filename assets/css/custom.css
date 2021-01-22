@@ -1,6 +1,15 @@
+:root {
+  --border-radius: 4px;
+  --strava-brand-color: #e34402;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 *, 
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -35,9 +44,9 @@ a:hover {
 
 main img {
   box-shadow: 0px 0px 6px #aeaeae;
-  border-radius: 6px;
+  border-radius: var(--border-radius);
   max-width: 100%;
-  padding: 4px;
+  padding: 6px;
 }
 
 video {
@@ -110,7 +119,7 @@ blockquote {
 
 blockquote::before {
   background-color: #32b81f;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   bottom: 0px;
   content: "";
   left: -40px;
@@ -121,7 +130,7 @@ blockquote::before {
 
 code {
   background-color: #f3f3f3;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   font-size: 0.85rem;
   padding: 3px 6px;
 }
@@ -200,18 +209,14 @@ article h2 {
   background-color: white;
 }
 
-.strava-card .card-header {
+.strava-card .strava-card-title {
+  color: var(--strava-brand-color);
   margin-bottom: 1rem;
-}
-
-.strava-card h3 {
-  color: #e34402;
-  margin-bottom: 0;
   margin-top: 0;
 }
 
 .strava-card .latest-run {
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   padding: 0.5rem;
 }
@@ -256,12 +261,30 @@ article h2 {
   line-height: 1.2;
 }
 
+.strava-card .strava-stats {
+  margin-top: 1rem;
+}
+
+.strava-card .strava-stats p {
+  margin: 0.25rem 0;
+}
+
+.strava-card .strava-stats p:last-of-type {
+  margin-bottom: 0.75rem;
+}
+
+.strava-card .goal-progress {
+  background-color: var(--strava-brand-color);
+  border-radius: var(--border-radius);
+  height: 8px;
+}
+
 .azure-function-message {
   font-size: 0.6rem;
 }
 
 .btn {
-  border-radius: 3px;
+  border-radius: var(--border-radius);
   color: white;
   display: inline-block;
   font-size: 0.75rem;

@@ -2,7 +2,8 @@
 (function () {
   'use strict';
 
-  const stravaCardBody = document.querySelector('.strava-card .card-body');
+  const stravaCardBody = document.querySelector('.strava-card-body');
+  const yearlyGoalInKm = 500;
   let timeoutId;
 
   if (stravaCardBody) {
@@ -44,6 +45,14 @@
                 <div>${ formatTime(response.moving_time) } min</div>
               </div>
             </div>
+          </div>
+          <div class="strava-stats">
+            <h4 class="strava-card-title">Year-to-date stats</h4>
+
+            <p>Distance: ${ toKm(response.year_to_date_run_total_distance) } km</p>
+            <p>Goal: ${yearlyGoalInKm} km</p>
+            <p>Progress</p>
+            <div class="goal-progress" style="width: ${ goalProgress(response.year_to_date_run_total_distance) }" title="${ goalProgress(response.year_to_date_run_total_distance) }"></div>
           </div>
         `;
 
@@ -98,10 +107,36 @@
   }
 
   /**
-   * @param {number} distance
+   * @param {number} totalDistanceInMeters
    */
-  function toKm(distance) {
-    return (distance / 1000).toFixed(2);
+  function toKm(totalDistanceInMeters) {
+    const totalKm = convertMetersToKm(totalDistanceInMeters);
+
+    return totalKm.toFixed(2);
+  }
+
+  /**
+   * @param {number} totalDistanceInMeters
+   */
+  function goalProgress(totalDistanceInMeters) {
+    const totalKm = convertMetersToKm(totalDistanceInMeters);
+    const goalProgressInPercentage = (totalKm / yearlyGoalInKm) * 100;
+
+    if (goalProgressInPercentage >= 100) {
+      return '100%';
+    }
+
+    return `${goalProgressInPercentage.toFixed(2)}%`;
+  }
+
+  /**
+   * @param {number} distanceInMeters
+   */
+  function convertMetersToKm(distanceInMeters) {
+    const oneKmInMeters = 1000;
+    const totalKm = (distanceInMeters / oneKmInMeters);
+
+    return totalKm;
   }
 
   /**
