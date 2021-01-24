@@ -4,6 +4,9 @@
 
   const stravaCardBody = document.querySelector('.strava-card-body');
   const yearlyGoalInKm = 500;
+  /**
+   * @type {number}
+   */
   let timeoutId;
 
   if (stravaCardBody) {
@@ -145,16 +148,22 @@
   function formatTime(totalTimeInSeconds) {
     const oneHourInSeconds = 3600;
     let hours = Math.floor(totalTimeInSeconds / oneHourInSeconds);
+
+    /**
+     * @type {number | string}
+     */
     let minutes = Math.floor((totalTimeInSeconds - (hours * oneHourInSeconds)) / 60);
+
+    /**
+     * @type {number | string}
+     */
     let seconds = totalTimeInSeconds - (hours * oneHourInSeconds) - (minutes * 60);
 
     if (minutes < 10) {
-      // @ts-ignore
       minutes = `0${minutes}`;
     }
     
     if (seconds < 10) {
-      // @ts-ignore
       seconds = `0${seconds}`;
     }
 
