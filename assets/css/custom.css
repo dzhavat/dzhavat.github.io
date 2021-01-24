@@ -263,6 +263,7 @@ article h2 {
 
 .strava-card .strava-stats {
   margin-top: 1rem;
+  position: relative;
 }
 
 .strava-card .strava-stats p {
@@ -277,6 +278,18 @@ article h2 {
   background-color: var(--strava-brand-color);
   border-radius: var(--border-radius);
   height: 8px;
+}
+
+.strava-card .goal-progress::after {
+  content: '';
+  background-color: rgba(128, 128, 128, 0.2);
+  bottom: 0;
+  border-radius: var(--border-radius);
+  height: 8px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
 }
 
 .azure-function-message {
