@@ -172,8 +172,10 @@ header h1 {
 header h1 span {
   display: inline-block;
   opacity: 0;
+  position: relative;
   transform: translateY(-20px);
-  transition: opacity .15s ease-out, transform .3s ease-out
+  transition: opacity .15s ease-out, transform .3s ease-out;
+  z-index: 2;
 }
 
 header h1:hover span {
