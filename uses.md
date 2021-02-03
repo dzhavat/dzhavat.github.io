@@ -11,14 +11,16 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * Themes
-  * [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) by Ahmad Awais (current).
+  * Dark+ (default dark) (build-in) (current).
+  * [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) by Ahmad Awais.
   * [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) by Sarah Drasner.
-  * Dark (Visual Studio) (build-in).
-* Font: [FiraCode](https://github.com/tonsky/FiraCode/)
+* Fonts
+  * [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (current).
+  * [FiraCode](https://github.com/tonsky/FiraCode/).
 
 ### Browser
 
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Default browser.
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/) (default).
 * [Chrome](https://www.google.com/chrome/) - Use it mainly for debugging website/app performance and to connect to Chromecast. 
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Build-in. Recently got the latest version via Windows Update.
 
