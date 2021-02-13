@@ -5,7 +5,7 @@ title: Uses
 
 ## Uses
 
-I got inspired to create this page from a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. Initially I wanted to share that in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
+This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. Initially, I wanted to share this in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
 
 ### Editor
 
@@ -57,7 +57,7 @@ I got inspired to create this page from a [post on DEV.to](https://dev.to/nickyt
 
 ### Running gear
 
-I know this one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
+This one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
 * [Nike Air Zoom Pegasus 35](https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL/942851-600)
-* [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner. Have been using it for around three years.
+* [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner. Have been using it for around four years.
