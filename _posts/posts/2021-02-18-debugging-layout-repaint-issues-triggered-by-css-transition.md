@@ -45,6 +45,11 @@ The next step was to see whether the page’s content was split in any “layers
 
 I used the “Layer borders” option in Edge DevTools for that but didn’t really understand it. Also tried to use the `will-change` property to [force a new layer creation](https://web.dev/animations-guide/#force) but that didn’t help much either.
 
+<figure>
+  <img src="/assets/img/2021/02/18/displaying-layer-borders.png" alt="">
+  <figcaption>Displaying layer borders</figcaption>
+</figure>
+
 ### What about “stacking context”?
 
 Next on the list was [“stacking context”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context).
