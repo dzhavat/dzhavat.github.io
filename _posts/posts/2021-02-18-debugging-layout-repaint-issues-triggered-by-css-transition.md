@@ -9,7 +9,11 @@ A couple of weeks ago I was randomly checking the performance of a CSS Transitio
 The element being animated is a `span` wrapping some text placed inside an `h1`. The `h1` itself is in the upper left corner on the page and contains my name. Initially, only the letter “D” is shows. The remaining part fades-in on hover.
 
 <figure>
-  <img src="/assets/img/2021/02/18/css-transition-causing-repaint.webp" alt="">
+  <picture>
+    <source type="image/webp" srcset="/assets/img/2021/02/18/css-transition-causing-repaint.webp">
+    <source type="image/gif" srcset="/assets/img/2021/02/18/css-transition-causing-repaint.gif">
+    <img src="/assets/img/2021/02/18/css-transition-causing-repaint.gif" alt="">
+  </picture>
   <figcaption>CSS Transition causing a repaint on the whole page (in Edge with “Paint flashing” enabled)</figcaption>
 </figure>
 
@@ -46,7 +50,7 @@ The next step was to see whether the page’s content was split in any “layers
 I used the “Layer borders” option in Edge DevTools for that but didn’t really understand it. Also tried to use the `will-change` property to [force a new layer creation](https://web.dev/animations-guide/#force) but that didn’t help much either.
 
 <figure>
-  <img src="/assets/img/2021/02/18/displaying-layer-borders.png" alt="">
+  <img src="/assets/img/2021/02/18/displaying-layer-borders.jpg" alt="">
   <figcaption>Displaying layer borders</figcaption>
 </figure>
 
@@ -63,7 +67,7 @@ In my case, the `span` element contained `opacity` and `transform`. Other elemen
 Once I realized that the repaint issue might be due to a *stacking context*, I opened the 3D View panel in Edge DevTools to check:
 
 <figure>
-  <img src="/assets/img/2021/02/18/3D-View-panel-in-Edge-DevTools-z-index-auto.png" alt="">
+  <img src="/assets/img/2021/02/18/3D-View-panel-in-Edge-DevTools-z-index-auto.jpg" alt="">
   <figcaption>3D View panel in Edge DevTools</figcaption>
 </figure>
 
@@ -88,14 +92,18 @@ h1 span {
 After adding these two properties, the repainting issue was gone:
 
 <figure>
-  <img src="/assets/img/2021/02/18/css-transition-problem-fixed.webp" alt="">
+  <picture>
+    <source type="image/webp" srcset="/assets/img/2021/02/18/css-transition-problem-fixed.webp">
+    <source type="image/gif" srcset="/assets/img/2021/02/18/css-transition-problem-fixed.gif">
+    <img src="/assets/img/2021/02/18/css-transition-problem-fixed.gif" alt="">
+  </picture>
   <figcaption>CSS Transition optimized to repaint a single element</figcaption>
 </figure>
 
 Sure enough, the 3D View in Edge DevTools also confirmed that the `span` was moved to the topmost stack (marked with `z-index: 2` in the screenshot below):
 
 <figure>
-  <img src="/assets/img/2021/02/18/3D-View-panel-in-Edge-DevTools-z-index-2.png" alt="">
+  <img src="/assets/img/2021/02/18/3D-View-panel-in-Edge-DevTools-z-index-2.jpg" alt="">
   <figcaption>3D View panel in Edge DevTools</figcaption>
 </figure>
 
