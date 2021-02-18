@@ -15,7 +15,7 @@ The element being animated is a `span` wrapping some text placed inside an `h1`.
 
 I was quite surprised to see the whole page flashing green given the transition was scoped to a very isolated element. I didn’t really see any connection between animating a `span` and causing repaint on the whole page.
 
-So I went down a rabit hole in attempt to figure this out.
+So I went down a rabbit hole in attempt to figure this out.
 
 ### What exactly am I animating?
 
@@ -99,7 +99,7 @@ Sure enough, the 3D View in Edge DevTools also confirmed that the `span` was mov
   <figcaption>3D View panel in Edge DevTools</figcaption>
 </figure>
 
-I’m glad that I got to the bottom of this. This small optimization probably didn’t make a huge performance difference on the page but it was definitely an interesting journey with a lot of learnings.
+I’m glad that I got to the bottom of this. This small optimization probably didn’t make a huge performance difference on the page but it was definitely an interesting journey with a lot of learning.
 
 So, at the end it wasn’t the CSS transition itself that was causing the issue, but the elements and their stacking order.
 
