@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add curves to your website
-last_updated: 2019-08-13
+updated: 2019-08-13
 category: posts
 ---
 

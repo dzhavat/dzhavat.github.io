@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quickly switching between branches
-last_updated: 2020-04-26
+updated: 2020-04-26
 category: posts
 ---
 

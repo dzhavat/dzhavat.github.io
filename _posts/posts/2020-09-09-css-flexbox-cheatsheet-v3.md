@@ -2,7 +2,7 @@
 layout: post
 title: “CSS Flexbox Cheatsheet” v3
 category: posts
-last_updated: 2020-10-20
+updated: 2020-10-20
 ---
 
 I’m really happy to share a new version of my [“CSS Flexbox Cheatsheet”](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) VS Code extension! 🎉

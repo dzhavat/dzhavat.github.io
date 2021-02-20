@@ -1,7 +1,7 @@
 ---
 leyout: post
 title: Running a single test suite/spec in Jasmine
-last_updated: 2020-04-28
+updated: 2020-04-28
 category: posts
 ---
 

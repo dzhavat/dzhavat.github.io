@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading from Table storage inside Azure Functions running in Node.js (part 1)
-last_updated: 2020-04-26
+updated: 2020-04-26
 category: posts
 ---
 

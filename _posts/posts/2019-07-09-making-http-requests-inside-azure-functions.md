@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making HTTP requests inside Azure Functions
-last_updated: 2020-04-26
+updated: 2020-04-26
 category: posts
 ---
 

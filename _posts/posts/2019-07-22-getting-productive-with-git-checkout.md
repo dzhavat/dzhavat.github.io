@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting productive with git checkout
-last_updated: 2019-09-23
+updated: 2019-09-23
 category: posts
 ---
 

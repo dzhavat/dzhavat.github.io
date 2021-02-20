@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deprecations in RxJS v6.4.0
-last_updated: 2020-05-30
+updated: 2020-05-30
 category: posts
 ---
 

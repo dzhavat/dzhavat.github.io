@@ -1,6 +1,6 @@
 <p class="post-meta">
   Published: <time class="publish-date" datetime="{{ page.date | date: '%F' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-  {% if page.last_updated %}
-    | Updated: <time class="update-date" datetime="{{ page.last_updated | date: '%F' }}">{{ page.last_updated | date: "%B %-d, %Y" }}</time>
+  {% if page.updated %}
+    | Updated: <time class="update-date" datetime="{{ page.updated | date: '%F' }}">{{ page.updated | date: "%B %-d, %Y" }}</time>
   {% endif %}
 </p>

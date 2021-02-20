@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PowerShell script to kill a process on Windows
-last_updated: 2020-05-23
+updated: 2020-05-23
 category: posts
 ---
 

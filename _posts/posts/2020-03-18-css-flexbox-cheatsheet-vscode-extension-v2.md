@@ -1,7 +1,7 @@
 ---
 layout: post
 title: “CSS Flexbox Cheatsheet” VS Code extension v2
-last_updated: 2020-08-08
+updated: 2020-08-08
 category: posts
 ---
 

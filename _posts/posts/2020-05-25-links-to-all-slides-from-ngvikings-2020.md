@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Links to all slides from ngVikings 2020
-last_updated: 2020-06-16
+updated: 2020-06-16
 category: posts
 ---
 

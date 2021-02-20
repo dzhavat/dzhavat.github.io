@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My thoughts on GitHub Discussions
-last_updated: 2020-08-14
+updated: 2020-08-14
 category: posts
 ---
 

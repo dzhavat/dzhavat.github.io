@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VS Code extension that shows the initial value of a CSS property
-last_updated: 2019-09-10
+updated: 2019-09-10
 category: posts
 ---
 

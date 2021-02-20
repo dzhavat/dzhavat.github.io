@@ -1,7 +1,7 @@
 ---
 leyout: post
 title: VS Code extension that lets you open the MDN docs of a CSS property
-last_updated: 2019-09-10
+updated: 2019-09-10
 category: posts
 ---
 

@@ -1,7 +1,7 @@
 ---
 leyout: post
 title: Flexbox cheatsheet inside VS Code
-last_updated: 2019-09-10
+updated: 2019-09-10
 category: posts
 ---
 

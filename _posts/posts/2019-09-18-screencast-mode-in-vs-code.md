@@ -2,7 +2,7 @@
 leyout: post
 title: Screencast Mode in VS Code
 category: posts
-last_updated: 2020-09-17
+updated: 2020-09-17
 ---
 
 This week I released an update to my VS Code extension that lets you [open a flexbox cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet) directly in the editor. The update contains a couple of things but something I really like in particular is a small icon shown in front of the `flex` value to make it easily recognizable. But because of it, I had to make new demo gifs since the old ones didn’t have the icon in them.

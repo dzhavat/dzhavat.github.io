@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with contributing to RxJS docs
-last_updated: 2020-06-18
+updated: 2020-06-18
 category: posts
 ---
 
