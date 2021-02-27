@@ -65,11 +65,11 @@ In my case, the `span` element contained `opacity` and `transform`. Other elemen
 
 💡
 
-Once I realized that the repaint issue might be due to a *stacking context*, I opened the 3D View panel in Edge DevTools to check:
+Once I realized that the repaint issue might be due to a *stacking context*, I opened the [“3D View”](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/3d-view/) panel in Edge DevTools to check:
 
 <figure>
   <img src="/assets/img/2021/02/18/3D-View-panel-in-Edge-DevTools-z-index-auto.jpg" alt="">
-  <figcaption>3D View panel in Edge DevTools</figcaption>
+  <figcaption><a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/3d-view/">“3D View”</a> panel in Edge DevTools</figcaption>
 </figure>
 
 By looking at the visualization, I could clearly see that the `span` element (marked with `z-index: auto` on the screenshot) was “below” some other elements. What this meant in practice was whenever the element in the “lower” stacking context was repainted, the browser had to repaint the elements in the “higher” stacking contexts as well.
@@ -101,7 +101,7 @@ After adding these two properties, the repainting issue was gone:
   <figcaption>CSS Transition optimized to repaint a single element</figcaption>
 </figure>
 
-Sure enough, the 3D View in Edge DevTools also confirmed that the `span` was moved to the topmost stack (marked with `z-index: 2` in the screenshot below):
+Sure enough, the 3D View also confirmed that the `span` was moved to the topmost stack (marked with `z-index: 2` in the screenshot below):
 
 <figure>
   <img src="/assets/img/2021/02/18/3D-View-panel-in-Edge-DevTools-z-index-2.jpg" alt="">
