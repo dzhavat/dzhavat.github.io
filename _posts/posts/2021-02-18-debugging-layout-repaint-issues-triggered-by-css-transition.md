@@ -2,6 +2,7 @@
 layout: post
 title: Debugging layout repaint issues triggered by CSS Transition
 category: posts
+updated: 2020-02-27
 ---
 
 A couple of weeks ago I was randomly checking the performance of a CSS Transition here on my blog. I was expecting to see a butter smooth animation but ended up surprised 😲. The transition was triggering repaint on pretty much the whole page every time it ran.
@@ -51,7 +52,7 @@ I used the “Layer borders” option in Edge DevTools for that but didn’t rea
 
 <figure>
   <img src="/assets/img/2021/02/18/displaying-layer-borders.jpg" alt="">
-  <figcaption>Displaying layer borders</figcaption>
+  <figcaption>Displaying layer borders in Edge</figcaption>
 </figure>
 
 ### What about “stacking context”?
@@ -110,6 +111,11 @@ Sure enough, the 3D View in Edge DevTools also confirmed that the `span` was mov
 I’m glad that I got to the bottom of this. This small optimization probably didn’t make a huge performance difference on the page but it was definitely an interesting journey with a lot of learning.
 
 So, at the end it wasn’t the CSS transition itself that was causing the issue, but the elements and their stacking order.
+
+#### Further reading
+
+* [Understanding Z-Index in CSS](https://ishadeed.com/article/understanding-z-index/)
+* [What the heck, z-index??](https://www.joshwcomeau.com/css/stacking-contexts/)
 
 ---
 
