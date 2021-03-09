@@ -51,7 +51,7 @@ Here’s a demo of how this works on Windows:
 
 <figure>
   <img src="/assets/img/2021/03/09/disabling-animations-on-windows.gif" alt="">
-  <figcaption>Disabling animations in Windows and verifying that Angular animations are also disabled during bootstrap</figcaption>
+  <figcaption>Disabling animations in Windows and verifying that Angular animations are also disabled</figcaption>
 </figure>
 
 To see how to disable animations on other OSs, checkout the [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) article on MDN.
