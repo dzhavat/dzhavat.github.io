@@ -58,4 +58,4 @@ To see how to disable animations on other OSs, checkout the [`prefers-reduced-mo
 
 One thing to keep in mind is that once the app is done bootstrapping, it’s no longer possible to disable/enable animations again.
 
-Thanks to [Kristiyan Kostadinov](https://twitter.com/_crisbeto) for this [contribution]((https://github.com/angular/angular/pull/40731)).
+Thanks to [Kristiyan Kostadinov](https://twitter.com/_crisbeto) for this [contribution](https://github.com/angular/angular/pull/40731).
