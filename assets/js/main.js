@@ -18,7 +18,7 @@
   }
 
   ////////////////
-  
+
   function enhanceStravaCard() {
     showStartFetchingMessage();
 
@@ -34,28 +34,28 @@
         const template = `
           <div class="latest-run ${photoClass}" style="${inlineStyle}">
             <div class="activity-name">
-              <a href="https://www.strava.com/activities/${ response.id }" target="_blank" ref="noopener noreferrer">
-                ${ response.name }
+              <a href="https://www.strava.com/activities/${response.id}" target="_blank" ref="noopener noreferrer">
+                ${response.name}
               </a>
             </div>
             <div class="stats">
               <div>
                 <span class="label">Distance</span>
-                <div>${ toKm(response.distance) } km</div>
+                <div>${toKm(response.distance)} km</div>
               </div>
               <div>
                 <span class="label">Time</span>
-                <div>${ formatTime(response.moving_time) } min</div>
+                <div>${formatTime(response.moving_time)} min</div>
               </div>
             </div>
           </div>
           <div class="strava-stats">
             <h4 class="strava-card-title">Year-to-date stats</h4>
 
-            <p>Distance: ${ toKm(response.year_to_date_run_total_distance) } km</p>
+            <p>Distance: ${toKm(response.year_to_date_run_total_distance)} km</p>
             <p>Goal: ${yearlyGoalInKm} km</p>
             <p>Progress</p>
-            <div class="goal-progress" style="width: ${ goalProgress(response.year_to_date_run_total_distance) }" title="${ goalProgress(response.year_to_date_run_total_distance) }"></div>
+            <div class="goal-progress" style="width: ${goalProgress(response.year_to_date_run_total_distance)}" title="${goalProgress(response.year_to_date_run_total_distance)}"></div>
           </div>
         `;
 
@@ -71,6 +71,9 @@
   function formatDates() {
     const language = navigator.language;
 
+    /**
+     * @type Intl.DateTimeFormatOptions
+     */
     const dateTimeOptions = { month: 'long', year: 'numeric', day: 'numeric' };
     const dateTimeFormat = new Intl.DateTimeFormat(language, dateTimeOptions);
 
@@ -162,7 +165,7 @@
     if (minutes < 10) {
       minutes = `0${minutes}`;
     }
-    
+
     if (seconds < 10) {
       seconds = `0${seconds}`;
     }
@@ -173,7 +176,7 @@
 
     return `${minutes}:${seconds}`;
   }
-      
+
   function getLatestActivity() {
     const url = "https://dzhstravaapp.azurewebsites.net/api/Activities";
     const tenSecondsInTicks = 10 * 1000;

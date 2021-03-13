@@ -1,7 +1,7 @@
 highlighter: rouge
 plugins:
   - jekyll-feed
-title: Dzhavat Ushev’s blog
+title: Dzhavat Ushev Blog
 description: Welcome to my blog
 author: Dzhavat Ushev
 permalink: /:year/:month/:day/:title:output_ext
