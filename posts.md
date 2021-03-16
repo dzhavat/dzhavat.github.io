@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Home
+title: Posts
 ---
 
-## Recent posts
+## Posts
 
 <ul class="posts">
-  {% for post in site.categories.posts limit:6 %}
+  {% for post in site.categories.posts %}
     <li class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
@@ -15,5 +15,3 @@ title: Home
     </li>
   {% endfor %}
 </ul>
-
-[See all posts](/posts)
