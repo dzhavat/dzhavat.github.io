@@ -5,15 +5,16 @@ title: Uses
 
 ## Uses
 
-This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. Initially, I wanted to share this in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
+This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. I wanted to share this in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
 
 ### Editor
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * Themes
-  * Dark+ (default dark) (build-in) (current).
+  * [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) by Derek Sifford (current).
   * [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) by Ahmad Awais.
   * [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) by Sarah Drasner.
+  * Dark+ (default dark) (build-in).
 * Fonts
   * [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (current).
   * [FiraCode](https://github.com/tonsky/FiraCode/).
@@ -42,7 +43,6 @@ This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-h
 * [HeidiSQL](https://www.heidisql.com/) - For connecting to an SQL database.
 * [FileZilla](https://filezilla-project.org/) - For uploading files to a server.
 * [OBS Studio](https://obsproject.com/) - In case I want to start streaming someday.
-* [Twitter for Windows](https://www.microsoft.com/en-us/p/twitter/9wzdncrfj140?activetab=pivot:overviewtab) - For checking Twitter once in a while.
 
 ### Hardware
 
