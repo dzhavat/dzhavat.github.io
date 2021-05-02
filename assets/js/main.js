@@ -30,6 +30,7 @@
 
         const photoClass = hasPhoto ? 'has-photo' : '';
         const inlineStyle = hasPhoto ? `background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent 25%, transparent 60%, rgba(0, 0, 0, 0.5)), url('${response.photoUrl}');` : '';
+        const progressInPercentage = goalProgress(response.year_to_date_run_total_distance);
 
         const template = `
           <div class="latest-run ${photoClass}" style="${inlineStyle}">
@@ -52,10 +53,10 @@
           <div class="strava-stats">
             <h4 class="strava-card-title">Year-to-date stats</h4>
 
-            <p>Distance: ${toKm(response.year_to_date_run_total_distance)} km</p>
             <p>Goal: ${yearlyGoalInKm} km</p>
+            <p>Distance: ${toKm(response.year_to_date_run_total_distance)} km</p>
             <p>Progress</p>
-            <div class="goal-progress" style="width: ${goalProgress(response.year_to_date_run_total_distance)}" title="${goalProgress(response.year_to_date_run_total_distance)}"></div>
+            <div class="goal-progress" style="width: ${progressInPercentage}" title="${progressInPercentage}"></div>
           </div>
         `;
 
