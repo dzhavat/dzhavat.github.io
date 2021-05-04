@@ -59,5 +59,6 @@ This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-h
 
 This one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
-* [Nike Air Zoom Pegasus 35](https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL/942851-600)
+* [Garmin Forerunner 245](https://buy.garmin.com/en-US/US/p/628939/) - Just bought it. It’s a lot of fun so far.
 * [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner. Have been using it for around four years.
+* [Nike Air Zoom Pegasus 35](https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL/942851-600)
