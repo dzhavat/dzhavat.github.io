@@ -20,10 +20,12 @@ VS Code is build with Electron which comes with a Chrome browser built-in. Not o
 3. Press `Ctrl + Shift + P` (Win/Linux), `Cmd + Shift + P` (Mac) to open the command panel
 4. Search for the `Open Webview Developer Tools` command
 
+Once you go through the steps, you’ll get an DevTools instance in a separate window. You can use it to select HTML elements, tweak CSS styles or put breakpoints in JavaScript, much like the way you are used to when debug a normal webpage.
+
 **Update**: As of VS Code v1.56 (April 2021 release), it is also possible to debug/inspect webviews using the standard DevTools (i.e. by running the `Developer: Toggle Developer Tools` command). Read more in the [release notes](https://code.visualstudio.com/updates/v1_56#_easier-inspecting-of-webviews).
 
-That’s all! Once you do that, you’ll get an instance of DevTools in a separate window. You can use it to select HTML elements, tweak CSS styles or put breakpoints in JavaScript, much like the way you are used to debug a normal webpage.
+That’s all! Happy debugging.
 
-That’s all! Happy debugging. Oh, and if you prefer video, I’ve made a short clip of the steps above.
+Oh, if you prefer video, I’ve made a short clip showing the steps above.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YSxSzRp6s4o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
