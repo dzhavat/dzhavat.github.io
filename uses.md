@@ -5,7 +5,7 @@ title: Uses
 
 ## Uses
 
-This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-have-a-uses-page-5b82). I like the idea of sharing what’s in my toolbox as a front-end developer. I wanted to share this in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
+I like the idea of sharing what’s in my toolbox as a front-end developer. I wanted to share this in a blog post but I guess having it as a dedicated page works better. Feel free to take whatever tools you like. I promise to not charge you anything.
 
 ### Editor
 
@@ -22,8 +22,8 @@ This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-h
 ### Browser
 
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) (default).
-* [Chrome](https://www.google.com/chrome/) - Use it mainly for debugging website/app performance and to connect to Chromecast. 
-* [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Build-in. Recently got the latest version via Windows Update.
+* [Chrome](https://www.google.com/chrome/) - Use it mainly for debugging website/app performance and to connect to Chromecast.
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Built-in.
 
 #### Firefox Extensions
 
@@ -35,7 +35,7 @@ This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-h
 
 * [ScreenToGif](https://www.screentogif.com/) - The best app for short screen recordings.
 * [Toggl](https://toggl.com/toggl-desktop/) - For tracking my time.
-* [Snip & Sketch](https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l?activetab=pivot:overviewtab) - Build-in. It’s perfect for screenshots.
+* [Snip & Sketch](https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l?activetab=pivot:overviewtab) - Built-in. Perfect for screenshots.
 * [Microsoft To Do](https://todo.microsoft.com/tasks/) - For keeping endless to-do lists.
 * [Windows Terminal](https://github.com/microsoft/terminal) - For when I need to use the command-line.
 * [Gimp](https://www.gimp.org/) - If I need to edit an image. Rarely happens.
@@ -60,5 +60,5 @@ This page is inspired by a [post on DEV.to](https://dev.to/nickytonline/do-you-h
 This one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
 * [Garmin Forerunner 245](https://buy.garmin.com/en-US/US/p/628939/) - Just bought it. It’s a lot of fun so far.
-* [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner. Have been using it for around four years.
+* [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner.
 * [Nike Air Zoom Pegasus 35](https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL/942851-600)
