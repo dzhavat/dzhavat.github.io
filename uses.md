@@ -23,7 +23,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) (default).
 * [Chrome](https://www.google.com/chrome/) - Use it mainly for debugging website/app performance and to connect to Chromecast.
-* [Microsoft Edge](https://www.microsoft.com/en-us/edge) - Built-in.
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge)
 
 #### Firefox Extensions
 
@@ -57,8 +57,9 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 ### Running gear
 
-This one is not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
+Not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
 * [Garmin Forerunner 245](https://buy.garmin.com/en-US/US/p/628939/) - Just bought it. It’s a lot of fun so far.
 * [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105) - Excellent watch for the casual runner.
-* [Nike Air Zoom Pegasus 35](https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL/942851-600)
+* [Nike Air Zoom Pegasus 37](https://www.nike.com/running/runningzoom-pegasus-37)
+* [Nike Air Zoom Pegasus 35](https://www.runnersworld.com/gear/a22167080/nike-air-zoom-pegasus-35-redesigned-review/)
