@@ -1,8 +1,10 @@
+To run the website locally: `jekyll serve`
+
 ## License
 
 ### Non-code
 
-Any content *other than code* is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/).
+Any content _other than code_ is licensed under [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ### Code
 
