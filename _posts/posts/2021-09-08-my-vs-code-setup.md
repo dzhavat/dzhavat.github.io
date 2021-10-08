@@ -2,6 +2,7 @@
 layout: post
 title: My VS Code setup
 category: posts
+updated: 2021-10-08
 ---
 
 I got a new work laptop recently and part of the setup process was installing and configuring VS Code to match my preferences. This usually takes a bit of time because I cannot always remember all the settings and extensions that I tweak or install. I’m aware that VS Code supports syncing of settings, extensions, etc. across devices but it’s not always possible to login with my GitHub/Microsoft account. So here are the settings and extensions that I usually change/add to a brand new VS Code installation.
@@ -44,7 +45,8 @@ I got a new work laptop recently and part of the setup process was installing an
   "typescript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterNames.enabled": "all",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true
 }
 ```
 
