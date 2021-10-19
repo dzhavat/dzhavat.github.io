@@ -129,6 +129,10 @@ blockquote::before {
   width: 4px;
 }
 
+.highlighter-rouge {
+  margin-bottom: 1rem;
+}
+
 code {
   background-color: #f3f3f3;
   border-radius: var(--border-radius);
