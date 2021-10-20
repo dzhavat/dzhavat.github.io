@@ -152,3 +152,5 @@ A downside is that the template will grow in size if more button styles have to 
 As for adding more requirements, that’s a valid concern. New use cases come up all the time and some of them will probably need to be supported at some point. Is the component flexible enough to allow that?
 
 Some might stop here and say that the solution is good enough. After all, it fulfills the current requirements. Others might be curious to see other solutions and see how we can extend the component to support more requirements. That is what we’re going to explore in part 2 (coming soon).
+
+Thanks to [Lars Gyrup Brink Nielsen](https://twitter.com/LayZeeDK/) for reviewing this post.
