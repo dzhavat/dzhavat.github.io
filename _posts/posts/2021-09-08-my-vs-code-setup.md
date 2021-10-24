@@ -16,8 +16,6 @@ I got a new work laptop recently and part of the setup process was installing an
   "git.autofetch": true,
   "git.confirmSync": false,
   "editor.fontFamily": "'JetBrains Mono'",
-  "webhint.enableTelemetry": "disabled",
-  "editor.wordWrap": "wordWrapColumn",
   "workbench.editor.untitled.labelFormat": "name",
   "diffEditor.ignoreTrimWhitespace": false,
   "githubIssues.queries": [
@@ -31,6 +29,7 @@ I got a new work laptop recently and part of the setup process was installing an
     }
   ],
   "editor.rulers": [120],
+  "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 120,
   "screencastMode.onlyKeyboardShortcuts": true,
   "gitlens.hovers.currentLine.over": "line",
@@ -46,7 +45,11 @@ I got a new work laptop recently and part of the setup process was installing an
   "javascript.inlayHints.parameterNames.enabled": "all",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.guides.bracketPairs": true
+  "editor.guides.bracketPairs": true,
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120
+  }
 }
 ```
 
