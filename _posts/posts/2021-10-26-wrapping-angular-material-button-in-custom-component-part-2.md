@@ -89,7 +89,7 @@ The code was improved a tiny bit. Can we do better?
 
 What if instead of using `ngIf`s to decide which button to show, we move that logic in the component’s class and use another Angular API to instantiate the relevant component dynamically?
 
-Meet [ngComponentOutlet](https://angular.io/api/common/NgComponentOutlet). As written in the documentation, this directive _provides a declarative approach for dynamic component creation._ Declarative, meaning we tell Angular which component to instantiate and where to place it. The rest, like rendering it on the page, updating it on changes and destroying it, is handled by the framework.
+Meet [NgComponentOutlet](https://angular.io/api/common/NgComponentOutlet). As written in the documentation, this directive _provides a declarative approach for dynamic component creation._ Declarative, meaning we tell Angular which component to instantiate and where to place it. The rest, like rendering it on the page, updating it on changes and destroying it, is handled by the framework.
 
 Let’s see it in practice.
 
