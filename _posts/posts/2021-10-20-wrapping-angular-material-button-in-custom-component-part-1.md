@@ -2,6 +2,14 @@
 layout: post
 title: Wrapping Angular Material button in custom Angular component (part 1)
 category: posts
+updated: 2021-10-26
+---
+
+This post is part of a series:
+
+- Wrapping Angular Material button in custom Angular component (part 1) - Introduction, basic requirements, simple solution
+- [Wrapping Angular Material button in custom Angular component (part 2)](https://dzhavat.github.io/2021/10/26/wrapping-angular-material-button-in-custom-component-part-2.html) - Refactoring the final solution from part 1
+
 ---
 
 I was recently working on a button component as part of a Design System based on Angular Material. While working on this component, I faced some interesting challenges which I would like to share with you in this and following posts.
@@ -151,6 +159,6 @@ A downside is that the template will grow in size if more button styles have to 
 
 As for adding more requirements, that’s a valid concern. New use cases come up all the time and some of them will probably need to be supported at some point. Is the component flexible enough to allow that?
 
-Some might stop here and say that the solution is good enough. After all, it fulfills the current requirements. Others might be curious to see other solutions and see how we can extend the component to support more requirements. That is what we’re going to explore in part 2 (coming soon).
+Some might stop here and say that the solution is good enough. After all, it fulfills the current requirements. Others might be curious to see other solutions and see how we can extend the component to support more requirements. That is something we’re going to explore in [part 2](https://dzhavat.github.io/2021/10/26/wrapping-angular-material-button-in-custom-component-part-2.html).
 
 Thanks to [Lars Gyrup Brink Nielsen](https://twitter.com/LayZeeDK/) for reviewing this post.
