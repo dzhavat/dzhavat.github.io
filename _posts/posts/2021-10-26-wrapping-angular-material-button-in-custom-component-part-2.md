@@ -140,7 +140,7 @@ The template is much cleaner now. There’s no repetitive logic. We send two pro
 Demo time 🎉 ([StackBlitz](https://stackblitz.com/edit/angular-nh42jz-mk48ht?file=src%2Fapp%2Fmy-button%2Fmy-button.component.html))
 
 <figure>
-  <img src="/assets/img/2021/10/25/solution-2-demo.jpg" alt="">
+  <img src="/assets/img/2021/10/26/solution-2-demo.jpg" alt="">
   <figcaption>Demo to solution 2: All buttons are still displayed correctly</figcaption>
 </figure>
 
