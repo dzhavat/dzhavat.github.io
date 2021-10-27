@@ -2,12 +2,13 @@
 layout: post
 title: Wrapping Angular Material button in custom Angular component (part 2)
 category: posts
+updated: 2021-10-27
 ---
 
 This post is part of a series:
 
-- [Wrapping Angular Material button in custom Angular component (part 1)](https://dzhavat.github.io/2021/10/20/wrapping-angular-material-button-in-custom-component-part-1.html) - Introduction, basic requirements, simple solution
-- Wrapping Angular Material button in custom Angular component (part 2) - Refactoring the final solution from part 1
+- [Part 1](https://dzhavat.github.io/2021/10/20/wrapping-angular-material-button-in-custom-component-part-1.html) - Introduction, basic requirements, simple solution
+- Part 2 - Refactoring the final solution from part 1
 
 ---
 
