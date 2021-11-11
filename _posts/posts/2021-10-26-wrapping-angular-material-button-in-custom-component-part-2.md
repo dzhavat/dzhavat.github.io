@@ -86,7 +86,7 @@ export class PrimaryButtonComponent {}
 
 The code was improved a tiny bit. Can we do better?
 
-#### Solution 2
+### Solution 2
 
 What if instead of using `ngIf`s to decide which button to show, we move that logic in the component’s class and use another Angular API to instantiate the relevant component dynamically?
 

@@ -25,7 +25,7 @@ So my task was to wrap an Angular Material button in our own component and expos
 
 Let’s recreate that component in this series of posts.
 
-## Requirements
+### Requirements
 
 Well, the first step is to define some basic requirements:
 
@@ -33,7 +33,7 @@ Well, the first step is to define some basic requirements:
 - Button’s text must go between the opening and closing tags of the component.
 - The button must support three different styles depending on its usage - as a primary, secondary or a text button.
 
-### One component or three components?
+#### One component or three components?
 
 By reading the second requirement, a valid question might arise. Should we create a single component and control its style with an [Input](https://angular.io/api/core/Input) property or three separate components - one for each style? I think having only one component is better because the consumers of the Design System will have only one way to display a button and adding support for more styles later on is easier.
 
@@ -49,11 +49,11 @@ So based on this, two more requirements can be specified:
 
 How would you build it?
 
-## Implementation
+### Implementation
 
 There are a number of ways to approach the problem. In this, and following posts, I’m going to share **my** solution(s). If you have a different solution, questions, or tips that can help me improve my solution(s), please let me know. I’ll be happy to learn from you!
 
-### Solution 1
+#### Solution 1
 
 Let’s start with something simple to see if we can make it work.
 
@@ -108,7 +108,7 @@ What I get out of this is that we cannot use more than one `<ng-content>` elemen
 
 So solution 1 cannot be used to implement the requirements. We need to find something else.
 
-### Solution 2
+#### Solution 2
 
 In this solution we’re going to take Angular’s recommendation and use `<ng-template>`. Some minor adjustments in the HTML template are necessary. Component’s class can stay the same.
 
