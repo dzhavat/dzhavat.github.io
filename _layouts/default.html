@@ -1,16 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }} | Dzhavat Ushev</title>
 
-    <meta name="google-site-verification" content="myIv9g0szZwjZ8dYBtedNqm58wtN50DR2xIBVdFRcro" />
+    <meta
+      name="google-site-verification"
+      content="myIv9g0szZwjZ8dYBtedNqm58wtN50DR2xIBVdFRcro"
+    />
 
-    <link href="/assets/css/rouge-github.css" rel="stylesheet">
-    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link href="/assets/css/rouge-github.css" rel="stylesheet" />
+    <link href="/assets/css/custom.css" rel="stylesheet" />
 
-    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="{{ site.title }}"
+      href="/feed.xml"
+    />
 
     <link rel="canonical" href="{{ site.url }}" />
   </head>
@@ -29,12 +37,10 @@
     </nav>
 
     <div class="container">
-      <main>
-        {{ content }}
-      </main>
+      <main>{{ content }}</main>
       <aside>
         <div class="strava-card">
-          <h4 class="strava-card-title">Latest run on Strava</h4>
+          <h3 class="strava-card-title">Latest run on Strava</h3>
           <div class="strava-card-body"></div>
         </div>
       </aside>
