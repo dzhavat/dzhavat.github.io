@@ -55,4 +55,4 @@ As a side note, I’m not saying that it’s impossible to keep the style consis
 
 Do you have other points that are not mentioned above? Share them on the [Twitter thread](https://twitter.com/dzhavatushev/status/1457794614509768705).
 
-Thanks to everyone who responded to my question and inspired this post ♥
+Thanks to everyone who responded to my question and inspired this post ❤️
