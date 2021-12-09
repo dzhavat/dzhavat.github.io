@@ -1,7 +1,7 @@
 ---
-leyout: post
+layout: post
 title: Running a single test suite/spec in Jasmine
-updated: 2021-02-25
+updated: 2021-12-09
 category: posts
 ---
 
@@ -16,7 +16,7 @@ I’ve already asked myself this question. And there’s a simple solution:
 By using `fdescribe` instead of `describe`, Jasmine will only run that particular test suite.
 
 ```js
-fdescribe("Awesome feature", function() {
+fdescribe("Awesome feature", function () {
   // ... specs here
 });
 ```
@@ -26,12 +26,10 @@ fdescribe("Awesome feature", function() {
 By using `fit` instead of `it`, Jasmine will run only that particular spec.
 
 ```js
-describe("Awesome feature", function() {
-
-  fit("should check whether `true` is really `true`", function() {
+describe("Awesome feature", function () {
+  fit("should check whether `true` is really `true`", function () {
     expect(true).toBe(true);
   });
-
 });
 ```
 

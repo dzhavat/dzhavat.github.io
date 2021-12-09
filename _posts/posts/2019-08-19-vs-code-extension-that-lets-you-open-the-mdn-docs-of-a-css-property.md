@@ -1,5 +1,5 @@
 ---
-leyout: post
+layout: post
 title: VS Code extension that lets you open the MDN docs of a CSS property
 updated: 2019-09-10
 category: posts

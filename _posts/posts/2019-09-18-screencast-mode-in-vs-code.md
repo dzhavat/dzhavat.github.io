@@ -1,5 +1,5 @@
 ---
-leyout: post
+layout: post
 title: Screencast Mode in VS Code
 category: posts
 updated: 2020-09-17
@@ -11,9 +11,9 @@ For recording gifs I use [ScreenToGif](https://www.screentogif.com/). It’s an 
 
 So VS Code, once again, helped me out because it has this exact functionality already build-in! It’s called “Screencast Mode”. You can toggle it on and off by searching for it in the “Command Pallete”. Here’s how:
 
-* Press `Ctrl+Shift+P` (Win, Linux) or `Cmd+Shift+P` (Mac) and search for `Toggle Screencast Mode`.
-* Press `Enter` to activate it.
-* (Repeat the steps to deactivate it)
+- Press `Ctrl+Shift+P` (Win, Linux) or `Cmd+Shift+P` (Mac) and search for `Toggle Screencast Mode`.
+- Press `Enter` to activate it.
+- (Repeat the steps to deactivate it)
 
 Now every keystroke will be shown in an overlay. Check this out:
 

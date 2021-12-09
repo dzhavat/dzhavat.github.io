@@ -1,5 +1,5 @@
 ---
-leyout: post
+layout: post
 title: Flexbox cheatsheet inside VS Code
 updated: 2019-09-10
 category: posts
@@ -13,7 +13,7 @@ Over the last few years [flexbox](https://developer.mozilla.org/en-US/docs/Learn
 
 But there’s a problem! Remembering all flexbox properties can be hard. I know it’s hard for me! Should I use `justify-content` or `align-items` to do X? What values does `justify-content` accept? There are quite many of them and we’re not always sure which one does what. That’s why we have our favorite articles, guides, cheatsheets, etc., to consult during those times. But they all “live” outside of the code editor and that forces us to switch context.
 
-A week ago I asked myself “Why not have a flexbox cheatsheet inside VS Code where I can quickly look up what I need and continue my work? Why do I need to switch context? Why isn’t there a tool that lets me do that?”. That’d be great, right? 
+A week ago I asked myself “Why not have a flexbox cheatsheet inside VS Code where I can quickly look up what I need and continue my work? Why do I need to switch context? Why isn’t there a tool that lets me do that?”. That’d be great, right?
 
 I think so too, so I built it! 🚀
 
@@ -26,8 +26,8 @@ I’m thrilled to share my new extension [“CSS Flexbox Cheatsheet”](https://
 
 Currently there are two ways to open the cheatsheet:
 
-* By pressing `Ctrl+Shift+P` (Win) / `Cmd+Shift+P` (Mac) and searching for the `Open Flexbox Cheatsheet` command.
-* Hovering any `display: flex` declaration and clicking the `Open Flexbox Cheatsheet` link in the popup (as shown in the demo).
+- By pressing `Ctrl+Shift+P` (Win) / `Cmd+Shift+P` (Mac) and searching for the `Open Flexbox Cheatsheet` command.
+- Hovering any `display: flex` declaration and clicking the `Open Flexbox Cheatsheet` link in the popup (as shown in the demo).
 
 I have a few ideas for future improvements but I’d like to share it with the world in order to get feedback. So if you work with CSS, please [give it a try](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet). I hope you find it useful.
 
