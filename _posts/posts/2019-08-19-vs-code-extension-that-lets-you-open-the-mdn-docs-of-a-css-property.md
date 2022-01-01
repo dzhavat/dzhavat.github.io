@@ -1,17 +1,19 @@
 ---
 layout: post
 title: VS Code extension that lets you open the MDN docs of a CSS property
-updated: 2019-09-10
+updated: 2022-01-01
 category: posts
 ---
 
-**Update**: As of [v1.38](https://code.visualstudio.com/updates/v1_38), VS Code supports the functionality provided by this extension natively as well! I’m quite happy about it because I didn’t know they were going to implement something similar. And what’s even better is that they also show a link to MDN for HTML elements! Now go and update to the latest version of VS Code. It’s worth it! 😎
+**Update 2**: After the extension was deprecated almost two years ago, it was time to move on. I removed it from the Marketplace and archived the repo. All links to it from this post were also removed. A heartfelt thank you to everyone who used the extension ❤️
+
+**Update 1**: As of [v1.38](https://code.visualstudio.com/updates/v1_38), VS Code supports the functionality provided by this extension natively as well! I’m quite happy about it because I didn’t know they were going to implement something similar. And what’s even better is that they also show a link to MDN for HTML elements! Now go and update to the latest version of VS Code. It’s worth it! 😎
 
 ---
 
 After releasing [my first VS Code extension](https://dzhavat.github.io/2019/08/13/vs-code-extension-that-shows-the-initial-value-of-a-css-property.html) last week, I got an idea for another one. This one lets you open the MDN docs of a CSS property. Quite simple! The link appears on hover.
 
-The extension is conveniently called [CSS to MDN](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-to-mdn).
+The extension is conveniently called “_CSS to MDN_”.
 
 Here’s a demo:
 
