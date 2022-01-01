@@ -23,19 +23,23 @@
     showStartFetchingMessage();
 
     getLatestActivity()
-      .then(response => {
-        clearTimeout(timeoutId);
-
+      .then((response) => {
         const hasPhoto = !!response.photoUrl;
 
         const photoClass = hasPhoto ? 'has-photo' : '';
-        const inlineStyle = hasPhoto ? `background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent 25%, transparent 60%, rgba(0, 0, 0, 0.5)), url('${response.photoUrl}');` : '';
-        const progressInPercentage = goalProgress(response.year_to_date_run_total_distance);
+        const inlineStyle = hasPhoto
+          ? `background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent 25%, transparent 60%, rgba(0, 0, 0, 0.5)), url('${response.photoUrl}');`
+          : '';
+        const progressInPercentage = goalProgress(
+          response.year_to_date_run_total_distance
+        );
 
         const template = `
           <div class="latest-run ${photoClass}" style="${inlineStyle}">
             <div class="activity-name">
-              <a href="https://www.strava.com/activities/${response.id}" target="_blank" ref="noopener noreferrer">
+              <a href="https://www.strava.com/activities/${
+                response.id
+              }" target="_blank" ref="noopener noreferrer">
                 ${response.name}
               </a>
             </div>
@@ -54,7 +58,9 @@
             <h4 class="strava-card-title">Year-to-date stats</h4>
 
             <p>Goal: ${yearlyGoalInKm} km</p>
-            <p>Distance: ${toKm(response.year_to_date_run_total_distance)} km</p>
+            <p>Distance: ${toKm(
+              response.year_to_date_run_total_distance
+            )} km</p>
             <p>Progress</p>
             <div class="goal-progress" style="width: ${progressInPercentage}" title="${progressInPercentage}"></div>
           </div>
@@ -63,9 +69,11 @@
         stravaCardBody.innerHTML = template;
       })
       .catch(() => {
+        stravaCardBody.innerHTML =
+          '<p><small>Ouch! The activity request got lost in the Web forest 🌲🌳🌲</small></p>';
+      })
+      .finally(() => {
         clearTimeout(timeoutId);
-
-        stravaCardBody.innerHTML = '<p><small>Ouch! The activity request got lost in the Web forest 🌲🌳🌲</small></p>';
       });
   }
 
@@ -80,17 +88,24 @@
 
     const relativeTimeOptions = { numeric: 'auto' };
     // @ts-ignore
-    const relativeTimeFormat = new Intl.RelativeTimeFormat(language, relativeTimeOptions);
+    const relativeTimeFormat = new Intl.RelativeTimeFormat(
+      language,
+      relativeTimeOptions
+    );
 
     const oneDayInMs = 24 * 60 * 60 * 1000;
     const thirtyDaysInMs = 30 * oneDayInMs;
 
     const dates = [...document.querySelectorAll('.publish-date, .update-date')];
 
-    dates.forEach(date => {
-      const timeSinceDateInMs = new Date().getTime() - new Date(date.textContent).getTime();
+    dates.forEach((date) => {
+      const timeSinceDateInMs =
+        new Date().getTime() - new Date(date.textContent).getTime();
 
-      if ((timeSinceDateInMs > thirtyDaysInMs) || !isRelativeTimeFormatSupported()) {
+      if (
+        timeSinceDateInMs > thirtyDaysInMs ||
+        !isRelativeTimeFormatSupported()
+      ) {
         date.textContent = dateTimeFormat.format(new Date(date.textContent));
       } else {
         const daysSinceDate = Math.floor(timeSinceDateInMs / oneDayInMs);
@@ -98,7 +113,10 @@
         date.textContent = relativeTimeFormat.format(-daysSinceDate, 'day');
 
         if (!isSinglePostPage() && daysSinceDate < 4) {
-          date.parentElement.classList.add('published-recently', 'confetti-please');
+          date.parentElement.classList.add(
+            'published-recently',
+            'confetti-please'
+          );
         }
       }
     });
@@ -141,7 +159,7 @@
    */
   function convertMetersToKm(distanceInMeters) {
     const oneKmInMeters = 1000;
-    const totalKm = (distanceInMeters / oneKmInMeters);
+    const totalKm = distanceInMeters / oneKmInMeters;
 
     return totalKm;
   }
@@ -156,12 +174,14 @@
     /**
      * @type {number | string}
      */
-    let minutes = Math.floor((totalTimeInSeconds - (hours * oneHourInSeconds)) / 60);
+    let minutes = Math.floor(
+      (totalTimeInSeconds - hours * oneHourInSeconds) / 60
+    );
 
     /**
      * @type {number | string}
      */
-    let seconds = totalTimeInSeconds - (hours * oneHourInSeconds) - (minutes * 60);
+    let seconds = totalTimeInSeconds - hours * oneHourInSeconds - minutes * 60;
 
     if (minutes < 10) {
       minutes = `0${minutes}`;
@@ -179,14 +199,14 @@
   }
 
   function getLatestActivity() {
-    const url = "https://dzhstravaapp.azurewebsites.net/api/Activities";
+    const url = 'https://dzhstravaapp.azurewebsites.net/api/Activities';
     const tenSecondsInTicks = 10 * 1000;
 
     timeoutId = setTimeout(() => {
       stravaCardBody.innerHTML = showSlowRequestMessage();
     }, tenSecondsInTicks);
 
-    return fetch(url).then(response => response.json());
+    return fetch(url).then((response) => response.json());
   }
 
   function showSlowRequestMessage() {
@@ -197,15 +217,15 @@
       </p>
       <p class="azure-function-message">
         * It’s actually an Azure Function doing a cold start.
-      </p>`
+      </p>`;
   }
 
   function showStartFetchingMessage() {
-    stravaCardBody.innerHTML = '<p><small>🏃 to get the latest activity...</small></p>';
+    stravaCardBody.innerHTML =
+      '<p><small>🏃 to get the latest activity...</small></p>';
   }
 
   function isSinglePostPage() {
     return document.body.classList.contains('single-post');
   }
-
-}());
+})();
