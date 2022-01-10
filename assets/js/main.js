@@ -19,6 +19,24 @@
 
   ////////////////
 
+  animateFavicon();
+
+  function animateFavicon() {
+    const h1 = document.querySelector('h1');
+    /**
+     * @type {HTMLLinkElement}
+     */
+    const favIcon = document.querySelector('head > link[rel="icon"]');
+
+    h1.addEventListener('mouseenter', (event) => {
+      favIcon.href = '/assets/img/favicon-animated.svg';
+    });
+
+    h1.addEventListener('mouseleave', (event) => {
+      favIcon.href = '/assets/img/favicon.svg';
+    });
+  }
+
   function enhanceStravaCard() {
     showStartFetchingMessage();
 
