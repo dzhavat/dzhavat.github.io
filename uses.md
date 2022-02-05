@@ -65,3 +65,7 @@ Not related to front-end development but [I’m more than just a developer](http
 - [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105)
 - [Nike Air Zoom Pegasus 37](https://www.nike.com/running/runningzoom-pegasus-37)
 - [Nike Air Zoom Pegasus 35](https://www.runnersworld.com/gear/a22167080/nike-air-zoom-pegasus-35-redesigned-review/)
+
+My current running winter gear
+
+![Running winter gear](/assets/img/2022/02/06/running-winter-gear.jpg)
