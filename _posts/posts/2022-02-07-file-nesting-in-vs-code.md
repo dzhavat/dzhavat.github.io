@@ -4,7 +4,7 @@ title: File nesting in VS Code
 category: posts
 ---
 
-[VS Code v1.64](https://code.visualstudio.com/updates/v1_64) was released a few days ago and it’s once again packaged with nice new features and improvements. An excitig new feature is the [Side Panel](https://code.visualstudio.com/updates/v1_64#_new-side-panel) that can be opened oposite to the Side Bar, i.e. the “other side of the screen”, giving you the option to have more views open at once. I can see how that can be useful on bigger screens.
+[VS Code v1.64](https://code.visualstudio.com/updates/v1_64) was released a few days ago and it’s once again packaged with nice new features and improvements. An exciting new feature is the [Side Panel](https://code.visualstudio.com/updates/v1_64#_new-side-panel) that can be opened opposite to the Side Bar, i.e. the “other side of the screen”, giving you the option to have more views open at once. I can see how that can be useful on bigger screens.
 
 Another new feature that catched my interest was the **experimental** support for [file nesting](https://code.visualstudio.com/updates/v1_64#_explorer-file-nesting). This feature lets you visually “nest”/group related files under a “root” file in the same directory. For example, say you have a `main.ts` file and next to it you have `main.js`, `main.d.ts` and `main.js.map`. After enabling the file nesting feature and configuring it, VS Code will visually group the `main.*` files under the `main.ts` file, as shown in the following screenshot:
 
@@ -26,15 +26,15 @@ After you update VS Code to v1.64, file nesting is not enabled by default. Go ah
 
 ![File Nesting settings in VS Code](/assets/img/2022/02/07/file-nesting-settings-in-vs-code.jpg)
 
-### Creating your own patters
+### Creating your own patterns
 
-Well, now you know how file nesting works. I think by using the examples provided in the Patterns list, you can come up your own patters.
+Well, now you know how file nesting works. I think by using the examples provided in the Patterns list, you can come up your own patterns.
 
 In the next section I’m going to show one pattern suitable for Angular developers in particular.
 
 #### Nesting files for Angular developers
 
-When working with Angular components we often follow the [file structure convention](https://angular.io/guide/styleguide#file-structure-conventions) where a component is represented by several similarly named files. For example, next to `button.component.ts`, we might also have `*.component.html|css|scss|spec` and `button.module.ts`. So for a single component we might end up with four or five different files in the same directory. Wouldn’t it be nice to group most if not all of them under the main `*.component.ts` file and declutter the folder? Well, we can certaintly do that now.
+When working with Angular components we often follow the [file structure convention](https://angular.io/guide/styleguide#file-structure-conventions) where a component is represented by several similarly named files. For example, next to `button.component.ts`, we might also have `*.component.html|css|scss|spec` and `button.module.ts`. So for a single component we might end up with four or five different files in the same directory. Wouldn’t it be nice to group most if not all of them under the main `*.component.ts` file and declutter the folder? Well, we can certainly do that now.
 
 Open the file nesting settings and a new pattern under the Patterns list. You can either copy the following example, or modify it to your preferences:
 
