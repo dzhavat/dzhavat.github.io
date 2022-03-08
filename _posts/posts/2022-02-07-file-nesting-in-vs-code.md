@@ -2,6 +2,7 @@
 layout: post
 title: File nesting in VS Code
 category: posts
+updated: 2022-03-08
 ---
 
 [VS Code v1.64](https://code.visualstudio.com/updates/v1_64) was released a few days ago and it’s once again packaged with nice new features and improvements. An exciting new feature is the [Side Panel](https://code.visualstudio.com/updates/v1_64#_new-side-panel) that can be opened opposite to the Side Bar, i.e. the “other side of the screen”, giving you the option to have more views open at once. I can see how that can be useful on bigger screens.
@@ -22,7 +23,7 @@ There are three new settings:
 
 Note: The above description is taken from the release blog post.
 
-After you update VS Code to v1.64, file nesting is not enabled by default. Go ahead and do it by toggling the “File Nesting: Enabled” setting. If you do it while you have a project open, you might notice that the files `package-lock.json`, `.npmrc`, `yarn.lock` and `.yarnrc` files get nested under `package.json`. That is because VS Code has a default list of patterns that it uses to nest/group files. The `package.json` pattern is part of that list, as is the `main.ts` example described earlier. Can you find the patterns in the screenshot below?
+After updating to VS Code v1.64, file nesting will not be enabled by default. Go ahead and do it by toggling the “File Nesting: Enabled” setting. If you do it while you have a project open, you might notice that the files `package-lock.json`, `.npmrc`, `yarn.lock` and `.yarnrc` files get nested under `package.json`. That is because VS Code has a default list of patterns that it uses to nest/group files. The `package.json` pattern is part of that list, as is the `main.ts` example described earlier. Can you find the patterns in the screenshot below?
 
 ![File Nesting settings in VS Code](/assets/img/2022/02/07/file-nesting-settings-in-vs-code.jpg)
 
@@ -30,9 +31,15 @@ After you update VS Code to v1.64, file nesting is not enabled by default. Go ah
 
 Well, now you know how file nesting works. I think by using the examples provided in the Patterns list, you can come up your own patterns.
 
-In the next section I’m going to show one pattern suitable for Angular developers in particular.
+In the next section I’m going to show you some use cases where file nesting can come in handy.
 
-#### Nesting files for Angular developers
+### Use cases
+
+#### Grouping config files by service, type, etc.
+
+Almost all front-end projects these days rely on a handful of config files to connect to a service, configure a framework or a tool. All those files end up in the root folder making it look like a mess. You can use file nesting to organize some of those file. An example could be grouping `package-lock.json`, `yarn.lock` and `.yarnrc` under `package.json` as described earlier, Jest config files under `jest.config.js`, ESLint files under `.eslint`, etc. Check out [File Nesting Config for VS Code](https://github.com/antfu/vscode-file-nesting-config) repo for inspiration of possible groupings.
+
+#### File nesting for Angular developers
 
 When working with Angular components we often follow the [file structure convention](https://angular.io/guide/styleguide#file-structure-conventions) where a component is represented by several similarly named files. For example, next to `button.component.ts`, we might also have `*.component.html|css|scss|spec` and `button.module.ts`. So for a single component we might end up with four or five different files in the same directory. Wouldn’t it be nice to group most if not all of them under the main `*.component.ts` file and declutter the folder? Well, we can certainly do that now.
 
