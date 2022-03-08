@@ -35,7 +35,7 @@ In the next section I’m going to show you some use cases where file nesting ca
 
 ### Use cases
 
-#### Grouping config files by service, type, etc.
+#### Grouping config files by service, tool, type, etc.
 
 Almost all front-end projects these days rely on a handful of config files to connect to a service, configure a framework or a tool. All those files end up in the root folder making it look like a mess. You can use file nesting to organize some of those file. An example could be grouping `package-lock.json`, `yarn.lock` and `.yarnrc` under `package.json` as described earlier, Jest config files under `jest.config.js`, ESLint files under `.eslint`, etc. Check out [File Nesting Config for VS Code](https://github.com/antfu/vscode-file-nesting-config) repo for inspiration of possible groupings.
 
