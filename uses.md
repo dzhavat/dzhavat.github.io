@@ -62,7 +62,6 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 Not related to front-end development but [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
 - [Garmin Forerunner 245](https://buy.garmin.com/en-US/US/p/628939/)
-- [Garmin Forerunner 630](https://buy.garmin.com/en-US/US/p/516105)
 - [Nike Air Zoom Pegasus 37](https://www.nike.com/running/runningzoom-pegasus-37)
 - [Nike Air Zoom Pegasus 35](https://www.runnersworld.com/gear/a22167080/nike-air-zoom-pegasus-35-redesigned-review/)
 
