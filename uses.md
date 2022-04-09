@@ -28,7 +28,6 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 #### Firefox Extensions
 
-- [Better Pull Requests for GitHub](https://addons.mozilla.org/en-US/firefox/addon/better-pull-request-for-github/)
 - [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - [LastPass: Free Password Manager](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/)
 - [Tab Count Icon](https://addons.mozilla.org/en-US/firefox/addon/tab-count-icon/)
@@ -45,10 +44,14 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [HeidiSQL](https://www.heidisql.com/) - For connecting to an SQL database.
 - [FileZilla](https://filezilla-project.org/)
 - [OBS Studio](https://obsproject.com/) - In case I want to start streaming someday.
+- [LibreOffice](https://www.libreoffice.org/) - Free and Open Source office suite.
+- [Evernote](https://evernote.com/) - Taking notes.
+- [Notion](https://www.notion.so/) - Taking notes.
+- [Garmin Express](https://www.garmin.com/en-US/software/express/windows/) - Manage and update my Garmin watch.
 
 ### Hardware
 
-- [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 10 Home.
+- [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 11 Home.
 - [Dell 24 USB-C Monitor (P2419HC)](https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco)
 - [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) - Specs: 32 GB Storage, 4 GB RAM, Android 10.
 - [Wireless Mouse Logitech M310](https://www.logitech.com/en-us/product/wireless-mouse-m310)
