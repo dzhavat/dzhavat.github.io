@@ -50,8 +50,8 @@ I got a new work laptop recently and part of the setup process was installing an
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120
   },
-  "explorer.experimental.fileNesting.enabled": true,
-  "explorer.experimental.fileNesting.patterns": {
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
     "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc, .editorconfig, .prettier*, .gitignore, .eslintrc.json, jest.*.js, nx.json, tsconfig.*.json"
   }
 }
