@@ -2,7 +2,7 @@
 layout: post
 title: My VS Code setup
 category: posts
-updated: 2022-03-28
+updated: 2022-05-27
 ---
 
 I got a new work laptop recently and part of the setup process was installing and configuring VS Code to match my preferences. This usually takes a bit of time because I cannot always remember all the settings and extensions that I tweak or install. I’m aware that VS Code supports syncing of settings, extensions, etc. across devices but it’s not always possible to login with my GitHub/Microsoft account. So here are the settings and extensions that I usually change/add to a brand new VS Code installation.
@@ -41,8 +41,6 @@ I got a new work laptop recently and part of the setup process was installing an
   "workbench.startupEditor": "none",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.bracketPairColorization.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.parameterNames.enabled": "all",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
@@ -76,6 +74,7 @@ I got a new work laptop recently and part of the setup process was installing an
 - [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+- [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories)
 - [RxJS Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.rxjs-cheatsheet)
 - [RxJS Debugging for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=manuelalabor.rxjs-debugging-for-vs-code)
 - [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)

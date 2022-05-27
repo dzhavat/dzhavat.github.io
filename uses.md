@@ -28,6 +28,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 #### Firefox Extensions
 
+- [Angular DevTools](https://addons.mozilla.org/en-US/firefox/addon/angular-devtools/)
 - [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - [LastPass: Free Password Manager](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/)
 - [Tab Count Icon](https://addons.mozilla.org/en-US/firefox/addon/tab-count-icon/)
