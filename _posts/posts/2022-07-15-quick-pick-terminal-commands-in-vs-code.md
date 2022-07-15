@@ -26,7 +26,7 @@ Here’s me trying it 👇
 
 ### But wait, there’s more
 
-If you hold the `Alt` key while selecting a command, the text will be written in the Terminal without running it. This way you can modify it if you need to. You can also seach for a command in the input field.
+If you hold the `Alt` key while selecting a command, the text will be written in the Terminal without running it. This way you can modify it if you need to. You can also search for a command in the input field.
 
 #### Assigning a key keybinding
 
