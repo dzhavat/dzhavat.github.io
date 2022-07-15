@@ -2,7 +2,7 @@
 layout: post
 title: My VS Code setup
 category: posts
-updated: 2022-05-27
+updated: 2022-07-15
 ---
 
 I got a new work laptop recently and part of the setup process was installing and configuring VS Code to match my preferences. This usually takes a bit of time because I cannot always remember all the settings and extensions that I tweak or install. I’m aware that VS Code supports syncing of settings, extensions, etc. across devices but it’s not always possible to login with my GitHub/Microsoft account. So here are the settings and extensions that I usually change/add to a brand new VS Code installation.
@@ -48,10 +48,20 @@ I got a new work laptop recently and part of the setup process was installing an
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120
   },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc, .editorconfig, .prettier*, .gitignore, .eslintrc.json, jest.*.js, nx.json, tsconfig.*.json"
-  }
+  },
+  "git.mergeEditor": true,
+  "window.commandCenter": true,
+  "editor.minimap.showSlider": "always",
+  "emmet.useInlineCompletions": true,
+  "editor.quickSuggestions": {
+    "other": "inline"
+  },
+  "githubPullRequests.createOnPublishBranch": "never",
+  "screencastMode.onlyKeyboardShortcuts": true
 }
 ```
 
@@ -63,6 +73,7 @@ I got a new work laptop recently and part of the setup process was installing an
 - [CSS Initial Value](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-initial-value)
 - [CSS Stacking Contexts](https://marketplace.visualstudio.com/items?itemName=felixfbecker.css-stacking-contexts)
 - [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [es6-string-html](https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
@@ -71,6 +82,8 @@ I got a new work laptop recently and part of the setup process was installing an
 - [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+- [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
@@ -82,6 +95,18 @@ I got a new work laptop recently and part of the setup process was installing an
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 - [webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint)
+
+### Keybindings
+
+```json
+[
+  {
+    "key": "ctrl+space",
+    "command": "workbench.action.terminal.runRecentCommand",
+    "when": "terminalFocus"
+  }
+]
+```
 
 ### Git
 
