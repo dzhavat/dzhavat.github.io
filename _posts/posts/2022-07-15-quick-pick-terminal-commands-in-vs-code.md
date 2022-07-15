@@ -44,4 +44,8 @@ If you too want to use it, run the `Preferences: Open Keyboard Shortcuts` comman
 
 You can now use `Ctrl+Space` to open the list of recent commands when the Terminal is in focus.
 
+I also recorded a short video explaining the post above.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l216XssGpqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I hope you learned a little tip today. Happy coding 😎
