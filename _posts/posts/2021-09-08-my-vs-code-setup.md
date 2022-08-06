@@ -2,7 +2,7 @@
 layout: post
 title: My VS Code setup
 category: posts
-updated: 2022-07-15
+updated: 2022-08-06
 ---
 
 I got a new work laptop recently and part of the setup process was installing and configuring VS Code to match my preferences. This usually takes a bit of time because I cannot always remember all the settings and extensions that I tweak or install. I’m aware that VS Code supports syncing of settings, extensions, etc. across devices but it’s not always possible to login with my GitHub/Microsoft account. So here are the settings and extensions that I usually change/add to a brand new VS Code installation.
@@ -61,7 +61,8 @@ I got a new work laptop recently and part of the setup process was installing an
     "other": "inline"
   },
   "githubPullRequests.createOnPublishBranch": "never",
-  "screencastMode.onlyKeyboardShortcuts": true
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "editor.experimental.stickyScroll.enabled": true
 }
 ```
 
@@ -84,6 +85,7 @@ I got a new work laptop recently and part of the setup process was installing an
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 - [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [NPM Imported Package Links](https://marketplace.visualstudio.com/items?itemName=MainaWycliffe.view-package-on-npm)
 - [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
