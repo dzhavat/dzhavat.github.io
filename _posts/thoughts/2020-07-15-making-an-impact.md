@@ -26,7 +26,7 @@ You care about others because you get a warm feeling when you do it. You respect
 
 However, when it comes to negative feelings, you make an impact by replacing them with something positive. Feeling jealous of someone's success? Focus on your own instead. Feeling arrogant because of some achievement? Become humble by the fact that there are people who have achieved more, etc.
 
-This makes a lot of sense to me now. A **healthy** motivation for doing anything should always come from within, not from outside. And more importantly, the foundation for all of this should be love and empathy. Bad feelings can also be used for changing the world, but not for the better. 
+This makes a lot of sense to me now. A **healthy** motivation for doing anything should always come from within, not from outside. And more importantly, the foundation for all of this should be love and empathy. Bad feelings can also be used for changing the world, but not for the better.
 
 Now comes that hard part - how do I implement this? You’ve probably heard the popular saying “If you can’t measure it, you can’t improve it”. Unfortunately feelings and inner motivation is not something that can easily be put on a chart. So what’s the solution?
 
