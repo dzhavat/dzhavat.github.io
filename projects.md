@@ -9,7 +9,6 @@ Some of my side projects.
 
 ### Visual Studio Code extensions
 
-
 - [CSS Flexbox Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet)
 - [Git Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.git-cheatsheet)
 - [RxJS Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.rxjs-cheatsheet)
@@ -22,6 +21,7 @@ Some of my side projects.
 - [SalahOnTime](https://salahontime.com/) - Prayer times for a few countries.
 - [YouDevelop](https://www.youdevelop.net/) - HTML, CSS and JavaScript tutorials in Bulgarian.
 - [Learn the Bulgarian alphabet](https://dzhavatushev.com/alphabet/)
+- [Angular Memes](https://github.com/dzhavat/angular-memes)
 
 ### Browser extensions
 
