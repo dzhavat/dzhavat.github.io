@@ -1,22 +1,22 @@
 ---
 layout: post
 title: Running a single test suite/spec in Jasmine
-updated: 2021-12-09
+updated: 2022-08-27
 category: posts
 ---
 
-Every developer knows that writing tests is important. To me, tests are like an evidence that I present to my team (or my future self) that the code I’ve written actually works the way I claim it be. This sounds nice and stuff but it wasn’t until recently that I started writing actual tests.
+Every developer knows that writing tests is important. To me, tests are like an evidence that I present to my team (or my future self) that the code I’ve written actually works the way I claim it to be. This sounds nice but it wasn’t until recently that I started writing actual tests.
 
-Something I’ve noticed, even with my little testing experience, is that test suites can grow quite big. It’s not long before you end up with a bunch of suites each containing a lot of specs. This can make the execution very slow. And while you’re developing, there’s no point of running all tests, when you only work in single spec file. Then you ask yourself “How can I run only a single suite/spec instead of the whole thing?”
+Something I’ve noticed, even with my little testing experience, is that test suites can grow quite big. It’s not long before you end up with a bunch of test suites each containing a good number of specs. This can make the execution very slow. And while you’re developing, there’s no point of running all tests, when you only work on a single spec file. Then you ask yourself “How can I run only a single test suite/spec?”
 
 I’ve already asked myself this question. And there’s a simple solution:
 
-### Running a single suite
+### Running a single test suite
 
 By using `fdescribe` instead of `describe`, Jasmine will only run that particular test suite.
 
 ```js
-fdescribe("Awesome feature", function () {
+fdescribe('Awesome feature', function () {
   // ... specs here
 });
 ```
@@ -26,14 +26,14 @@ fdescribe("Awesome feature", function () {
 By using `fit` instead of `it`, Jasmine will run only that particular spec.
 
 ```js
-describe("Awesome feature", function () {
-  fit("should check whether `true` is really `true`", function () {
+describe('Awesome feature', function () {
+  fit('should check whether `true` is really `true`', function () {
     expect(true).toBe(true);
   });
 });
 ```
 
-So here you go. If you need to run a single suite/spec, you can quickly do so by using `fdescribe` and `fit`.
+So here you go. If you need to run a single test suite/spec, you can quickly do so by using `fdescribe` and `fit`.
 
 But beware! When you’re done with your tests, don’t commit the `fdescribe`/`fit` because that will give you a false confidence that your tests are successful when in reality it’s only one suite/spec that is being executed.
 
