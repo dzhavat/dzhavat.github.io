@@ -13,7 +13,7 @@ I’ve already asked myself this question. And there’s a simple solution:
 
 ### Running a single test suite
 
-By using `fdescribe` instead of `describe`, Jasmine will only run that particular test suite.
+By using `fdescribe` (think of it as a focused `describe`), Jasmine will only run that particular test suite.
 
 ```js
 fdescribe('Awesome feature', function () {
@@ -23,7 +23,7 @@ fdescribe('Awesome feature', function () {
 
 ### Running a single spec
 
-By using `fit` instead of `it`, Jasmine will run only that particular spec.
+By using `fit` (think of it as a focused `it`), Jasmine will run only that particular spec.
 
 ```js
 describe('Awesome feature', function () {
