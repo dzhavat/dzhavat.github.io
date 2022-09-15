@@ -13,7 +13,6 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Setup](https://dzhavat.github.io/2021/09/08/my-vs-code-setup.html)
 - Themes
   - [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) by Derek Sifford (current)
-  - [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) by Ahmad Awais
   - [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) by Sarah Drasner
   - Dark+ (default dark) (built-in)
 - Fonts
