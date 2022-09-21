@@ -2,6 +2,7 @@
 layout: post
 title: Auto-expand menu using Angular Material
 category: posts
+updated: 2022-09-21
 ---
 
 This post is going to be a bit longer than usual so bear with me 🙂
@@ -133,14 +134,14 @@ So there are a few changes that needs to be made.
 
 #### Modifying the `nav-list-item` component
 
-Remember how this component supports internal and external links? Well, each internal link uses the `routerLink` directive, which conveniently has an `isActiveChange` Output property that emits `true` every time a link becomes active and `false` when it becomes inactive. We can use it to call a method on the `nav-list` component class that will simply forward the value to an Output property. We’ll see why later.
+Remember how this component supports internal and external links? Well, each internal link uses the `routerLink` directive, which conveniently has an `isActiveChange` Output property that emits `true` every time a link becomes active and `false` when it becomes inactive. For now we’ll simply forward the emitted value to another Output property on the `nav-list` component class. We’ll see why later.
 
 So the component class and its template now look like this:
 
 ```html
 <!-- nav-list-item.component.html -->
 <!-- ... -->
-<a [routerLink]="link" (isActiveChange)="onRouterLinkActive($event)" ...>...</a>
+<a [routerLink]="link" (isActiveChange)="isActive.emit($event)" ...>...</a>
 ```
 
 ```ts
@@ -153,10 +154,6 @@ export class NavListItemComponent {
   // ...
 
   @Output() isActive = new EventEmitter<boolean>();
-
-  onRouterLinkActive(isActive: boolean): void {
-    this.isActive.emit(isActive);
-  }
 }
 ```
 
