@@ -15,6 +15,6 @@ I found a nice font on the Internet and printed each letter in the desired size.
 And finally today I put the letters on the wall using double-sided tape. It’s beautiful. I like it a lot 🙂
 
 <figure>
-  <img src="/assets/img/2019/02/07/example-1.jpg" alt="">
+  <img src="/assets/img/2022/10/25/remember-to-enjoy-it.jpg" alt="">
   <figcaption>“Remember to enjoy it” wooden letters</figcaption>
 </figure>
