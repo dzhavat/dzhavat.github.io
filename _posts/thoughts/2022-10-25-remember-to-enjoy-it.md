@@ -4,7 +4,7 @@ title: Remember to enjoy it
 category: thoughts
 ---
 
-It’s always been important to me to enjoy whatever I’m doing. Whether it’s work, a side project, writing on this blog, recording videos, going for a run or learning new stuff, simply enjoying it is the single most important factor to keep me motivated.
+It’s always been important to me to enjoy whatever I’m doing. Whether it’s work, a side project, writing on this blog, recording videos, going for a run or learning new stuff, simply enjoying it is the single most important factor that keeps me motivated.
 
 I don’t recall exactly when but a few months ago an idea popped up in my head - I wanted to decorate the wall above my desk with the quote “Remember to enjoy it” as a little reminder that I must enjoy whatever I’m doing. And to make it extra special, I wanted to cut each letter out of wood.
 
