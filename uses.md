@@ -52,9 +52,11 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 ### Hardware
 
 - [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 11 Home.
-- [Dell 24 USB-C Monitor (P2419HC)](https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco)
+- [Samsung 27" USB-C Monitor (S27A600U)](https://displaysolutions.samsung.com/monitor/detail/1795/S27A600U)
 - [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) - Specs: 32 GB Storage, 4 GB RAM, Android 10.
-- [Wireless Mouse Logitech M310](https://www.logitech.com/en-us/product/wireless-mouse-m310)
+- [K270 Wireless Keyboard (Logitech)](https://www.logitech.com/en-gb/products/keyboards/k270-unifying-wireless.html)
+- [M185 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m185-wireless-mouse.910-002225.html)
+- [M310 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m310-wireless-mouse.910-001917.html)
 - [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html)
 - [Sennheiser CX 150](https://www.cnet.com/products/sennheiser-cx-150-earphones/)
 - [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html)
