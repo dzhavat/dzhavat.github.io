@@ -4,7 +4,7 @@ title: Fully expand PR status checks on GitHub
 category: posts
 ---
 
-One thing I absolutely love about working on the Web is that I can litteraly tweak any web page according to my preferences.
+One thing I absolutely love about working on the Web is that I can literally tweak any web page according to my preferences.
 
 You know, I can build a browser extension that changes colors, font sizes, improves accessibility, moves boxes, removes things I don’t need, etc. I can also write my own [bookmarklet](https://www.freecodecamp.org/news/what-are-bookmarklets/) for doing the same.
 
