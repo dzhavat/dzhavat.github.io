@@ -78,6 +78,7 @@ _Note:_ I’ll try to update the post as I discover new stuff, so send them my w
 - [Giora Guttsait](https://twitter.com/gioragutt)
 - [Jordan Hall](https://twitter.com/JordanHall_dev)
 - [Jay Bell](https://twitter.com/JayCooperBell)
+- [Lara Newsom](https://twitter.com/LaraNerdsom)
 - [Lars Gyrup Brink Nielsen](https://twitter.com/LayZeeDK)
 - [Luca Del Puppo](https://twitter.com/puppo92)
 - [Manfred Steyer](https://twitter.com/ManfredSteyer)
