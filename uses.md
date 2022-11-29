@@ -53,6 +53,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 - [Surface Laptop 3 13.5”](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - Specs: 8 GB RAM, 128 GB SSD, 10th Gen Intel i5, Windows 11 Home.
 - [Samsung 27" USB-C Monitor (S27A600U)](https://displaysolutions.samsung.com/monitor/detail/1795/S27A600U)
+- [Google Pixel 6a](https://store.google.com/us/product/pixel_6a?hl=en-US) - Specs: 128 GB Storage, 6 GB RAM, Android 13.
 - [Google Pixel](https://www.gsmarena.com/google_pixel-8346.php) - Specs: 32 GB Storage, 4 GB RAM, Android 10.
 - [K270 Wireless Keyboard (Logitech)](https://www.logitech.com/en-gb/products/keyboards/k270-unifying-wireless.html)
 - [M185 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m185-wireless-mouse.910-002225.html)
