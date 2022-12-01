@@ -2,6 +2,7 @@
 layout: post
 title: Resources to get started with Nx
 category: posts
+updated: 2022-12-01
 ---
 
 You know the old saying _“Ask me once, I’ll share a tweet. Ask me twice, I’ll share a tweet. Ask me a third time, I’ll share a blog post”_? (ok, it’s not an old saying — [I came up with it two days ago](https://twitter.com/dzhavatushev/status/1590074512590401536) 😅). Anyway, I was asked a couple of times on Twitter about getting started with Nx, so I thought I’d write a post collecting all sorts of links, resources, courses, people to follow, etc. that I can share next time someone asks 😎
@@ -37,6 +38,7 @@ _Note:_ I’ll try to update the post as I discover new stuff, so send them my w
 ### Plugins
 
 - [Nx Plugin Directory](https://nx.dev/community#plugin-directory)
+- [Nxext plugins for an Nx workspace](https://nxext.dev/docs/nxext/overview.html)
 
 ### Video
 
