@@ -5,7 +5,7 @@ title: Thoughts
 
 ## Thoughts
 
-A place to share unpolished thoughts abouth everything.
+A place to share unpolished thoughts about everything.
 
 <ul class="posts">
   {% for thought in site.categories.thoughts %}
