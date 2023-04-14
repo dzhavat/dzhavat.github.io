@@ -2,7 +2,7 @@
 layout: post
 title: Debugging layout repaint issues triggered by CSS Transition
 category: posts
-updated: 2020-02-27
+updated: 2021-02-27
 ---
 
 A couple of weeks ago I was randomly checking the performance of a CSS Transition here on my blog. I was expecting to see a butter smooth animation but ended up surprised 😲. The transition was triggering repaint on pretty much the whole page every time it ran.
