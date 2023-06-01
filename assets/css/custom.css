@@ -233,12 +233,6 @@ article h2 {
   height: 220px;
   justify-content: space-between;
   padding: 0.5rem;
-  transform: rotateZ(2deg);
-  transition: transform 0.25s;
-}
-
-.strava-card .latest-run.has-photo:hover {
-  transform: rotateZ(0);
 }
 
 .strava-card .latest-run.has-photo .activity-name a,
