@@ -12,11 +12,9 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Setup](https://dzhavat.github.io/2021/09/08/my-vs-code-setup.html)
 - Themes
-  - Dark Modern (built-in) (current)
-  - [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) by Derek Sifford
-  - [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) by Sarah Drasner
+  - Dark Modern (built-in)
 - Fonts
-  - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (current)
+  - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (default)
   - [FiraCode](https://github.com/tonsky/FiraCode/)
 
 ### Browser
