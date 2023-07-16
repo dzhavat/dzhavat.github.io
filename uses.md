@@ -54,7 +54,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Google Pixel Buds A-Series](https://store.google.com/us/product/pixel_buds_a_series?hl=en-US)
 - [MX Master 2S (Logitech)](https://support.logi.com/hc/en-us/articles/360023459853-MX-MASTER-2S-WIRELESS-MOUSE)
 - [M185 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m185-wireless-mouse.910-002225.html)
-- [M185 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m185-wireless-mouse.910-002225.html)
+- [K270 Wireless Keyboard (Logitech)](https://www.logitech.com/en-gb/products/keyboards/k270-unifying-wireless.html)
 - [M310 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m310-wireless-mouse.910-001917.html)
 - [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html)
 - [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html)
