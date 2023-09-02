@@ -65,8 +65,8 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 Not related to front-end development. [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
 - [Garmin Forerunner 245](https://www.garmin.com/en-US/p/628939/)
+- [ASICS GT-1000 11](https://www.asics.com/us/en-us/gt-1000-11/p/ANA_1011B354-022.html)
 - [Nike Air Zoom Pegasus 37](https://www.nike.com/running/runningzoom-pegasus-37)
-- [Nike Air Zoom Pegasus 35](https://www.runnersworld.com/gear/a22167080/nike-air-zoom-pegasus-35-redesigned-review/)
 
 My current running winter gear
 
