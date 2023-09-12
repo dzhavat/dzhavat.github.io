@@ -2,6 +2,7 @@
 layout: post
 title: Fully expand PR status checks on GitHub
 category: posts
+updated: 2023-09-12
 ---
 
 One thing I absolutely love about working on the Web is that I can literally tweak any web page according to my preferences.
@@ -26,9 +27,18 @@ In case you want to use it too, here’s the source code:
 
 ```js
 javascript: (() => {
-  document.querySelector(
+  const elemInPrPage = document.querySelector(
     '.merge-status-list.js-updatable-content-preserve-scroll-position'
-  ).style.maxHeight = 'none';
+  );
+  if (elemInPrPage != null) {
+    elemInPrPage.style.maxHeight = 'none';
+  }
+  const elemInMainRepoPage = document.querySelector(
+    'div[class*="Dialog__Body-"] div[class*="Box-sc-"]'
+  );
+  if (elemInMainRepoPage != null) {
+    elemInMainRepoPage.style.maxHeight = 'none';
+  }
 })();
 ```
 
