@@ -37,7 +37,6 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Snip & Sketch](https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l?activetab=pivot:overviewtab) - Built-in. Perfect for screenshots. Also for videos after a recent Windows 11 update.
 - [Microsoft To Do](https://todo.microsoft.com/tasks/) - For keeping endless to-do lists.
 - [Windows Terminal](https://github.com/microsoft/terminal)
-- [Gimp](https://www.gimp.org/) - If I need to edit an image. Rarely happens.
 - [XAMPP](https://www.apachefriends.org/index.html) - For setting up PHP development environment. Don’t ask 😊
 - [HeidiSQL](https://www.heidisql.com/) - For connecting to an SQL database.
 - [FileZilla](https://filezilla-project.org/)
@@ -53,12 +52,10 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Google Pixel 6a](https://store.google.com/us/config/pixel_6a?hl=en-US) - Specs: 128 GB Storage, 6 GB RAM, Android 13.
 - [Google Pixel Buds A-Series](https://store.google.com/us/product/pixel_buds_a_series?hl=en-US)
 - [MX Master 2S (Logitech)](https://support.logi.com/hc/en-us/articles/360023459853-MX-MASTER-2S-WIRELESS-MOUSE)
-- [M185 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m185-wireless-mouse.910-002225.html)
-- [K270 Wireless Keyboard (Logitech)](https://www.logitech.com/en-gb/products/keyboards/k270-unifying-wireless.html)
-- [M310 Wireless Mouse (Logitech)](https://www.logitech.com/en-us/products/mice/m310-wireless-mouse.910-001917.html)
 - [TOUCHit](https://sackit.dk/touchit-horetelefoner/70020-touchit-horetelefoner-black.html)
 - [Ultimate Ears WONDERBOOM](https://www.ultimateears.com/en-us/wireless-speakers/wonderboom.html)
 - [Time Timer MOD](https://www.timetimer.com/collections/all-1/products/time-timer-mod) - A phisical 60-minute timer. It's really fun to use.
+- [Vindstyrka](https://www.ikea.com/us/en/p/vindstyrka-air-quality-sensor-smart-30498239/) - Smart air quality sensor from IKEA.
 
 ### Running gear
 
@@ -68,6 +65,6 @@ Not related to front-end development. [I’m more than just a developer](https:/
 - [ASICS GT-1000 11](https://www.asics.com/us/en-us/gt-1000-11/p/ANA_1011B354-022.html)
 - [Nike Air Zoom Pegasus 37](https://www.nike.com/running/runningzoom-pegasus-37)
 
-My current running winter gear
+My current winter running gear
 
-![Running winter gear](/assets/img/2022/02/06/running-winter-gear.jpg)
+![Winter running gear](/assets/img/2022/02/06/winter-running-gear.jpg)
