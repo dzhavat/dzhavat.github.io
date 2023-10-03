@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `ViewEncapsulation` in Angular
+title: “ViewEncapsulation” in Angular
 category: posts
 ---
 
