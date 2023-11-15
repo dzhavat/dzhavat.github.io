@@ -2,6 +2,7 @@
 layout: post
 title: Lint rule for self-closing tags in Angular
 category: posts
+updated: 2023-11-15
 ---
 
 Self-closing tags were introduced in [Angular v15.1](https://github.com/angular/angular/blob/main/CHANGELOG.md#compiler-17). This added a small but welcomed improvement to the developer experience (DX) when working with components. This feature allows us to use self-closing tag syntax for components without content or components where the content might be optional.
@@ -22,7 +23,7 @@ Until I recently discovered that [angular-eslint](https://github.com/angular-esl
 
 Since we had the `angular-eslint` package already in our `package.json`, the configuration was as simple as adding the rule to an ESLint config file.
 
-A couple of things worth mentioning about our project setup is that we have a monorepo managed by [Nx](https://nx.dev/), where we have two main apps and more than hundred libs (all of which have their own ESLint configs that inherit from the on root). We ended up configuring this lint rule in the root ESLint config.
+A couple of things worth mentioning about our project setup is that we have a monorepo managed by [Nx](https://nx.dev/), where we have two main apps and more than hundred libs (all of which have their own ESLint configs that inherit from root). We ended up adding the lint rule to the root ESLint config.
 
 The configuration itself ended up like this:
 
