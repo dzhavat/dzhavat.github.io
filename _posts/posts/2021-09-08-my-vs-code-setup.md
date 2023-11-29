@@ -2,7 +2,7 @@
 layout: post
 title: My VS Code setup
 category: posts
-updated: 2023-06-29
+updated: 2023-11-29
 ---
 
 I got a new work laptop recently and part of the setup process was installing and configuring VS Code to match my preferences. This usually takes a bit of time because I cannot always remember all the settings and extensions that I tweak or install. I’m aware that VS Code supports syncing of settings, extensions, etc. across devices but it’s not always possible to login with my GitHub/Microsoft account. So here are the settings and extensions that I usually change/add to a brand new VS Code installation.
@@ -11,7 +11,6 @@ I got a new work laptop recently and part of the setup process was installing an
 
 ```json
 {
-  "editor.fontLigatures": true,
   "extensions.autoUpdate": false,
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -33,11 +32,10 @@ I got a new work laptop recently and part of the setup process was installing an
   "editor.wordWrapColumn": 120,
   "screencastMode.onlyKeyboardShortcuts": true,
   "gitlens.hovers.currentLine.over": "line",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 21,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.5,
   "terminal.integrated.fontFamily": "monospace",
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Dracula",
   "workbench.startupEditor": "none",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.bracketPairColorization.enabled": true,
@@ -58,11 +56,22 @@ I got a new work laptop recently and part of the setup process was installing an
   "editor.minimap.showSlider": "always",
   "emmet.useInlineCompletions": true,
   "editor.quickSuggestions": {
-    "other": "inline"
+    "other": "off"
   },
   "githubPullRequests.createOnPublishBranch": "never",
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "editor.experimental.stickyScroll.enabled": true
+  "rxjsDebugging.enableUsageAnalytics": false,
+  "githubPullRequests.pullBranch": "never",
+  "editor.stickyScroll.enabled": true,
+  "remoteHub.uncommittedChangesOnEntry": "none",
+  "markdownlint.config": {
+    "MD033": false
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "gitlens.defaultDateFormat": null,
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "nxConsole.showNodeVersionOnStartup": false
 }
 ```
 
@@ -70,6 +79,7 @@ I got a new work laptop recently and part of the setup process was installing an
 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 - [Bracket Pair Colorization Toggler](https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler)
+- [Copy Json Path](https://marketplace.visualstudio.com/items?itemName=Malo.copy-json-path)
 - [CSS Flexbox Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet)
 - [CSS Initial Value](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-initial-value)
 - [CSS Stacking Contexts](https://marketplace.visualstudio.com/items?itemName=felixfbecker.css-stacking-contexts)
@@ -78,21 +88,26 @@ I got a new work laptop recently and part of the setup process was installing an
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
 - [Git Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.git-cheatsheet)
+- [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 - [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)
 - [NPM Imported Package Links](https://marketplace.visualstudio.com/items?itemName=MainaWycliffe.view-package-on-npm)
 - [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+- [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 - [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories)
 - [RxJS Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.rxjs-cheatsheet)
 - [RxJS Debugging for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=manuelalabor.rxjs-debugging-for-vs-code)
 - [Test Focus Highlighter](https://marketplace.visualstudio.com/items?itemName=dzhavat.test-focus-highlighter)
-- [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 - [webhint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint)
 
 ### Keybindings

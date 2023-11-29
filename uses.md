@@ -37,6 +37,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Snip & Sketch](https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l?activetab=pivot:overviewtab) - Built-in. Perfect for screenshots. Also for videos after a recent Windows 11 update.
 - [Microsoft To Do](https://todo.microsoft.com/tasks/) - For keeping endless to-do lists.
 - [Windows Terminal](https://github.com/microsoft/terminal)
+- [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) - Utilities to customize Windows.
 - [XAMPP](https://www.apachefriends.org/index.html) - For setting up PHP development environment. Don’t ask 😊
 - [HeidiSQL](https://www.heidisql.com/) - For connecting to an SQL database.
 - [FileZilla](https://filezilla-project.org/)
