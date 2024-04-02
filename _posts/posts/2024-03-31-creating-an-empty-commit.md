@@ -18,7 +18,7 @@ Git allows you to create an empty commit by simply adding the `--allow-empty` fl
 git commit -m "chore: empty commit" --allow-empty
 ```
 
-You job is done. 🎉
+Your job is done. 🎉
 
 Thanks for reading. See you in the next post 😎
 
