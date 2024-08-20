@@ -20,7 +20,7 @@ Some of my side projects.
 
 - [SalahOnTime](https://salahontime.com/) - Prayer times for a few countries.
 - [YouDevelop](https://www.youdevelop.net/) - HTML, CSS and JavaScript tutorials in Bulgarian.
-- [Learn the Bulgarian alphabet](https://dzhavatushev.com/alphabet/)
+- [Learn the Bulgarian alphabet](https://dzhavat.github.io/bulgarian-alphabet/)
 - [Angular Memes](https://github.com/dzhavat/angular-memes)
 
 ### Browser extensions
