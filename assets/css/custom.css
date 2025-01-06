@@ -319,6 +319,16 @@ article h2 {
   background-color: #0c7abf;
 }
 
+.btn-bsky {
+  background-color: #1083fe;
+}
+
+.btn-bsky:active,
+.btn-bsky:focus,
+.btn-bsky:hover {
+  background-color: #0168d5;
+}
+
 .btn-github {
   background-color: #24292e;
 }
@@ -335,8 +345,9 @@ article h2 {
   background-color: #923507;
 }
 
-.follow-btns .btn + .btn {
-  margin-left: 0.5rem;
+.follow-btns {
+  display: flex;
+  gap: 0.5rem;
 }
 
 @media (min-width: 22em) {
@@ -355,7 +366,7 @@ article h2 {
   }
 }
 
-@media (min-width: 37.5em) {
+@media (min-width: 40em) {
   header {
     align-items: center;
     display: flex;
@@ -364,10 +375,6 @@ article h2 {
 
   header h1 {
     margin-bottom: 0;
-  }
-
-  .follow-btns {
-    text-align: right;
   }
 }
 
