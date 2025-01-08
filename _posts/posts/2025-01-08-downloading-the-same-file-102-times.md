@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Downloading the same file 101+ times
+title: Downloading the same file 102+ times
 category: posts
 ---
 
-Have YOU ever tried downloading the same file 101+ times in your favorite browser? Do you know what happens on the 102nd time? 🙃
+Have YOU ever tried downloading the same file 102+ times in your favorite browser? Do you know what happens on the 102nd time? 🙃
 
 I do. The answer is ... it depends 😋 It varies between browsers and it’s a bit of a surprise.
 
@@ -64,7 +64,7 @@ Thanks for reading thus far. Hope you learned something new. See you in another 
 
 ---
 
-P.S. If you want to try it yourself, I’ve prepared [a zip with an empty text file](/assets/other/empty.zip). Go ahead and download it.
+P.S. If you want to try it yourself, I’ve prepared [a zip with an empty text file](/assets/other/empty.zip). Go ahead and download it. 102 times, of course.
 
 Or you can quickly put together a simple demo by linking to a local file.
 
