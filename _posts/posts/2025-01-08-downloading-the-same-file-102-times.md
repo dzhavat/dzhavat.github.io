@@ -2,6 +2,7 @@
 layout: post
 title: Downloading the same file 102+ times
 category: posts
+updated: 2025-01-14
 ---
 
 Have YOU ever tried downloading the same file 102+ times in your favorite browser? Do you know what happens on the 102nd time? 🙃
@@ -54,6 +55,19 @@ Firefox just continues with bumping the counter. No timestamp here. Also note th
 <figure>
   <img src="/assets/img/2025/01/08/recent-download-history-Firefox.webp" alt="">
   <figcaption>Downloading the same file 102+ times in Firefox</figcaption>
+</figure>
+
+---
+
+### Update 2025-01-14
+
+After publishing this post I got curious about the behaviour in Edge/Chrome. Since both browsers are Chromium-based, which is open source, I could, in theory, just look it up in the code. I didn’t know what to look for. So I [asked on Bluesky](https://bsky.app/profile/dzhavat.bsky.social/post/3lfngxmjkzs2f). Kevin Doyon [replied with a link](https://bsky.app/profile/kevindoyon.com/post/3lfnkc5rr5s2g) to a method which is responsible for generating a unique filename. Using the [“Blame”](https://github.com/chromium/chromium/blame/f48040f342e02408247e2d0644326380e1d08154/components/download/internal/common/download_path_reservation_tracker.cc#L157) button at the top of the file revealed where each line of code came from. That led me to [this commit](https://github.com/chromium/chromium/commit/e40c631a5f311d449e8c6e136f0d70e5d548b987) which describes why the timestamp is added to the filename.
+
+Seems like this is the end of it. Finally peace 🕊️
+
+<figure>
+  <img src="/assets/img/2025/01/08/commit-description-explaining-why-timestamp-is-used-in-filename.webp" alt="">
+  <figcaption>Commit description explaining why timestamp is used in filename</figcaption>
 </figure>
 
 ---
