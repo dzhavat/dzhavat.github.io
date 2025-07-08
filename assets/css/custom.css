@@ -309,16 +309,6 @@ article h2 {
   text-decoration: none;
 }
 
-.btn-twitter {
-  background-color: #1b95e0;
-}
-
-.btn-twitter:active,
-.btn-twitter:focus,
-.btn-twitter:hover {
-  background-color: #0c7abf;
-}
-
 .btn-bsky {
   background-color: #1083fe;
 }
