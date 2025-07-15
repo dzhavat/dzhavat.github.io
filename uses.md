@@ -49,7 +49,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 - [Notion](https://www.notion.so/) - Taking notes.
 - [Garmin Express](https://www.garmin.com/en-US/software/express/windows/) - For managing and updating my Garmin watch.
 - [Viber](https://www.viber.com/en/) - For communicating with familly and friends.
-- [Logi Options+](https://www.logitech.com/en-eu/software/logi-options-plus.html) - App for Logitech devices 
+- [Logi Options+](https://www.logitech.com/en-eu/software/logi-options-plus.html) - App for Logitech devices
 
 ### Hardware
 
@@ -68,9 +68,7 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 ### Running gear
 
-Not related to front-end development because [I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
+[I’m more than just a developer](https://dzhavat.github.io/2019/07/28/on-being-more-than-just-a-developer.html).
 
-- [Garmin Forerunner 245](https://www.garmin.com/en-US/p/628939/)
+- [Garmin Forerunner 255](https://www.garmin.com/en-US/p/780196/pn/010-02641-20/)
 - [Nike Pegasus 41](https://www.nike.com/t/pegasus-41-mens-road-running-shoes-R6tpoXaD/FD2722-401)
-- [Nike Pegasus 37](https://www.nike.com/running/runningzoom-pegasus-37)
-- [ASICS GT-1000 11](https://www.asics.com/us/en-us/gt-1000-11/p/ANA_1011B354-022.html)
