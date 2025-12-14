@@ -72,3 +72,4 @@ I like the idea of sharing what’s in my toolbox as a front-end developer. I wa
 
 - [Garmin Forerunner 255](https://www.garmin.com/en-US/p/780196/pn/010-02641-20/)
 - [Nike Pegasus 41](https://www.nike.com/t/pegasus-41-mens-road-running-shoes-R6tpoXaD/FD2722-401)
+- [ASYCS GEL-CUMULUS 27 TOKYO](https://www.asics.com/us/en-us/gel-cumulus-27-tokyo/p/ANA_1011C186-500.html?width=Standard)
