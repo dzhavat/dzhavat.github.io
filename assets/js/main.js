@@ -16,9 +16,7 @@
     enhanceStravaCard();
   }
 
-  if (isDateTimeFormatSupported()) {
-    formatDates();
-  }
+  formatDates();
 
   ////////////////
 
@@ -128,10 +126,7 @@
       const timeSinceDateInMs =
         new Date().getTime() - new Date(date.textContent).getTime();
 
-      if (
-        timeSinceDateInMs > thirtyDaysInMs ||
-        !isRelativeTimeFormatSupported()
-      ) {
+      if (timeSinceDateInMs > thirtyDaysInMs) {
         date.textContent = dateTimeFormat.format(new Date(date.textContent));
       } else {
         const daysSinceDate = Math.floor(timeSinceDateInMs / oneDayInMs);
@@ -148,20 +143,11 @@
     });
   }
 
-  function isDateTimeFormatSupported() {
-    return typeof Intl.DateTimeFormat === 'function';
-  }
-
-  function isRelativeTimeFormatSupported() {
-    // @ts-ignore
-    return typeof Intl.RelativeTimeFormat === 'function';
-  }
-
   /**
-   * @param {number} totalDistanceInMeters
+   * @param {number} distanceInMeters
    */
-  function toKm(totalDistanceInMeters) {
-    const totalKm = convertMetersToKm(totalDistanceInMeters);
+  function toKm(distanceInMeters) {
+    const totalKm = metersToKm(distanceInMeters);
 
     return totalKm.toFixed(2);
   }
@@ -170,7 +156,7 @@
    * @param {number} totalDistanceInMeters
    */
   function goalProgress(totalDistanceInMeters) {
-    const totalKm = convertMetersToKm(totalDistanceInMeters);
+    const totalKm = metersToKm(totalDistanceInMeters);
     const goalProgressInPercentage = (totalKm / yearlyGoalInKm) * 100;
 
     const progressWidth = Math.min(goalProgressInPercentage, 100);
@@ -185,7 +171,7 @@
   /**
    * @param {number} distanceInMeters
    */
-  function convertMetersToKm(distanceInMeters) {
+  function metersToKm(distanceInMeters) {
     const oneKmInMeters = 1000;
     const totalKm = distanceInMeters / oneKmInMeters;
 
