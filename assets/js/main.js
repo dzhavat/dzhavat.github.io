@@ -2,6 +2,9 @@
 (function () {
   'use strict';
 
+  /**
+   * @type {HTMLDivElement | null}
+   */
   const stravaCardBody = document.querySelector('.strava-card-body');
   const yearlyGoalInKm = 700;
   /**
@@ -24,16 +27,20 @@
   function animateFavicon() {
     const h1 = document.querySelector('h1');
     /**
-     * @type {HTMLLinkElement}
+     * @type {HTMLLinkElement | null}
      */
     const favIcon = document.querySelector('head > link[rel="icon"]');
 
-    h1.addEventListener('mouseenter', (event) => {
-      favIcon.href = '/assets/img/favicon-animated.svg';
+    h1?.addEventListener('mouseenter', (event) => {
+      if (favIcon) {
+        favIcon.href = '/assets/img/favicon-animated.svg';
+      }
     });
 
-    h1.addEventListener('mouseleave', (event) => {
-      favIcon.href = '/assets/img/favicon.svg';
+    h1?.addEventListener('mouseleave', (event) => {
+      if (favIcon) {
+        favIcon.href = '/assets/img/favicon.svg';
+      }
     });
   }
 
@@ -48,7 +55,7 @@
         const inlineStyle = hasPhoto
           ? `background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent 25%, transparent 60%, rgba(0, 0, 0, 0.5)), url('${response.photoUrl}');`
           : '';
-        const progressInPercentage = goalProgress(
+        const { progressWidth, progressTitle } = goalProgress(
           response.year_to_date_run_total_distance
         );
 
@@ -80,15 +87,19 @@
               response.year_to_date_run_total_distance
             )} km</p>
             <p>Progress</p>
-            <div class="goal-progress" style="width: ${progressInPercentage}" title="${progressInPercentage}"></div>
+            <div class="goal-progress" style="width: ${progressWidth}" title="${progressTitle}"></div>
           </div>
         `;
 
-        stravaCardBody.innerHTML = template;
+        if (stravaCardBody) {
+          stravaCardBody.innerHTML ??= template;
+        }
       })
       .catch(() => {
-        stravaCardBody.innerHTML =
-          '<p><small>Ouch! The activity request got lost in the Web forest 🌲🌳🌲</small></p>';
+        if (stravaCardBody) {
+          stravaCardBody.innerHTML =
+            '<p><small>Ouch! The activity request got lost in the Web forest 🌲🌳🌲</small></p>';
+        }
       })
       .finally(() => {
         clearTimeout(timeoutId);
@@ -104,12 +115,9 @@
     const dateTimeOptions = { month: 'long', year: 'numeric', day: 'numeric' };
     const dateTimeFormat = new Intl.DateTimeFormat(language, dateTimeOptions);
 
-    const relativeTimeOptions = { numeric: 'auto' };
-    // @ts-ignore
-    const relativeTimeFormat = new Intl.RelativeTimeFormat(
-      language,
-      relativeTimeOptions
-    );
+    const relativeTimeFormat = new Intl.RelativeTimeFormat(language, {
+      numeric: 'auto',
+    });
 
     const oneDayInMs = 24 * 60 * 60 * 1000;
     const thirtyDaysInMs = 30 * oneDayInMs;
@@ -131,7 +139,7 @@
         date.textContent = relativeTimeFormat.format(-daysSinceDate, 'day');
 
         if (!isSinglePostPage() && daysSinceDate < 4) {
-          date.parentElement.classList.add(
+          date.parentElement?.classList.add(
             'published-recently',
             'confetti-please'
           );
@@ -165,11 +173,13 @@
     const totalKm = convertMetersToKm(totalDistanceInMeters);
     const goalProgressInPercentage = (totalKm / yearlyGoalInKm) * 100;
 
-    if (goalProgressInPercentage >= 100) {
-      return '100%';
-    }
+    const progressWidth = Math.min(goalProgressInPercentage, 100);
+    const progressTitle = `${goalProgressInPercentage.toFixed(1)}%`;
 
-    return `${goalProgressInPercentage.toFixed(2)}%`;
+    return {
+      progressWidth,
+      progressTitle,
+    };
   }
 
   /**
@@ -221,7 +231,9 @@
     const tenSecondsInTicks = 10 * 1000;
 
     timeoutId = setTimeout(() => {
-      stravaCardBody.innerHTML = showSlowRequestMessage();
+      if (stravaCardBody) {
+        stravaCardBody.innerHTML = showSlowRequestMessage();
+      }
     }, tenSecondsInTicks);
 
     return fetch(url).then((response) => response.json());
@@ -239,8 +251,10 @@
   }
 
   function showStartFetchingMessage() {
-    stravaCardBody.innerHTML =
-      '<p><small>🏃 to get the latest activity...</small></p>';
+    if (stravaCardBody) {
+      stravaCardBody.innerHTML =
+        '<p><small>🏃 to get the latest activity...</small></p>';
+    }
   }
 
   function isSinglePostPage() {
