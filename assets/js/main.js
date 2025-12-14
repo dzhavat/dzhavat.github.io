@@ -92,7 +92,7 @@
         `;
 
         if (stravaCardBody) {
-          stravaCardBody.innerHTML ??= template;
+          stravaCardBody.innerHTML = template;
         }
       })
       .catch(() => {
