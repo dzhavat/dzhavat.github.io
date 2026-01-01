@@ -159,7 +159,7 @@
     const totalKm = metersToKm(totalDistanceInMeters);
     const goalProgressInPercentage = (totalKm / yearlyGoalInKm) * 100;
 
-    const progressWidth = Math.min(goalProgressInPercentage, 100);
+    const progressWidth = `${Math.min(goalProgressInPercentage, 100)}%`;
     const progressTitle = `${goalProgressInPercentage.toFixed(1)}%`;
 
     return {
