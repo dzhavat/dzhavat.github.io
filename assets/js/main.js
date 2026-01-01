@@ -6,7 +6,7 @@
    * @type {HTMLDivElement | null}
    */
   const stravaCardBody = document.querySelector('.strava-card-body');
-  const yearlyGoalInKm = 700;
+  const yearlyGoalInKm = 800;
   /**
    * @type {number}
    */
